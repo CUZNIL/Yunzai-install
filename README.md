@@ -35,4 +35,7 @@ pacman -S pkg-config
 为啥这么杂？问就是百度。
 
 
-[git换源1](https://blog.csdn.net/qq_45723638/article/details/123494464) [git换源2](https://blog.csdn.net/as8996606/article/details/124879105)[部分依赖](https://blog.csdn.net/qq_39099905/article/details/125228920)[ArchLinux指令](https://zhuanlan.zhihu.com/p/383694450)
+[git换源1](https://blog.csdn.net/qq_45723638/article/details/123494464)
+[git换源2](https://blog.csdn.net/as8996606/article/details/124879105)
+[部分依赖](https://blog.csdn.net/qq_39099905/article/details/125228920)
+[ArchLinux指令](https://zhuanlan.zhihu.com/p/383694450)
