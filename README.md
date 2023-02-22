@@ -13,13 +13,15 @@
 2.  xxxx
 3.  xxxx
 
-#### 使用说明
+#### nodejieba
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+pacman -S node-gyp
 
-#### 参与贡献
+
+#### canvas
+
+
+pacman -S pkg-config
 
 1.  Fork 本仓库
 2.  新建 Feat_xxx 分支
@@ -32,3 +34,4 @@
 
 
 git换源：https://blog.csdn.net/qq_45723638/article/details/123494464 https://blog.csdn.net/as8996606/article/details/124879105
+部分依赖：https://blog.csdn.net/qq_39099905/article/details/125228920
