@@ -2,14 +2,21 @@
 
 #### 介绍
 针对安卓手机搭建云崽的一篇详细教程，包含手机搭建前后会遇到的各种问题和解决方案。
+|  搭建必备 |  有的话最好 |
+|---|---|
+|  安卓手机 网络|  科学上网 遇到问题先搜索的习惯 |
+#### 搭建过程
+1. 这里是列表文本
+<details><summary>使用时雨脚本安装</summary>
 
+- 图片修复 / 动漫图片修复 + `图片`
 
+</details>
+<details><summary>使用脚本安装</summary>
 
-#### 安装教程
+- 图片修复 / 动漫图片修复 + `图片`
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+</details>
 
 #### nodejieba
 
@@ -45,3 +52,4 @@ pacman -S pkg-config
 [git换源2](https://blog.csdn.net/as8996606/article/details/124879105)
 [部分依赖](https://blog.csdn.net/qq_39099905/article/details/125228920)
 [pacman](https://zhuanlan.zhihu.com/p/383694450)
+[README润色](https://gitee.com/TimeRainStarSky/TRSS-Plugin/edit/main/README.md)
