@@ -5,7 +5,9 @@
 |  搭建必备 |  有的话最好 |
 |---|---|
 |  安卓手机 网络|  科学上网 遇到问题先搜索的习惯 |
-#### 1.Termux
+#### 1.[Termux](https://f-droid.org/en/packages/com.termux/)
+个人建议在剩余存储空间大于32G的空闲手机上进行搭建。
+我们需要Termuxhttps://f-droid.org/en/packages/com.termux/
 #### 2.容器
 #### 3.云崽本体
 #### 4.推荐插件
