@@ -9,7 +9,7 @@
 个人建议在空闲存储空间大于32G的手机上进行搭建。
 #### 1.[Termux](https://f-droid.org/en/packages/com.termux/)
 [点此下载TERMUX最新版本](https://f-droid.org/repo/com.termux_118.apk)。如果点击后无法正常下载可以加一下这篇文章结尾的[QQ群](http://jq.qq.com/?_wv=1027&k=tqiOtCVc)，我会上传到群文件。
-![输入图片说明](doc-use/XXNMU4(@W@IGSD6B6%7D%7BX$42.png)
+![输入图片说明](doc-use/1.png)
 下载后安装此应用
 #### 2.容器
 #### 3.云崽本体
