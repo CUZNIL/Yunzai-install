@@ -5,6 +5,7 @@
 |  搭建必备 |  有的话最好 |
 |---|---|
 |  安卓手机 网络|  科学上网 遇到问题先搜索的习惯 |
+
 个人建议在空闲存储空间大于32G的手机上进行搭建。
 #### 1.[Termux](https://f-droid.org/en/packages/com.termux/)
 [点此下载TERMUX最新版本](https://f-droid.org/repo/com.termux_118.apk)
