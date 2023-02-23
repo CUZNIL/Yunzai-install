@@ -63,3 +63,12 @@ pacman -S pkg-config
 [部分依赖](https://blog.csdn.net/qq_39099905/article/details/125228920)
 [pacman](https://zhuanlan.zhihu.com/p/383694450)
 [README润色](https://gitee.com/TimeRainStarSky/TRSS-Plugin/edit/main/README.md)
+
+
+### 遇到问题/需要联系我/需要使用Bot
+
+群号 **638077675** 
+
+答案  **火花骑士** 
+
+[![群](doc-use/QQ%E7%BE%A4.png)](http://jq.qq.com/?_wv=1027&k=tqiOtCVc)
