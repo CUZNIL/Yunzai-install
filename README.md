@@ -83,12 +83,13 @@
 
 ![输入图片说明](doc-use/dwqdq.png)
 
-<details><summary>终端启动云崽</summary>
+
+进入Termux终端。输入`tsyz y f`即可启动云崽。
+
+根据提示配置你的bot账密，登录方式建议iPad
+![输入图片说明](doc-use/qwfqgreg.jpg)
 
 
-
-
-</details>
 
 #### 4.推荐插件
 #### 5.可选插件
