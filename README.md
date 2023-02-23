@@ -60,6 +60,11 @@
 </details>
 
 #### 2.容器
+
+建议使用脚本安装。本篇教程选用的脚本是时雨的[TRSS 脚本](https://trss.me/)。
+
+进入Termux终端。输入`curl -LO gitee.com/TimeRainStarSky/TRSS-MTArch/raw/main/Install.sh && bash Install.sh`
+
 #### 3.云崽本体
 #### 4.推荐插件
 #### 5.可选插件
