@@ -6,7 +6,7 @@
 |---|---|
 |  安卓手机 网络|  科学上网 遇到问题先搜索的习惯 |
 
-个人建议在空闲存储空间大于32G的手机上进行搭建。以下教程演示用的是红米K50(8+256)。
+个人建议在空闲存储空间大于32G的手机上进行搭建。以下教程演示用的是红米K50(8+256)，使用时雨的[TRSS 脚本](https://trss.me/)搭建。
 #### 1.[Termux](https://f-droid.org/en/packages/com.termux/)
 
 [点此下载TERMUX最新版本](https://f-droid.org/repo/com.termux_118.apk)。如果点击后无法正常下载可以加一下这篇文章结尾的[QQ群](http://jq.qq.com/?_wv=1027&k=tqiOtCVc)，我会上传到群文件。
@@ -61,32 +61,39 @@
 
 #### 2.容器
 
-建议使用脚本安装。本篇教程选用的脚本是时雨的[TRSS 脚本](https://trss.me/)。
+进入Termux终端。输入`curl -LO gitee.com/TimeRainStarSky/TRSS-MTArch/raw/main/Install.sh && bash Install.sh`，稍作等待会显示如下页面，说明容器安装完毕。
 
-进入Termux终端。输入`curl -LO gitee.com/TimeRainStarSky/TRSS-MTArch/raw/main/Install.sh && bash Install.sh`
+![输入图片说明](doc-use/wqfg.jpg)
+
+如果你想要进入该容器的话，输入`Arch/start`即可。现在继续下一步。
 
 #### 3.云崽本体
+
+进入Termux终端。输入`bash <(curl -L gitee.com/TimeRainStarSky/TRSS_Yunzai/raw/main/Install.sh)`，稍作等待会显示如下页面，说明时雨脚本安装完毕。
+
+![输入图片说明](doc-use/qwfqw65gf4.jpg)
+
+如果能科学上网建议这一步使用，为了方便小白本教程演示不会使用。根据提示输入`tsyz`，首次启动脚本等待时间会稍久，背景变蓝说明成功进入脚本了。国内可能会导致部分报错信息遮住确认键，按我下面的截图点击对应位置即可。依次点击Yunzai、确认、确认、回车。
+
+![输入图片说明](doc-use/qwd65.png)
+
+极少数情况会发生依赖安装失败，这时根据脚本提示再次安装即可。至此，云崽本体被成功安装。
+
+接下来退出脚本。如果你懒得点直接杀termux后台也可以，再启动即可。
+
+![输入图片说明](doc-use/dwqdq.png)
+
+<details><summary>终端启动云崽</summary>
+
+
+
+
+</details>
+
 #### 4.推荐插件
 #### 5.可选插件
 #### 1.安装Termux
 #### 1.安装Termux
-
-<details><summary>使用时雨脚本安装</summary>
-
-- 图片修复 / 动漫图片修复 + `图片`
-
-</details>
-<details><summary>使用脚本安装</summary>
-
-- 图片修复 / 动漫图片修复 + `图片`
-
-</details>
-
-#### nodejieba
-
-pacman -S node-gyp make gcc
-
-
 #### canvas
 
 
