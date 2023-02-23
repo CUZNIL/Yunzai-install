@@ -10,8 +10,12 @@
 #### 1.[Termux](https://f-droid.org/en/packages/com.termux/)
 [点此下载TERMUX最新版本](https://f-droid.org/repo/com.termux_118.apk)。如果点击后无法正常下载可以加一下这篇文章结尾的[QQ群](http://jq.qq.com/?_wv=1027&k=tqiOtCVc)，我会上传到群文件。
 ![输入图片说明](doc-use/1.png)
-下载后安装此应用
+下载后安装并打开此应用
 ![输入图片说明](doc-use/2.png)
+打开以后应该长这样，后面就叫他Termux终端了。
+![输入图片说明](doc-use/123145143.jpg)
+如果没有跳出键盘，点击屏幕空白区域即可，还是没有的话就从左侧滑出侧边栏再点击KEYBOARD
+![输入图片说明](doc-use/123124.png)
 #### 2.容器
 #### 3.云崽本体
 #### 4.推荐插件
