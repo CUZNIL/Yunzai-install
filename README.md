@@ -1,7 +1,8 @@
 # 云崽BOT手机搭建教程(施工中)
 
 #### 介绍
-针对安卓手机搭建云崽的一篇详细教程，包含手机搭建前后会遇到的各种问题和解决方案
+针对安卓手机搭建云崽的一篇详细教程，包含手机搭建前后会遇到的各种问题和解决方案。
+
 
 
 #### 安装教程
@@ -25,6 +26,12 @@ pacman -S pkg-config
 3.  提交代码
 4.  新建 Pull Request
 
+#### 测试环境
+如果你的手机环境跟我完全一致，则基本不可能出现本教程未涵盖的情况。
+
+小米8(8+128) 系统版本：[MIUI12.5.2](https://xiaomirom.com/download/mi-8-dipper-stable-V12.5.2.0.QEACNXM/)
+
+红米k40(12+256) 系统版本：[MIUI13.0.7](https://xiaomirom.com/download/redmi-k40-mi-11x-poco-f3-alioth-stable-V13.0.7.0.SKHCNXM/) 乌堆官改开发版14.0.23 [MIUI14.0.5](https://xiaomirom.com/download/redmi-k40-mi-11x-poco-f3-alioth-stable-V14.0.5.0.TKHCNXM/)
 
 #### 参考信息
 大量内容我只是搬运，以下是实际来源网页。
