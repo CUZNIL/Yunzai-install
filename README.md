@@ -142,20 +142,20 @@
 
 ![输入图片说明](doc-use/qwdwqf.png)
 
+按下 ctrl + d 即可退出容器
 
+![输入图片说明](doc-use/qwgrg234234edsdc.png)
 
 </details>
 
 
 <details><summary>启动云崽</summary>
 
+
+
 根据提示配置你的bot账密，登录方式建议iPad。
 
-
-
-
 ![输入图片说明](doc-use/qwfqgreg.jpg)
-
 
 </details>
 
