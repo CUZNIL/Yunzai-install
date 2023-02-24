@@ -92,6 +92,10 @@
 
 
 根据提示配置你的bot账密，登录方式建议iPad。
+
+
+
+
 ![输入图片说明](doc-use/qwfqgreg.jpg)
 
 
