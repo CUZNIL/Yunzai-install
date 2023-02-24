@@ -8,6 +8,8 @@
 
 个人建议在空闲存储空间大于32G的手机上进行搭建。以下教程演示用的是红米K50(8+256)，使用时雨的[TRSS 脚本](https://trss.me/)搭建。
 
+警告！！如果你的手机是MIUI14，请务必刷回MIUI13或更低版本！！否则会导致一堆我根本懒得处理的报错，MIUI14出现问题请自行处理不要问我。
+
 #### 1.[Termux](https://f-droid.org/en/packages/com.termux/)
 
 
@@ -151,11 +153,26 @@
 
 <details><summary>启动云崽</summary>
 
-
-
-根据提示配置你的bot账密，登录方式建议iPad。
+进入Termux终端。输入`tsyz y f`即可启动云崽。首次启动请根据提示配置你的bot账密，登录方式建议iPad。
 
 ![输入图片说明](doc-use/qwfqgreg.jpg)
+
+【通过滑块验证】
+
+在你通过滑块验证后大概率会迎来你的搭建过程中第一个需要处理的报错，他有可能是图中的禁止登录，也有可能是版本过低。
+
+![输入图片说明](doc-use/wqf65.png)
+
+因为可能有俩种报错，你根据你实际显示的报错选择下面的处理方案即可。
+
+
+<details><summary>禁止登录</summary>
+
+</details>
+
+<details><summary>版本过低</summary>
+
+</details>
 
 </details>
 
