@@ -83,10 +83,12 @@
 
 由于乐神云崽似乎暂时停更了，我们手动换喵喵的云崽已获取大佬的维护。进入Termux终端。输入`Arch/start`进入容器。
 
+![输入图片说明](doc-use/asdff.png)
 
-进入容器后输入`cd TRSS_Yunzai/Yunzai/`进入到云崽根目录，再输入`git remote set-url origin https://gitee.com/yoimiya-kokomi/Yunzai-Bot.git`即可完成换源。
 
+进入容器后输入`cd TRSS_Yunzai/Yunzai/`进入到云崽根目录，再输入`git remote set-url origin https://gitee.com/yoimiya-kokomi/Yunzai-Bot.git`即可完成换源。可以输入`git remote -v`做最后确认，输出和我完全一致就是成功了。
 
+![输入图片说明](doc-use/qwdwqf.png)
 
 
 根据提示配置你的bot账密，登录方式建议iPad。
