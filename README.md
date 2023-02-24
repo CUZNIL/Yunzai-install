@@ -4,7 +4,7 @@
 针对安卓手机搭建[云崽BOT](https://gitee.com/Le-niao/Yunzai-Bot)的一篇详细教程，也包含手机搭建前后会遇到的各种问题和解决方案。
 |  搭建必备 |  有的话最好 |
 |---|---|
-|  安卓手机 网络|  vbn 遇到问题先搜索的好习惯 |
+|  安卓手机 网络|  vpn 遇到问题先搜索的好习惯 |
 
 个人建议在空闲存储空间大于32G的手机上进行搭建。以下教程演示用的是红米K50(8+256)，使用时雨的[TRSS 脚本](https://trss.me/)搭建。
 #### 1.[Termux](https://f-droid.org/en/packages/com.termux/)
