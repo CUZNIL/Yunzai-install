@@ -65,8 +65,6 @@
 
 ![输入图片说明](doc-use/wqfg.jpg)
 
-如果你想要进入该容器的话，输入`Arch/start`即可。现在继续下一步。
-
 #### 3.云崽本体
 
 进入Termux终端。输入`bash <(curl -L gitee.com/TimeRainStarSky/TRSS_Yunzai/raw/main/Install.sh)`，稍作等待会显示如下页面，说明时雨脚本安装完毕。
@@ -83,9 +81,13 @@
 
 ![输入图片说明](doc-use/dwqdq.png)
 
-由于乐神云崽似乎暂时停更了，我们手动换喵喵的云崽来保证 我要早点睡觉我要早点睡觉我要早点睡觉我要早点睡觉我要早点睡觉我要早点睡觉我要早点睡觉我要早点睡觉我要早点睡觉我要早点睡觉我要早点睡觉我要早点睡觉我要早点睡觉我要早点睡觉我要早点睡觉我要早点睡觉我要早点睡觉我要早点睡觉
+由于乐神云崽似乎暂时停更了，我们手动换喵喵的云崽已获取大佬的维护。进入Termux终端。输入`Arch/start`进入容器。
 
-进入Termux终端。输入`tsyz y f`即可启动云崽。
+
+进入容器后输入`cd TRSS_Yunzai/Yunzai/`进入到云崽根目录，再输入`git remote set-url origin https://gitee.com/yoimiya-kokomi/Yunzai-Bot.git`即可完成换源。
+
+
+
 
 根据提示配置你的bot账密，登录方式建议iPad。
 ![输入图片说明](doc-use/qwfqgreg.jpg)
