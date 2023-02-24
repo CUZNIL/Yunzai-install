@@ -61,10 +61,6 @@
 
 确认上一步完成后，输入`pkg update -y`。中间他会停下来几次问你要选择哪种操作，你每次都输入一个大写的Y就行。
 
-![输入图片说明](doc-use/imageqwf.png)
-
-![输入图片说明](doc-use/13r419e8f.png)
-
 ![输入图片说明](doc-use/qwfqfg654.png)
 
 
