@@ -7,9 +7,15 @@
 |  安卓手机 网络|   vbn 遇到问题先搜索的好习惯 |
 
 个人建议在空闲存储空间大于32G的手机上进行搭建。以下教程演示用的是红米K50(8+256)，使用时雨的[TRSS 脚本](https://trss.me/)搭建。
-#### 1.[Termux](https://f-droid.org/en/packages/com.termux/)
+#### <details><summary>1.[Termux](https://f-droid.org/en/packages/com.termux/)</summary>
+
 
 [点此下载TERMUX最新版本](https://f-droid.org/repo/com.termux_118.apk)。如果点击后无法正常下载可以加一下这篇文章结尾的[QQ群](http://jq.qq.com/?_wv=1027&k=tqiOtCVc)，我会上传到群文件。
+
+
+
+</details>
+
 
 
 ![输入图片说明](doc-use/1.png)
