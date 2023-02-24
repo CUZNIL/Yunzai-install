@@ -167,7 +167,7 @@
 
 按下 ctrl + c ，再根据提示操作退出脚本。
 
-![输入图片说明](doc-use/image1213.png)
+![输入图片说明](doc-use/imagewqf1.png)
 
 
 <details><summary>版本过低</summary>
