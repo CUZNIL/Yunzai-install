@@ -65,6 +65,8 @@
 
 ![输入图片说明](doc-use/13r419e8f.png)
 
+![输入图片说明](doc-use/qwfqfg654.png)
+
 
 确认上一步完成后，输入`pkg install openssh -y`。最后输出以下内容就是安装openssh成功了。
 
