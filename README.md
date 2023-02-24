@@ -188,12 +188,32 @@
 
 <details><summary>报错：禁止登录</summary>
 
+要解决这个报错，如果你会使用openssh在电脑使用xftp编辑文件会方便很多。这里为了方便讲述还是使用手机操作。
+
+进入Termux终端。输入`tsyz y file`进入脚本的文件管理页面。使用Termux底部的上下左右进入文件夹/node_modules/oicq/lib/core/，编辑文件device.js。
+
+![输入图片说明](doc-use/1r13419.png)
+
+
+
+
 </details>
 
 
 </details>
 
 #### 4.推荐插件
+
+脚本还是挺好懂的，所以这边默认你们都能使用管理脚本完成插件的安装。如果担心操作失误或者真的不会可以展开下面。
+
+<details><summary>使用脚本安装插件</summary>
+
+
+
+</details>
+
+看到这一行应该都会安装插件了吧，脚本还是挺省事的。
+
 #### 5.可选插件
 #### 1.安装Termux
 #### 1.安装Termux
