@@ -7,15 +7,16 @@
 |  安卓手机 网络|   vbn 遇到问题先搜索的好习惯 |
 
 个人建议在空闲存储空间大于32G的手机上进行搭建。以下教程演示用的是红米K50(8+256)，使用时雨的[TRSS 脚本](https://trss.me/)搭建。
-#### <details><summary>1.[Termux](https://f-droid.org/en/packages/com.termux/)</summary>
+
+#### 1.[Termux](https://f-droid.org/en/packages/com.termux/)
+
+
+
+
+<details><summary>下载安装</summary>
 
 
 [点此下载TERMUX最新版本](https://f-droid.org/repo/com.termux_118.apk)。如果点击后无法正常下载可以加一下这篇文章结尾的[QQ群](http://jq.qq.com/?_wv=1027&k=tqiOtCVc)，我会上传到群文件。
-
-
-
-</details>
-
 
 
 ![输入图片说明](doc-use/1.png)
@@ -29,12 +30,22 @@
 
 ![输入图片说明](doc-use/image.png)
 
+
+
+</details>
+
+
+<details><summary>基本使用说明</summary>
+
+
 如果没有跳出键盘，点击屏幕空白区域即可，还是没有的话就从左侧滑出侧边栏再点击KEYBOARD
 
 ![输入图片说明](doc-use/123124.png)
 
 假设后续因为某些原因发生了无法解决的问题，你只需要清除Termux的全部数据即可。手机不支持清除数据的话可以卸载重装。
 
+
+</details>
 <details><summary>安装openssh</summary>
 
 如果你不知道openssh是什么的话，可以试着搜索。还是不明白的话这部分你应该用不上，可以收起该部分，跳到下一步：2.容器。
@@ -67,15 +78,28 @@
 
 #### 2.容器
 
+
+<details><summary>脚本安装Arch</summary>
 进入Termux终端。输入`curl -LO gitee.com/TimeRainStarSky/TRSS-MTArch/raw/main/Install.sh && bash Install.sh`，稍作等待会显示如下页面，说明容器安装完毕。
 
 ![输入图片说明](doc-use/wqfg.jpg)
 
+</details>
+
 #### 3.云崽本体
+
+
+<details><summary>安装管理脚本</summary>
 
 进入Termux终端。输入`bash <(curl -L gitee.com/TimeRainStarSky/TRSS_Yunzai/raw/main/Install.sh)`，稍作等待会显示如下页面，说明时雨脚本安装完毕。
 
 ![输入图片说明](doc-use/qwfqw65gf4.jpg)
+
+
+</details>
+
+
+<details><summary>安装云崽</summary>
 
 如果有vbn建议这一步开启。根据提示输入`tsyz`，首次启动脚本等待时间会稍久，背景变蓝说明成功进入脚本了。国内可能会导致部分报错信息遮住确认键，按我下面的截图点击对应位置即可。依次点击Yunzai、确认、确认、回车。
 
@@ -87,6 +111,11 @@
 
 ![输入图片说明](doc-use/dwqdq.png)
 
+</details>
+
+
+<details><summary>云崽换源</summary>
+
 由于乐神云崽似乎暂时停更了，我们手动换喵喵的云崽已获取大佬的维护。进入Termux终端。输入`Arch/start`进入容器。
 
 ![输入图片说明](doc-use/asdff.png)
@@ -97,6 +126,12 @@
 ![输入图片说明](doc-use/qwdwqf.png)
 
 
+
+</details>
+
+
+<details><summary>启动云崽</summary>
+
 根据提示配置你的bot账密，登录方式建议iPad。
 
 
@@ -105,6 +140,7 @@
 ![输入图片说明](doc-use/qwfqgreg.jpg)
 
 
+</details>
 
 #### 4.推荐插件
 #### 5.可选插件
