@@ -747,7 +747,8 @@ pacman -Sy --noconfirm pkg-config node-gyp gcc make
 [部分依赖](https://blog.csdn.net/qq_39099905/article/details/125228920)
 [pacman](https://zhuanlan.zhihu.com/p/383694450)
 [README润色](https://gitee.com/TimeRainStarSky/TRSS-Plugin/edit/main/README.md)
-
+[TERMUX下载](https://f-droid.org/en/packages/com.termux/)
+[时雨脚本](https://trss.me/)
 
 
 
