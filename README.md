@@ -684,7 +684,7 @@ pacman -Sy --noconfirm pkg-config node-gyp gcc make
 
 如图显示则依赖安装成功，我们现在回到管理脚本安装nodejieba依赖即可。
 
-
+![输入图片说明](doc-use/imageqwd798798.png)
 
 如图显示依赖安装成功。
 
