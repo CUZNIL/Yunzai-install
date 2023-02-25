@@ -510,10 +510,17 @@ git remote -v
 
 接下来你有俩个方案，要么你回到文章开头安装openssh，要么你回到上面安装时雨插件。因为ssh门槛相对较高，我这里用时雨插件演示。如果你会用ssh，你看完应该就知道怎么用ssh操作了，所以我就不重复说明了。
 
-首先加入文末的[QQ群](http://jq.qq.com/?_wv=1027&k=tqiOtCVc)，我会在那里上传这俩个插件需要的所有资源。如果你不愿意或者不方便加群，这边还有天翼网盘的链接可用，[点击下载](https://cloud.189.cn/t/aaEjy2n6vAve)即可，注意需要[访问码：row2](https://cloud.189.cn/t/aaEjy2n6vAve)。
+首先加入文末的[QQ群](http://jq.qq.com/?_wv=1027&k=tqiOtCVc)，我会在那里上传这俩个插件需要的所有资源。如果你不愿意或者不方便加群，这边还有天翼网盘的链接可用，[点击下载py插件表情包资源.zip](https://cloud.189.cn/t/aaEjy2n6vAve)即可，注意需要[访问码：row2](https://cloud.189.cn/t/aaEjy2n6vAve)。
 
-然后在QQ聊天界面发送
+然后在QQ聊天界面向你的BOT发送以下内容，在群聊界面也可以。
 
+```
+文件下载/root/TRSS_Yunzai/Yunzai/plugins/py-plugin
+```
+
+![输入图片说明](doc-use/123985.png)
+
+最后在这个界面发送你刚才下载的文件“py插件表情包资源.zip”，BOT会在合适的路径下载该文件。如图所示。
 
 ———————————分割线———————————
 
