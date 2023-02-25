@@ -539,12 +539,22 @@ git remote -v
 ```
 Arch/start
 ```
- 
+
 ```
-cd TRSS_Yunzai/Yunzai/plugins/py-plugin/ && unzip -o py插件表情包资源.zip && rm data/README.txt py插件表情包资源.zip 
+cd TRSS_Yunzai/Yunzai/plugins/py-plugin/ && unzip -o py插件表情包资源.zip
 ```
 
+如果运行正常，解压过程会像下图这样。
+
 ![输入图片说明](doc-use/r87214ye83d.png)
+
+当你确认成功解压以后，输入以下指令删除下载的文件避免浪费空间并退出:
+
+```
+rm data/README.txt py插件表情包资源.zip && exit
+```
+
+至此，你的头像表情包和表情包制作俩个插件需要下载的大量资源已经配置好，可以去愉快使用了！
 
 ———————————分割线———————————
 
