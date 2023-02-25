@@ -33,7 +33,7 @@
 
 ![输入图片说明](doc-use/image.png)
 
-
+———————————分割线———————————
 
 </details>
 
@@ -47,8 +47,10 @@
 
 假设后续因为某些原因发生了无法解决的问题，你只需要清除Termux的全部数据即可。手机不支持清除数据的话可以卸载重装。
 
+———————————分割线———————————
 
 </details>
+
 <details><summary>安装openssh</summary>
 
 如果你不知道openssh是什么的话，可以试着搜索。还是不明白的话这部分你应该用不上，可以收起该部分，跳到下一步：2.容器。
@@ -75,7 +77,7 @@
 
 如果你完全不了解openssh，只是因为我写了就跟着操作的话，我建议阅读[这篇文章](https://blog.csdn.net/qq_45740348/article/details/115602001)
 
-
+———————————分割线———————————
 
 </details>
 
@@ -108,6 +110,8 @@
 ![输入图片说明](doc-use/qwfqw65gf4.jpg)
 
 
+———————————分割线———————————
+
 </details>
 
 
@@ -122,6 +126,8 @@
 接下来退出脚本。如果你懒得点直接杀termux后台也可以，再启动即可。
 
 ![输入图片说明](doc-use/dwqdq.png)
+
+———————————分割线———————————
 
 </details>
 
@@ -148,6 +154,8 @@
 按下 ctrl + d 即可退出容器
 
 ![输入图片说明](doc-use/qwgrg234234edsdc.png)
+
+———————————分割线———————————
 
 </details>
 
@@ -186,6 +194,8 @@
 
 如果还是报错版本过低或者报错禁止登录，则继续看 报错：禁止登录
 
+———————————分割线———————————
+
 </details>
 
 <details><summary>报错：禁止登录</summary>
@@ -202,11 +212,15 @@
 
 ![输入图片说明](doc-use/im984.png)
 
-输入`tsyz y f`即可启动云崽，通过滑动验证即可顺利登录！
+输入`tsyz y f`即可启动云崽，通过滑动验证即可顺利登录！如果无法正常登录请再次执行上面“报错：版本过低”的方案，还不行再执行“报错：禁止登录”的方案。那么如果你这样反复操作俩三轮依旧无法解决，请务必向我反馈！
+
+———————————分割线———————————
 
 </details>
 
 如果以上俩种报错的解决方案你都尝试了，首先请再次仔细阅读本教程以保证你没有出现错误操作，然后通过这篇文章结尾的[QQ群](http://jq.qq.com/?_wv=1027&k=tqiOtCVc)联系我，请尽量清晰地表述你遇到的问题。
+
+———————————分割线———————————
 
 </details>
 
@@ -240,6 +254,8 @@
 
 ![输入图片说明](doc-use/image21.png)
 
+———————————分割线———————————
+
 </details>
 
 
@@ -249,8 +265,11 @@
 
 ![输入图片说明](doc-use/image98qe.png)
 
+———————————分割线———————————
+
 </details>
 
+———————————分割线———————————
 
 </details>
 
@@ -328,6 +347,8 @@
 
 显示插件依赖顺利安装成功，则可以进行下一步的插件配置。
 
+———————————分割线———————————
+
 </details>
 
 <details><summary>有vbn安装插件本体</summary>
@@ -343,6 +364,8 @@
 ![输入图片说明](doc-use/wqdf.png)
 
 显示插件依赖顺利安装成功，则可以进行下一步的插件配置。到这里你可以关闭你的vbn了。
+
+———————————分割线———————————
 
 </details>
 
@@ -363,12 +386,14 @@
 
 如图所示，将publicApi对应的值由默认的true改为false，按ctrl+s保存本次更改，按ctrl+q退出本次编辑。
 
+———————————分割线———————————
 
 </details>
 
 
  **至此彻底完成时雨插件的安装和配置。** 
 
+———————————分割线———————————
 
 </details>
 
@@ -415,27 +440,56 @@
 
 确认到如图内容， **说明该插件已经正确安装。** 
 
+———————————分割线———————————
+
 </details>
 
 下面是我个人安装的一些nonebot插件。
 
 | 插件名称                      | 中文名称                                                                | 大概功能                |
 |---------------------------|---------------------------------------------------------------------|---------------------|
-| nonebot-plugin-gspanel    | [原神角色展柜查询](https://github.com/monsterxcn/nonebot-plugin-gspanel)    | 根据角色展柜中的数据计算队伍伤害    |
-| nonebot-plugin-bawiki     | [BAWiki](https://github.com/lgc2333/nonebot-plugin-bawiki/)         | 日程表、学生图鉴、角色语音、模拟抽卡等 |
-| nonebot_plugin_oddtext    | [文本生成器](https://github.com/noneplugin/nonebot-plugin-oddtext)       | 抽象话、火星文等文本生成        |
-| nonebot_plugin_abbrreply  | [缩写查询器](https://github.com/anlen123/nonebot_plugin_abbrreply)       | 查看缩写可能的解释           |
-| nonebot_plugin_miragetank | [幻影坦克图片合成](https://github.com/RafuiiChan/nonebot_plugin_miragetank) | 幻影坦克合成和分解           |
-| nonebot_plugin_petpet     | [头像表情包](https://github.com/MeetWq/nonebot-plugin-petpet)            | 表情包制作               |
-| nonebot-plugin-memes      | [表情包制作](https://github.com/MeetWq/nonebot-plugin-memes)             | 表情包制作               |
+| nonebot-plugin-gspanel    | [原神角色展柜查询](https://github.com/monsterxcn/nonebot-plugin-gspanel)    | 根据角色展柜中的数据计算队伍伤害。    |
+| nonebot-plugin-bawiki     | [BAWiki](https://github.com/lgc2333/nonebot-plugin-bawiki/)         | 碧蓝档案日程表、学生图鉴、角色语音、模拟抽卡等。 |
+| nonebot_plugin_oddtext    | [文本生成器](https://github.com/noneplugin/nonebot-plugin-oddtext)       | 抽象话、火星文等文本生成。        |
+| nonebot_plugin_abbrreply  | [缩写查询器](https://github.com/anlen123/nonebot_plugin_abbrreply)       | 查看缩写可能的解释。           |
+| nonebot_plugin_miragetank | [幻影坦克图片合成](https://github.com/RafuiiChan/nonebot_plugin_miragetank) | 幻影坦克合成和分解。          |
+| nonebot_plugin_petpet     | [头像表情包](https://github.com/MeetWq/nonebot-plugin-petpet)            | 表情包制作。               |
+| nonebot-plugin-memes      | [表情包制作](https://github.com/MeetWq/nonebot-plugin-memes)             | 表情包制作。               |
 
 
+针对上面这些插件中部分可能遇到问题的插件我单独做说明，要装哪个插件就只打开哪个栏目。
 
+<details><summary>原神角色展柜查询</summary>
 
+请仔细阅读[该插件作者对py插件用户的说明](https://github.com/monsterxcn/nonebot-plugin-gspanel/issues/17)。考虑到可能有人无法访问github，下面是页面截图。请仔细确认，我觉得作者说的很详细了所以不做更多说明。
 
+![输入图片说明](doc-use/imagewq98988998.png)
+
+根据插件作者的说明配置好即可。
+
+———————————分割线———————————
+
+</details>
+
+<details><summary>BAWiki</summary>
+
+———————————分割线———————————
+
+</details>
+
+<details><summary>头像表情包</summary>
+
+———————————分割线———————————
+
+</details>
                                                   
+<details><summary>表情包制作</summary>
 
+———————————分割线———————————
 
+</details>
+
+———————————分割线———————————
 
 </details>
 
@@ -449,13 +503,14 @@ canvas
 
 pacman -S pkg-config
 
-
+———————————分割线———————————
 
 </details>
 
 <details><summary>附加说明：碎月插件 suiyue</summary>
 
 
+———————————分割线———————————
 
 </details>
 
