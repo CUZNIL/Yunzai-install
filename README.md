@@ -346,13 +346,51 @@
 
 </details>
 
+至此你已经完成了插件本体的安装，接下来进行具体的配置。
+
+<details><summary>插件配置</summary>
 
 
+进入Termux终端，输入`tsyz`进入云崽管理脚本。依次选择插件管理、Git插件管理、TRSS插件。
+
+![输入图片说明](doc-use/imageqwd987.png)
+
+在这个页面根据你的需要安装对应内容即可，脚本全处理好了。比如你需要本地合成原神角色音色，你就安装语音合成和语音合成 原神模型就可以了。
+
+完成你需要的所有安装以后请注意，该插件的语音合成默认用接口但是目前接口失效了，所有必须手动更改配置文件。首先我们退出脚本，然后输入`tsyz y f`启动云崽，在成功登录进去以后再按ctrl+c退出。输入`tsyz`进入云崽管理脚本。依次选择插件管理、Git插件管理、TRSS插件、修改配置文件。
+
+![输入图片说明](doc-use/imagewd98123.png)
+
+如图所示，将publicApi对应的值由默认的true改为false，按ctrl+s保存本次更改，按ctrl+q退出本次编辑。
+
+至此彻底完成时雨插件的安装和配置。
+
+</details>
 
 </details>
 
 
 <details><summary>Py插件</summary>
+
+首先是安装说明：
+
+进入Termux终端，输入`tsyz`进入云崽管理脚本。依次选择插件管理、Git插件管理、Py插件、确认即可。
+
+![输入图片说明](doc-use/imageqwd894.png)
+
+正常会显示依赖安装成功，如果失败根据提示重装直到依赖安装成功即可。
+
+如果不报错的话不需要后续配置。私聊BOT或者群聊发送`py帮助`即可获取该插件的常用操作列表。
+
+![输入图片说明](doc-use/imagew899.png)
+
+安装插件只需要发送`py下载插件+nonebot插件名称`即可。下面以安装[头像表情包](https://github.com/noneplugin/nonebot-plugin-petpet)为例。
+
+首先挑选我们喜欢的nonebot插件，可以从[nonebot商店](https://v2.nonebot.dev/store)获取，一会我会展示我安装的插件。
+
+
+![输入图片说明](doc-use/imagedqw9d8747we9184e2.png)
+
 
 
 </details>
