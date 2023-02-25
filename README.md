@@ -88,7 +88,12 @@
 
 进入Termux终端。输入
 
-`curl -LO gitee.com/TimeRainStarSky/TRSS-MTArch/raw/main/Install.sh && bash Install.sh`
+
+```
+curl -LO gitee.com/TimeRainStarSky/TRSS-MTArch/raw/main/Install.sh && bash Install.sh
+```
+
+
 
 ，稍作等待会显示如下页面，说明容器安装完毕。
 
@@ -103,7 +108,9 @@
 
 进入Termux终端。输入
 
-`bash <(curl -L gitee.com/TimeRainStarSky/TRSS_Yunzai/raw/main/Install.sh)`
+```
+bash <(curl -L gitee.com/TimeRainStarSky/TRSS_Yunzai/raw/main/Install.sh)
+```
 
 ，稍作等待会显示如下页面，说明时雨脚本安装完毕。
 
@@ -141,11 +148,15 @@
 
 进入容器后输入`cd TRSS_Yunzai/Yunzai/`进入到云崽根目录，再输入
 
-`git remote set-url origin https://gitee.com/yoimiya-kokomi/Yunzai-Bot.git`
+```
+git remote set-url origin https://gitee.com/yoimiya-kokomi/Yunzai-Bot.git
+```
 
 即可完成换源。可以输入
 
-`git remote -v`
+```
+git remote -v
+```
 
 做最后确认，输出和我完全一致就是成功了。
 
