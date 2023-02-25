@@ -537,10 +537,11 @@ git remote -v
 接下来依次输入以下指令：
 
 ```
-Arch/start 
-cd TRSS_Yunzai/Yunzai/plugins/py-plugin/
-unzip -o py插件表情包资源.zip
-rm data/README.txt py插件表情包资源.zip 
+Arch/start
+```
+ 
+```
+cd TRSS_Yunzai/Yunzai/plugins/py-plugin/ && unzip -o py插件表情包资源.zip && rm data/README.txt py插件表情包资源.zip 
 ```
 
 ![输入图片说明](doc-use/r87214ye83d.png)
