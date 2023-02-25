@@ -1,6 +1,6 @@
 # [V3云崽BOT手机搭建教程](https://gitee.com/CUZNIL/Yunzai-install)
 
-#### 0.介绍
+## 0.介绍
 针对安卓手机搭建[V3云崽BOT](https://gitee.com/Le-niao/Yunzai-Bot)的一篇详细教程，也包含手机搭建前后会遇到的各种问题和解决方案。
 | 搭建必备    | 有的话最好           |
 |---------|-----------------|
@@ -11,7 +11,7 @@
 
 警告！！如果你的手机是MIUI14，请务必刷回MIUI13或更低版本！！否则会导致一堆我根本懒得处理的报错，MIUI14出现问题请自行处理不要问我。
 
-#### 1.[Termux](https://f-droid.org/en/packages/com.termux/)
+## 1.[Termux](https://f-droid.org/en/packages/com.termux/)
 
 
 
@@ -81,7 +81,7 @@
 
 </details>
 
-#### 2.容器
+## 2.容器
 
 
 <details><summary>脚本安装Arch</summary>
@@ -101,7 +101,7 @@ curl -LO gitee.com/TimeRainStarSky/TRSS-MTArch/raw/main/Install.sh && bash Insta
 
 </details>
 
-#### 3.云崽本体
+## 3.云崽本体
 
 
 <details><summary>安装管理脚本</summary>
@@ -239,7 +239,7 @@ git remote -v
 
 </details>
 
-#### 4.无脑推荐安装的Git插件
+## 4.无脑推荐安装的Git插件
 
 脚本还是挺好懂的，所以这边默认你们都能使用管理脚本完成插件的安装。如果担心操作失误或者真的不会可以展开下面。
 
@@ -317,7 +317,7 @@ git remote -v
 
 如果插件安装使用过程中还有问题请先点击项目名进入对应项目地址，查看有无处理方案。有就用，没有就百度必应啥的搜一下。有的话就用，确认没有的话再礼貌地找人问该怎么解决。
 
-#### 5.我安装的Git插件
+## 5.我安装的Git插件
 
 
 | 序号 | 项目名                                                            | 中文名   | 简述                             |
@@ -705,7 +705,7 @@ pacman -Sy --noconfirm pkg-config node-gyp gcc make
 
 但是如果插件安装使用过程中还有问题，请先点击项目名进入对应项目地址，查看有无处理方案。有就用，没有就百度必应啥的搜一下。有的话就用，确认没有的话再礼貌地找人问该怎么解决。
 
-#### 6.我安装的js插件
+## 6.我安装的js插件
 
 
 | 插件名称                                                                                 | 大概功能                    |
@@ -724,7 +724,7 @@ pacman -Sy --noconfirm pkg-config node-gyp gcc make
 
 如果你还想获取其他插件，还可以看看渔火整理的[插件库](https://gitee.com/yhArcadia/Yunzai-Bot-plugins-index)。
 
-#### 测试环境
+## 测试环境
 如果你的手机环境跟我完全一致，则基本不可能出现本教程未涵盖的情况。
 
 小米8(8+128) 系统版本：[MIUI12.5.2](https://xiaomirom.com/download/mi-8-dipper-stable-V12.5.2.0.QEACNXM/)
@@ -733,7 +733,7 @@ pacman -Sy --noconfirm pkg-config node-gyp gcc make
 
 红米k50(8+256) 系统版本：[MIUI13.0.13](https://xiaomirom.com/download/redmi-k50-rubens-stable-V13.0.13.0.SLNCNXM/) 乌堆MIUI13.0.13
 
-#### 参考信息
+## 参考信息
 
 大量内容我只是搬运，以下是实际来源网页。
 
@@ -752,7 +752,7 @@ pacman -Sy --noconfirm pkg-config node-gyp gcc make
 
 
 
-### 遇到其他问题/需要联系我/需要使用Bot
+# 遇到其他问题/需要联系我/需要使用Bot
 
 群号 **638077675** 
 
