@@ -508,7 +508,7 @@ git remote -v
 
 ![输入图片说明](doc-use/imageqf8944.png)
 
-首先加入文末的[QQ群](http://jq.qq.com/?_wv=1027&k=tqiOtCVc)，我会在那里上传这俩个插件需要的所有资源。如果你不愿意或者不方便加群，
+首先加入文末的[QQ群](http://jq.qq.com/?_wv=1027&k=tqiOtCVc)，我会在那里上传这俩个插件需要的所有资源。如果你不愿意或者不方便加群，这边还有天翼网盘的链接可用，[点击下载](https://cloud.189.cn/t/Nz22MrjA77ja)即可，注意需要[访问码：igs0](https://cloud.189.cn/t/Nz22MrjA77ja)。
 
 
 
