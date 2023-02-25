@@ -303,8 +303,11 @@ git remote -v
 
 
 
+<details><summary>点击查看脚本中对应位置</summary>
 
 ![输入图片说明](doc-use/image984.png)
+
+</details>
 
 这些插件的后续配置脚本是完全处理好了的，所以你们按照脚本操作安装即可，我不做过多说明。
 
