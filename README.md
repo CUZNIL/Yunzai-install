@@ -484,17 +484,35 @@ git remote -v
 
 <details><summary>BAWiki</summary>
 
+想正常使用本插件大部分功能很有必要搞一个vbn。那如果你没有，我也不方便教你。
+
+但如果你已经安装，你依旧可以选择卸载该插件。如图发送`py卸载插件nonebot-plugin-bawiki`即可。
+
+![输入图片说明](doc-use/wqfd964.png)
+
+
 ———————————分割线———————————
 
 </details>
 
 <details><summary>头像表情包</summary>
 
+
+
+
+
+
+
 ———————————分割线———————————
 
 </details>
                                                   
 <details><summary>表情包制作</summary>
+
+
+
+
+
 
 ———————————分割线———————————
 
