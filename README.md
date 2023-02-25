@@ -613,15 +613,17 @@ rm data/README.txt py插件表情包资源.zip && exit
 Arch/start
 ```
 
-接下来手动安装pkg-config即可，输入下面这行指令。
+接下来手动安装需要的依赖即可，输入下面这行指令。
 
 ```
-pacman -S --noconfirm pkg-config
+pacman -Sy --noconfirm pkg-config node-gyp gcc make
 ```
 
 ![输入图片说明](doc-use/image9849.png)
 
-如图显示则pkg-config依赖安装成功，我们现在回到管理脚本安装canvas依赖即可。
+如图显示则依赖安装成功，我们现在回到管理脚本安装canvas依赖即可。
+
+![输入图片说明](doc-use/123981273.png)
 
 ———————————分割线———————————
 
