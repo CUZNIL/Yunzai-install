@@ -619,7 +619,9 @@ Arch/start
 pacman -S --noconfirm pkg-config
 ```
 
+![输入图片说明](doc-use/image9849.png)
 
+如图显示则pkg-config依赖安装成功，我们现在回到管理脚本安装canvas依赖即可。
 
 ———————————分割线———————————
 
