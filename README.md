@@ -375,6 +375,8 @@
 
 <details><summary>Py插件</summary>
 
+这边默认你会安装配置本插件，只做nonebot插件推荐。 **如果你不知道请展开下一行。** 
+
 
 <details><summary>我不知道如何安装配置该插件</summary>
 
@@ -417,15 +419,16 @@
 
 下面是我个人安装的一些nonebot插件。
 
-| 插件名称                      | 中文名称                                                     | 大概功能                |
-|---------------------------|----------------------------------------------------------|---------------------|
-| nonebot-plugin-gspanel    | 原神角色展柜查询                                                 | 根据角色展柜中的数据计算队伍伤害    |
-| nonebot-plugin-bawiki     | BAWiki                                                   | 日程表、学生图鉴、角色语音、模拟抽卡等 |
-| nonebot_plugin_oddtext    | 文本生成器                                                    |                     |
-| nonebot_plugin_abbrreply  | 缩写查询器                                                    |                     |
-| nonebot_plugin_miragetank | 幻影坦克图片合成                                                 |                     |
-| nonebot_plugin_petpet     | [头像表情包](https://github.com/MeetWq/nonebot-plugin-petpet) |                     |
-| nonebot-plugin-memes      | [表情包制作](https://github.com/MeetWq/nonebot-plugin-memes)  |                     |
+| 插件名称                      | 中文名称                                                                | 大概功能                |
+|---------------------------|---------------------------------------------------------------------|---------------------|
+| nonebot-plugin-gspanel    | [原神角色展柜查询](https://github.com/monsterxcn/nonebot-plugin-gspanel)    | 根据角色展柜中的数据计算队伍伤害    |
+| nonebot-plugin-bawiki     | [BAWiki](https://github.com/lgc2333/nonebot-plugin-bawiki/)         | 日程表、学生图鉴、角色语音、模拟抽卡等 |
+| nonebot_plugin_oddtext    | [文本生成器](https://github.com/noneplugin/nonebot-plugin-oddtext)       |                     |
+| nonebot_plugin_abbrreply  | [缩写查询器](https://github.com/anlen123/nonebot_plugin_abbrreply)       |                     |
+| nonebot_plugin_miragetank | [幻影坦克图片合成](https://github.com/RafuiiChan/nonebot_plugin_miragetank) |                     |
+| nonebot_plugin_petpet     | [头像表情包](https://github.com/MeetWq/nonebot-plugin-petpet)            |                     |
+| nonebot-plugin-memes      | [表情包制作](https://github.com/MeetWq/nonebot-plugin-memes)             |                     |
+
 
 
                                                   
