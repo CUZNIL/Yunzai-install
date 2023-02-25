@@ -423,11 +423,13 @@
 |---------------------------|---------------------------------------------------------------------|---------------------|
 | nonebot-plugin-gspanel    | [原神角色展柜查询](https://github.com/monsterxcn/nonebot-plugin-gspanel)    | 根据角色展柜中的数据计算队伍伤害    |
 | nonebot-plugin-bawiki     | [BAWiki](https://github.com/lgc2333/nonebot-plugin-bawiki/)         | 日程表、学生图鉴、角色语音、模拟抽卡等 |
-| nonebot_plugin_oddtext    | [文本生成器](https://github.com/noneplugin/nonebot-plugin-oddtext)       |                     |
-| nonebot_plugin_abbrreply  | [缩写查询器](https://github.com/anlen123/nonebot_plugin_abbrreply)       |                     |
-| nonebot_plugin_miragetank | [幻影坦克图片合成](https://github.com/RafuiiChan/nonebot_plugin_miragetank) |                     |
-| nonebot_plugin_petpet     | [头像表情包](https://github.com/MeetWq/nonebot-plugin-petpet)            |                     |
-| nonebot-plugin-memes      | [表情包制作](https://github.com/MeetWq/nonebot-plugin-memes)             |                     |
+| nonebot_plugin_oddtext    | [文本生成器](https://github.com/noneplugin/nonebot-plugin-oddtext)       | 抽象话、火星文等文本生成        |
+| nonebot_plugin_abbrreply  | [缩写查询器](https://github.com/anlen123/nonebot_plugin_abbrreply)       | 查看缩写可能的解释           |
+| nonebot_plugin_miragetank | [幻影坦克图片合成](https://github.com/RafuiiChan/nonebot_plugin_miragetank) | 幻影坦克合成和分解           |
+| nonebot_plugin_petpet     | [头像表情包](https://github.com/MeetWq/nonebot-plugin-petpet)            | 表情包制作               |
+| nonebot-plugin-memes      | [表情包制作](https://github.com/MeetWq/nonebot-plugin-memes)             | 表情包制作               |
+
+
 
 
 
