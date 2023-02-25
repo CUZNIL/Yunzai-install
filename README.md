@@ -307,6 +307,32 @@
 
 <details><summary>时雨插件</summary>
 
+如果你在 **安装云崽** 这一步中听了我的建议打开了vbn，那么该插件应该会为你默认安装完毕。毕竟是脚本作者自己写的插件，有点私货其实也挺正常。
+
+如果不开vbn可能会出现下图的情况导致安装失败，。
+
+![输入图片说明](doc-use/image849.png)
+
+下面分为你有vbn和没有vbn俩种情况进行安装的教学，根据自己情况点开
+
+<details><summary>有vbn安装插件本体</summary>
+
+第一步当然是打开你的vbn，这个不便过多描述，为了过审我甚至一直故意打错字。
+
+![输入图片说明](doc-use/123894.png)
+
+
+
+</details>
+
+<details><summary>没有vbn安装插件本体</summary>
+
+
+
+
+</details>
+
+
 </details>
 
 
