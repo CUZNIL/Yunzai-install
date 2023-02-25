@@ -520,7 +520,29 @@ git remote -v
 
 ![输入图片说明](doc-use/123985.png)
 
-最后在这个界面发送你刚才下载的文件“py插件表情包资源.zip”，BOT会在合适的路径下载该文件。如图所示。
+最后在这个界面发送你刚才下载的文件“py插件表情包资源.zip”，BOT会在合适的路径下载该文件。如上图所示。
+
+接下来退出你的云崽回到Termux终端初始位置，或者干脆再开一个进程。
+
+<details><summary>如何再开一个进程</summary>
+
+如图所示，只要在侧边栏点击“NEW SESSION”即可再开一个进程。
+
+![输入图片说明](doc-use/image941224sss.png)
+
+———————————分割线———————————
+
+</details>
+
+接下来依次输入以下指令：
+
+```
+Arch/start 
+cd TRSS_Yunzai/Yunzai/plugins/py-plugin/
+unzip -o py插件表情包资源.zip
+rm data/README.txt py插件表情包资源.zip 
+```
+
 
 ———————————分割线———————————
 
