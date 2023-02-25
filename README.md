@@ -225,6 +225,22 @@
 
 ![输入图片说明](doc-use/image9658489.png)
 
+如果你想要安装.js插件，在Git 插件管理的安装插件处选择安装30号插件xitian-plugin戏天插件即可。
+
+<details><summary>安装脚本没有的插件</summary>
+
+举个例子，我想要安装[vits_yunzai_plugin](https://gitee.com/sumght/vits_yunzai_plugin)，但是云崽管理脚本没有这个插件。
+
+进入脚本→插件管理→Git 插件管理→安装插件，然后选择自定义，输入插件名(这个随便写，最好是和项目名一致)，输入插件URL(项目地址，直接从网页复制)，确认，稍等片刻即可安装成功。
+
+[输入图片说明](doc-use/41894qwr.png)
+
+但是安装自定义插件时可能会出现安装不完全的情况，需要自行阅读插件的README确认。比如我们可以看到[vits_yunzai_plugin](https://gitee.com/sumght/vits_yunzai_plugin#%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B)的安装并没有止步于此，还需要配置权重文件等，下面这张图里红框的部分我们都没有完成。脚本未适配的插件需要你手动折腾，碰到问题先自己搜索尝试解决，不行再有礼貌地带着清晰的问题找人问。
+
+![输入图片说明](doc-use/image21.png)
+
+</details>
+
 </details>
 
 看到这一行应该都会安装插件了吧，脚本还是挺省事的。
