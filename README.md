@@ -264,11 +264,12 @@
 
 
 
-| 序号 | 项目名                | 中文名         | 简述                                       |
-|----|--------------------|-------------|------------------------------------------|
-| 13 | miao-plugin        | 喵喵插件        | 角色面板查询(enka、米游社)、国内数据库查询(胡桃数据库)          |
-| 18 | Guoba-Plugin       | 锅巴插件        | 大量图鉴信息查询、stoken绑定、更新抽卡记录、米游社全部签到         |
-| 43 | xiaoyao-cvs-plugin | 图鉴插件(注意有重名) | 提供后台管理界面、配置机器人的基础设置以及原神相关设置、可视化自定义编辑喵喵帮助 |
+| 序号 | 项目名                                                               | 中文名         | 简述                                       |
+|----|-------------------------------------------------------------------|-------------|------------------------------------------|
+| 13 | [miao-plugin](https://gitee.com/yoimiya-kokomi/miao-plugin)       | 喵喵插件        | 角色面板查询(enka、米游社)、国内数据库查询(胡桃数据库)          |
+| 18 | [Guoba-Plugin](http://gitee.com/guoba-yunzai/guoba-plugin)        | 锅巴插件        | 大量图鉴信息查询、stoken绑定、更新抽卡记录、米游社全部签到         |
+| 43 | [xiaoyao-cvs-plugin](http://gitee.com/Ctrlcvs/xiaoyao-cvs-plugin) | 图鉴插件(注意有重名) | 提供后台管理界面、配置机器人的基础设置以及原神相关设置、可视化自定义编辑喵喵帮助 |
+
 
 
 
@@ -282,19 +283,21 @@
 #### 5.其他个人倾向安装的插件
 
 
-| 序号 | 项目名            | 中文名   | 简述                             |
-|----|----------------|-------|--------------------------------|
-| 单独 | TRSS-Plugin    | 时雨插件  | 本地语音合成，远程命令，文件操作等              |
-| 6  | ap-plugin      | 绘图插件  | AI绘图、抠图、二次元的我等                 |
-| 11 | auto-plugin    | 自动化插件 | 提供各式各样的定时任务功能和自动监听功能           |
-| 32 | earth-k-plugin | 土块插件  | 大量娱乐功能如emoji合成、全角色语音、chatgpt等  |
-| 24 | flower-plugin  | 抽卡插件  | 提供百连、三十连等操作以免用户抽卡刷屏            |
-| 单独 | py-plugin      | Py插件  | 内置NoneBot，可装队伍伤害计算、表情包制作、幻影坦克等 |
-| 2  | suiyue         | 碎月插件  | 查各地疫情，今日关键词，加减乘除计算器            |
-| 35 | windoge-plugin | 风歌插件  | xx参考面板，未复刻角色/武器，素材汇总图          |
-| 37 | xiaofei-plugin | 小飞插件  | 消息风控处理，高清语音点歌，查各地天气，原神注册时间     |
-| 30 | xitian-plugin  | 戏天插件  | 便捷管理js插件                       |
-| 21 | yenai-plugin   | 椰奶插件  | 角色收益曲线，群管理，消息监听等。提供对马甲的一些便捷操作  |
+| 序号 | 项目名                                                            | 中文名   | 简述                             |
+|----|----------------------------------------------------------------|-------|--------------------------------|
+| 单独 | [TRSS-Plugin](http://gitee.com/TimeRainStarSky/TRSS-Plugin)    | 时雨插件  | 本地语音合成，远程命令，文件操作等              |
+| 6  | [ap-plugin](https://gitee.com/yhArcadia/ap-plugin)             | 绘图插件  | AI绘图、抠图、二次元的我等                 |
+| 11 | [auto-plugin](https://gitee.com/Nwflower/auto-plugin)          | 自动化插件 | 提供各式各样的定时任务功能和自动监听功能           |
+| 32 | [earth-k-plugin](http://gitee.com/SmallK111407/earth-k-plugin) | 土块插件  | 大量娱乐功能如emoji合成、全角色语音、chatgpt等  |
+| 24 | [flower-plugin](http://gitee.com/Nwflower/flower-plugin)       | 抽卡插件  | 提供百连、三十连等操作以免用户抽卡刷屏            |
+| 单独 | [py-plugin](http://gitee.com/realhuhu/py-plugin)               | Py插件  | 内置NoneBot，可装队伍伤害计算、表情包制作、幻影坦克等 |
+| 2  | [suiyue](http://gitee.com/Acceleratorsky/suiyue)               | 碎月插件  | 查各地疫情，今日关键词，加减乘除计算器            |
+| 35 | [windoge-plugin](http://github.com/gxy12345/windoge-plugin)    | 风歌插件  | xx参考面板，未复刻角色/武器，素材汇总图          |
+| 37 | [xiaofei-plugin](http://gitee.com/xfdown/xiaofei-plugin)       | 小飞插件  | 消息风控处理，高清语音点歌，查各地天气，原神注册时间     |
+| 30 | [xitian-plugin](http://gitee.com/XiTianGame/xitian-plugin)     | 戏天插件  | 便捷管理js插件                       |
+| 21 | [yenai-plugin](http://gitee.com/yeyang52/yenai-plugin)         | 椰奶插件  | 角色收益曲线，群管理，消息监听等。提供对马甲的一些便捷操作  |
+
+
 
 
 上面表格中带数字序号的插件你们按需安装即可，步骤参考“使用脚本安装或卸载插件”，部分插件会出现一些脚本暂时没有解决的问题我会放在本文末尾单独介绍。下面稍微提一下时雨插件和Py插件的安装使用，你们按需点开即可。
