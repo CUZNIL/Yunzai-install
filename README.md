@@ -580,6 +580,8 @@ rm data/README.txt py插件表情包资源.zip && exit
 
 比如绘图插件提示我们在使用图片审核前需要安装baidu-aip-sdk这个依赖。那么我们以这个做为例子直接使用脚本安装。
 
+![输入图片说明](doc-use/image12893dc.png)
+
 进入Termux终端，输入`tsyz p g`以进入Git插件管理页面。接下来依次选择管理插件、你缺依赖的插件(这里是ap-plugin)、软件包管理、安装软件包，然后输入你缺的依赖名称(这里是baidu-aip-sdk)即可。下图展示了一次成功安装依赖的过程。
 
 ![输入图片说明](doc-use/image98qw7891.png)
@@ -614,8 +616,9 @@ Arch/start
 接下来手动安装pkg-config即可，输入下面这行指令。
 
 ```
-pacman -S pkg-config
+pacman -S --noconfirm pkg-config
 ```
+
 
 
 ———————————分割线———————————
