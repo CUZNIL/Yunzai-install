@@ -1,4 +1,4 @@
-# [V3云崽BOT手机搭建教程](https://gitee.com/CUZNIL/Yunzai-install)（进度：99%）
+# [V3云崽BOT手机搭建教程](https://gitee.com/CUZNIL/Yunzai-install)
 
 #### 0.介绍
 针对安卓手机搭建[V3云崽BOT](https://gitee.com/Le-niao/Yunzai-Bot)的一篇详细教程，也包含手机搭建前后会遇到的各种问题和解决方案。
