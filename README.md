@@ -708,7 +708,21 @@ pacman -Sy --noconfirm pkg-config node-gyp gcc make
 #### 6.我安装的js插件
 
 
-如果你还想获取其他插件，除了时雨脚本已经适配好的整整50个插件，还可以看看渔火整理的[插件库](https://gitee.com/yhArcadia/Yunzai-Bot-plugins-index)。
+| 插件名称                                                                                 | 大概功能                    |
+|--------------------------------------------------------------------------------------|-------------------------|
+| [账号管理](https://gitee.com/CUZNIL/Yunzai-QQmanager)                                    | 当前马甲被封禁时自动切换其他马甲        |
+| [给头衔](https://gitee.com/CUZNIL/Yunzai-giveTitle)                                     | 让群友可以自己领想要的专属头衔。        |
+| [查委托](https://gitee.com/mofengdada/chaweituo)                                        | 查询指定委托有无成就，如果有会概述如何获取   |
+| [谁艾特我](https://gitee.com/Saury-loser/Saury)                                          | 快速定位谁在几百年前@了你，降血压必备     |
+| [更换节点](https://gitee.com/ThreeYi/sy_js_plugin#1%E6%9B%B4%E6%8D%A2%E8%8A%82%E7%82%B9) | 更换喵喵插件使用的enka节点         |
+| 域名是否被拦截                                                                              | 判断给定网站能否访问              |
+| 优质睡眠                                                                                 | 将想要睡觉的群友禁言到明早八点         |
+| [真实评分](https://github.com/ldcivan/true_ranking_plugin)                               | 通过获取b站番剧长短评计算实际的评分数据    |
+| 恶臭计算器                                                                                | 论证任何数字都是臭的(生成114514计算式) |
+
+
+
+如果你还想获取其他插件，还可以看看渔火整理的[插件库](https://gitee.com/yhArcadia/Yunzai-Bot-plugins-index)。
 
 #### 测试环境
 如果你的手机环境跟我完全一致，则基本不可能出现本教程未涵盖的情况。
