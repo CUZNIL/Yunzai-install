@@ -368,10 +368,15 @@
 
 
  **至此彻底完成时雨插件的安装和配置。** 
+
+
 </details>
 
 
 <details><summary>Py插件</summary>
+
+
+<details><summary>我不知道如何安装配置该插件</summary>
 
 首先是安装说明：
 
@@ -406,7 +411,24 @@
 
 ![输入图片说明](doc-use/qw89f798f.png)
 
-确认到如图内容，说明该插件已经正确安装。下面是我个人安装的一些nonebot插件。
+确认到如图内容， **说明该插件已经正确安装。** 
+
+</details>
+
+下面是我个人安装的一些nonebot插件。
+
+| 插件名称                      | 中文名称                                                     | 大概功能                |
+|---------------------------|----------------------------------------------------------|---------------------|
+| nonebot-plugin-gspanel    | 原神角色展柜查询                                                 | 根据角色展柜中的数据计算队伍伤害    |
+| nonebot-plugin-bawiki     | BAWiki                                                   | 日程表、学生图鉴、角色语音、模拟抽卡等 |
+| nonebot_plugin_oddtext    | 文本生成器                                                    |                     |
+| nonebot_plugin_abbrreply  | 缩写查询器                                                    |                     |
+| nonebot_plugin_miragetank | 幻影坦克图片合成                                                 |                     |
+| nonebot_plugin_petpet     | [头像表情包](https://github.com/MeetWq/nonebot-plugin-petpet) |                     |
+| nonebot-plugin-memes      | [表情包制作](https://github.com/MeetWq/nonebot-plugin-memes)  |                     |
+
+
+                                                  
 
 
 
