@@ -510,6 +510,7 @@ git remote -v
 
 首先加入文末的[QQ群](http://jq.qq.com/?_wv=1027&k=tqiOtCVc)，我会在那里上传这俩个插件需要的所有资源。如果你不愿意或者不方便加群，这边还有天翼网盘的链接可用，[点击下载](https://cloud.189.cn/t/aaEjy2n6vAve)即可，注意需要[访问码：row2](https://cloud.189.cn/t/aaEjy2n6vAve)。
 
+下载好以后，将文件通过QQ分享给你的机器人。
 
 
 ———————————分割线———————————
