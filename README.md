@@ -381,7 +381,13 @@
 
 正常会显示依赖安装成功，如果失败根据提示重装直到依赖安装成功即可。
 
-如果不报错的话不需要后续配置。重新启动云崽，注意Python服务器是否正常启动。如果正常启动你的日志会长这个样子，会出现红框内一模一样的内容。
+如果不报错的话不需要后续配置。重新启动云崽，注意Python服务器是否正常启动。如果正常启动你的日志会长这个样子，会出现红框内一模一样的内容。请重点确认是否出现
+
+
+```
+[YzBot][20:15:38.541][MARK] python服务器启动成功
+[YzBot][20:15:38.550][INFO] py服务器连接成功
+```
 
 ![输入图片说明](doc-use/image1qf1879.png)
 
@@ -390,12 +396,17 @@
 
 ![输入图片说明](doc-use/imagew899.png)
 
-安装插件只需要发送`py下载插件+nonebot插件名称`即可。下面以安装[头像表情包](https://github.com/noneplugin/nonebot-plugin-petpet)为例。
+安装插件只需要发送`py下载插件+nonebot插件名称`即可。
 
-首先挑选我们喜欢的nonebot插件，可以从[nonebot商店](https://v2.nonebot.dev/store)获取，一会我会展示我安装的插件。
-
+首先挑选我们喜欢的nonebot插件，如图可以从[nonebot商店](https://v2.nonebot.dev/store)获取插件的完整名称，如果点不进去可以尝试[这个链接](https://nb2.baka.icu/store)。下面以安装[头像表情包](https://github.com/noneplugin/nonebot-plugin-petpet)为例。
 
 ![输入图片说明](doc-use/imagedqw9d8747we9184e2.png)
+
+从这里我们确认到我们需要的这个插件的完整名称是`nonebot_plugin_petpet`，所以我们在聊天界面向BOT发送消息`py下载插件nonebot_plugin_petpet`，稍等片刻即可安装完毕。
+
+![输入图片说明](doc-use/qw89f798f.png)
+
+确认到如图内容，说明该插件已经正确安装。下面是我个人安装的一些nonebot插件。
 
 
 
