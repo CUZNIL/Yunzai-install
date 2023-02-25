@@ -303,7 +303,7 @@ git remote -v
 
 
 
-<details><summary>点击查看脚本中对应位置</summary>
+<details><summary>点击查看脚本中这些插件的对应位置</summary>
 
 ![输入图片说明](doc-use/image984.png)
 
@@ -498,22 +498,13 @@ git remote -v
 
 </details>
 
-<details><summary>头像表情包</summary>
+<details><summary>头像表情包 表情包制作</summary>
 
+这俩个插件都需要下载一些资源才能正常使用，所以我放在一块说了。下载资源默认用的镜像站点，但是如图所示他的的速度太慢了，你有可能下俩三天都下不完。所以我建议你去手动下载好他需要的资源然后手动放到指定目录。
 
+![输入图片说明](doc-use/imageqf8944.png)
 
-
-
-
-
-———————————分割线———————————
-
-</details>
-                                                  
-<details><summary>表情包制作</summary>
-
-
-
+首先加入文末的[QQ群](http://jq.qq.com/?_wv=1027&k=tqiOtCVc)，我会在那里上传这俩个插件需要的所有资源。如果你不愿意或者不方便加群，
 
 
 
