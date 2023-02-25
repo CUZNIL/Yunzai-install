@@ -619,11 +619,13 @@ Arch/start
 pacman -Sy --noconfirm pkg-config node-gyp gcc make
 ```
 
-![输入图片说明](doc-use/image9849.png)
+![输入图片说明](doc-use/image948w4d.png)
 
 如图显示则依赖安装成功，我们现在回到管理脚本安装canvas依赖即可。
 
 ![输入图片说明](doc-use/123981273.png)
+
+如图显示依赖安装成功。
 
 ———————————分割线———————————
 
@@ -659,6 +661,37 @@ pacman -Sy --noconfirm pkg-config node-gyp gcc make
 ———————————分割线———————————
 
 </details>
+
+
+<details><summary>nodejieba依赖安装失败</summary>
+
+缺依赖了，我们需要去手动安装一些依赖，再回来安装nodejieba就可以了。具体步骤如下：
+
+首先进入Termux终端，输入下面这行指令以进入Arch容器。
+
+
+```
+Arch/start
+```
+
+接下来手动安装需要的依赖即可，输入下面这行指令。
+
+```
+pacman -Sy --noconfirm pkg-config node-gyp gcc make
+```
+
+![输入图片说明](doc-use/image948w4d.png)
+
+如图显示则依赖安装成功，我们现在回到管理脚本安装nodejieba依赖即可。
+
+
+
+如图显示依赖安装成功。
+
+———————————分割线———————————
+
+</details>
+
 
 
 
