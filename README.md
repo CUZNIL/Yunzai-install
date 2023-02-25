@@ -213,7 +213,7 @@
 
 脚本还是挺好懂的，所以这边默认你们都能使用管理脚本完成插件的安装。如果担心操作失误或者真的不会可以展开下面。
 
-<details><summary>使用脚本安装插件</summary>
+<details><summary>使用脚本安装或卸载插件</summary>
 
 本教程提到的所有插件该脚本都能在不碰键盘的情况下完成安装，所以不用担心。
 
@@ -240,6 +240,16 @@
 ![输入图片说明](doc-use/image21.png)
 
 </details>
+
+
+<details><summary>使用脚本卸载插件</summary>
+
+在Termux终端输入`tsyz`，进入云崽管理脚本。依次选择插件管理→Git 插件管理→管理插件→你要卸载的插件(图中我们卸载vits插件)→删除插件→最后确认，然后稍等一俩秒就卸载干净了。
+
+![输入图片说明](doc-use/image98qe.png)
+
+</details>
+
 
 </details>
 
