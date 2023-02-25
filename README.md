@@ -719,6 +719,8 @@ pacman -Sy --noconfirm pkg-config node-gyp gcc make
 | 优质睡眠                                                                                 | 将想要睡觉的群友禁言到明早八点         |
 | [真实评分](https://github.com/ldcivan/true_ranking_plugin)                               | 通过获取b站番剧长短评计算实际的评分数据    |
 | 恶臭计算器                                                                                | 论证任何数字都是臭的(生成114514计算式) |
+| 查询qq权重                                                                               | 查询QQ好的权重，越低越容易被封        |
+
 
 
 
