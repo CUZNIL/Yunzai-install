@@ -766,7 +766,7 @@ git remote -v
 
 </details>
 
-<details><summary>报错：版本过低</summary>
+<details><summary>登录报错：版本过低</summary>
 
 首先贴一张别人做的图，接下来的操作大概就是这个原理。不用跟这个图，管理脚本会处理好。
 
@@ -784,7 +784,7 @@ git remote -v
 
 </details>
 
-<details><summary>报错：禁止登录</summary>
+<details><summary>登录报错：禁止登录</summary>
 
 要解决这个报错，如果你会使用openssh在电脑使用xftp编辑文件会方便很多。这里为了方便讲述还是使用手机操作。
 
@@ -809,7 +809,7 @@ git remote -v
 </details>
 
 
-<details><summary>没有vbn安装插件本体</summary>
+<details><summary>没有vbn安装时雨插件</summary>
 
 请先尝试点击[这个网页](https://trss.me/)，如果能在不手动刷新的情况下一次就正常显示如下页面，恭喜你网络不错，你可以直接使用下面有vbn的步骤但是不用打开vbn，现在可以收起这个栏目。
 
@@ -827,7 +827,7 @@ git remote -v
 
 </details>
 
-<details><summary>有vbn安装插件本体</summary>
+<details><summary>有vbn安装时雨插件</summary>
 
 第一步当然是打开你的vbn，这个不便过多描述，为了过审我甚至一直故意打错字。
 
@@ -846,8 +846,7 @@ git remote -v
 </details>
 
 
-<details><summary>插件配置</summary>
-
+<details><summary>时雨插件合成语音没反应</summary>
 
 进入Termux终端，输入`tsyz`进入云崽管理脚本。依次选择插件管理、Git插件管理、TRSS插件。
 
@@ -865,7 +864,7 @@ git remote -v
 
 </details>
 
-<details><summary>头像表情包 表情包制作</summary>
+<details><summary>Nonebot插件：头像表情包、表情包制作 没反应</summary>
 
 这俩个插件都需要下载一些资源才能正常使用，所以我放在一块说了。下载资源默认用的镜像站点，但是如图所示他的的速度太慢了，你有可能下俩三天都下不完。所以我建议你去手动下载好他需要的资源然后手动放到指定目录。
 
@@ -923,7 +922,7 @@ rm data/README.txt py插件表情包资源.zip && exit
 
 </details>
 
-<details><summary>canvas依赖安装失败</summary>
+<details><summary>绘图插件：canvas依赖安装失败</summary>
 
 如果你的报错长下面这个样子，则继续往下看，否则大概率是网络问题，请先重试几次。
 
@@ -962,7 +961,7 @@ pacman -Sy --noconfirm pkg-config node-gyp gcc make
 
 </details>
 
-<details><summary>nodejieba依赖安装失败</summary>
+<details><summary>碎月插件：nodejieba依赖安装失败</summary>
 
 缺依赖了，我们需要去手动安装一些依赖，再回来安装nodejieba就可以了。具体步骤如下：
 
