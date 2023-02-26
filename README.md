@@ -298,11 +298,12 @@ git remote -v
 
 
 
-| 序号 | 项目名                                                               | 中文名         | 简述                                       |
+| 序号 | Git项目名                                                            | 中文名         | 简述                                       |
 |----|-------------------------------------------------------------------|-------------|------------------------------------------|
 | 13 | [miao-plugin](https://gitee.com/yoimiya-kokomi/miao-plugin)       | 喵喵插件        | 角色面板查询(enka、米游社)、国内数据库查询(胡桃数据库)          |
 | 18 | [Guoba-Plugin](http://gitee.com/guoba-yunzai/guoba-plugin)        | 锅巴插件        | 大量图鉴信息查询、stoken绑定、更新抽卡记录、米游社全部签到         |
 | 43 | [xiaoyao-cvs-plugin](http://gitee.com/Ctrlcvs/xiaoyao-cvs-plugin) | 图鉴插件(注意有重名) | 提供后台管理界面、配置机器人的基础设置以及原神相关设置、可视化自定义编辑喵喵帮助 |
+
 
 
 
@@ -320,7 +321,7 @@ git remote -v
 ## 5.我安装的Git插件
 
 
-| 序号 | 项目名                                                            | 中文名   | 简述                             |
+| 序号 | Git项目名                                                         | 中文名   | 简述                             |
 |----|----------------------------------------------------------------|-------|--------------------------------|
 | 单独 | [TRSS-Plugin](http://gitee.com/TimeRainStarSky/TRSS-Plugin)    | 时雨插件  | 本地语音合成，远程命令，文件操作等              |
 | 6  | [ap-plugin](https://gitee.com/yhArcadia/ap-plugin)             | 绘图插件  | AI绘图、抠图、二次元的我等                 |
@@ -333,6 +334,8 @@ git remote -v
 | 37 | [xiaofei-plugin](http://gitee.com/xfdown/xiaofei-plugin)       | 小飞插件  | 消息风控处理，高清语音点歌，查各地天气，原神注册时间     |
 | 30 | [xitian-plugin](http://gitee.com/XiTianGame/xitian-plugin)     | 戏天插件  | 便捷管理js插件                       |
 | 21 | [yenai-plugin](http://gitee.com/yeyang52/yenai-plugin)         | 椰奶插件  | 角色收益曲线，群管理，消息监听等。提供对马甲的一些便捷操作  |
+
+
 
 
 
@@ -466,15 +469,16 @@ git remote -v
 
 下面是我个人安装的一些nonebot插件。
 
-| 插件名称                      | 中文名称                                                                | 大概功能                |
-|---------------------------|---------------------------------------------------------------------|---------------------|
-| nonebot-plugin-gspanel    | [原神角色展柜查询](https://github.com/monsterxcn/nonebot-plugin-gspanel)    | 根据角色展柜中的数据计算队伍伤害。    |
+| nonebot插件名称               | 中文名称                                                                | 大概功能                     |
+|---------------------------|---------------------------------------------------------------------|--------------------------|
+| nonebot-plugin-gspanel    | [原神角色展柜查询](https://github.com/monsterxcn/nonebot-plugin-gspanel)    | 根据角色展柜中的数据计算队伍伤害。        |
 | nonebot-plugin-bawiki     | [BAWiki](https://github.com/lgc2333/nonebot-plugin-bawiki/)         | 碧蓝档案日程表、学生图鉴、角色语音、模拟抽卡等。 |
-| nonebot_plugin_oddtext    | [文本生成器](https://github.com/noneplugin/nonebot-plugin-oddtext)       | 抽象话、火星文等文本生成。        |
-| nonebot_plugin_abbrreply  | [缩写查询器](https://github.com/anlen123/nonebot_plugin_abbrreply)       | 查看缩写可能的解释。           |
-| nonebot_plugin_miragetank | [幻影坦克图片合成](https://github.com/RafuiiChan/nonebot_plugin_miragetank) | 幻影坦克合成和分解。          |
-| nonebot_plugin_petpet     | [头像表情包](https://github.com/MeetWq/nonebot-plugin-petpet)            | 表情包制作。               |
-| nonebot-plugin-memes      | [表情包制作](https://github.com/MeetWq/nonebot-plugin-memes)             | 表情包制作。               |
+| nonebot_plugin_oddtext    | [文本生成器](https://github.com/noneplugin/nonebot-plugin-oddtext)       | 抽象话、火星文等文本生成。            |
+| nonebot_plugin_abbrreply  | [缩写查询器](https://github.com/anlen123/nonebot_plugin_abbrreply)       | 查看缩写可能的解释。               |
+| nonebot_plugin_miragetank | [幻影坦克图片合成](https://github.com/RafuiiChan/nonebot_plugin_miragetank) | 幻影坦克合成和分解。               |
+| nonebot_plugin_petpet     | [头像表情包](https://github.com/MeetWq/nonebot-plugin-petpet)            | 表情包制作。                   |
+| nonebot-plugin-memes      | [表情包制作](https://github.com/MeetWq/nonebot-plugin-memes)             | 表情包制作。                   |
+
 
 
 针对上面这些插件中部分可能遇到问题的插件我单独做说明，要装哪个插件就只打开哪个栏目。
@@ -708,7 +712,7 @@ pacman -Sy --noconfirm pkg-config node-gyp gcc make
 ## 6.我安装的js插件
 
 
-| 插件名称                                                                                 | 大概功能                    |
+| js插件名称                                                                               | 大概功能                    |
 |--------------------------------------------------------------------------------------|-------------------------|
 | [账号管理](https://gitee.com/CUZNIL/Yunzai-QQmanager)                                    | 当前马甲被封禁时自动切换其他马甲        |
 | [给头衔](https://gitee.com/CUZNIL/Yunzai-giveTitle)                                     | 让群友可以自己领想要的专属头衔。        |
@@ -720,6 +724,7 @@ pacman -Sy --noconfirm pkg-config node-gyp gcc make
 | [真实评分](https://github.com/ldcivan/true_ranking_plugin)                               | 通过获取b站番剧长短评计算实际的评分数据    |
 | 恶臭计算器                                                                                | 论证任何数字都是臭的(生成114514计算式) |
 | 查询qq权重                                                                               | 查询QQ好的权重，越低越容易被封        |
+
 
 
 
