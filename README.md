@@ -2,6 +2,9 @@
 
 ## 0.介绍
 针对安卓手机搭建[V3云崽BOT](https://gitee.com/Le-niao/Yunzai-Bot)的一篇详细教程，也包含手机搭建前后会遇到的各种问题和解决方案。
+
+[本文Github页面](http://github.com/CUZNIL/Yunzai-install) [本文Gitee页面](https://gitee.com/CUZNIL/Yunzai-install)
+
 | 搭建必备    | 有的话最好           |
 |---------|-----------------|
 | 安卓手机 网络 | vbn 遇到问题先搜索的好习惯 |
