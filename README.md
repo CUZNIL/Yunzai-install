@@ -1002,7 +1002,7 @@ pacman -Sy --noconfirm pkg-config node-gyp gcc make
 
 ![输入图片说明](doc-use/dw4q89d.png)
 
-如图所示是我的BOT运行环境。出于省电的考虑建议开启你手机的超级省电模式，并在息屏状态下运行云崽。以下是具体步骤，以MIUI13为例：
+如图所示是我的BOT运行环境。出于省电的考虑建议开启你手机的超级省电模式，并在息屏状态下运行云崽。以下是具体步骤，以红米K40的MIUI13为例：
 
 进入手机的控制中心（一般在通知栏附近），寻找超级省电按钮。如果没有，可能需要再编辑里找一找手动添加后再选择。
 
@@ -1050,9 +1050,9 @@ sshd && termux-wake-lock && tsyz y f
 
 <details><summary>2.使用NMM便捷管理云崽文件</summary>
 
-NMM应用可以从文末的[QQ群](http://jq.qq.com/?_wv=1027&k=tqiOtCVc)的群文件的BOT资源文件夹内获取，或者从[天翼网盘下载（访问码：pui5）](https://cloud.189.cn/t/n2i6ZfJnUNRb)。
+NMM应用可以从文末的[QQ群](http://jq.qq.com/?_wv=1027&k=tqiOtCVc)的群文件的BOT资源文件夹内获取，或者从[天翼网盘下载（访问码：pui5）](https://cloud.189.cn/t/n2i6ZfJnUNRb)。下载后安装到手机。
 
-<details><summary>如果手机已经root点此处</summary>
+<details><summary>如果手机已经root点此处。</summary>
 
 如果手机已经root，可以直接访问`/data/data/com.termux/files/home`，这里就是termux的目录。
 
@@ -1064,7 +1064,13 @@ NMM应用可以从文末的[QQ群](http://jq.qq.com/?_wv=1027&k=tqiOtCVc)的群�
 
 </details>
 
-下面介绍你没有root的处理方式。
+下面介绍你没有root的处理方式。首先请 **确保Termux没有被后台杀掉，然后打开NMM** 。以一加ace2的ColorOS 13为例演示如何通过NMM访问Termux文件。
+
+![输入图片说明](doc-use/imag213e.png)
+
+
+
+
 
 ———————————分割线———————————
 
@@ -1076,9 +1082,9 @@ NMM应用可以从文末的[QQ群](http://jq.qq.com/?_wv=1027&k=tqiOtCVc)的群�
 
 小米8(8+128) 系统版本：[MIUI12.5.2](https://xiaomirom.com/download/mi-8-dipper-stable-V12.5.2.0.QEACNXM/)
 
-红米k40(12+256) 系统版本：[MIUI13.0.7](https://xiaomirom.com/download/redmi-k40-mi-11x-poco-f3-alioth-stable-V13.0.7.0.SKHCNXM/) 乌堆MIUI开发版14.0.23 [MIUI14.0.5](https://xiaomirom.com/download/redmi-k40-mi-11x-poco-f3-alioth-stable-V14.0.5.0.TKHCNXM/)
+红米K40(12+256) 系统版本：[MIUI13.0.7](https://xiaomirom.com/download/redmi-k40-mi-11x-poco-f3-alioth-stable-V13.0.7.0.SKHCNXM/) 乌堆MIUI开发版14.0.23 [MIUI14.0.5](https://xiaomirom.com/download/redmi-k40-mi-11x-poco-f3-alioth-stable-V14.0.5.0.TKHCNXM/)
 
-红米k50(8+256) 系统版本：[MIUI13.0.13](https://xiaomirom.com/download/redmi-k50-rubens-stable-V13.0.13.0.SLNCNXM/) 乌堆MIUI13.0.13
+红米K50(8+256) 系统版本：[MIUI13.0.13](https://xiaomirom.com/download/redmi-k50-rubens-stable-V13.0.13.0.SLNCNXM/) 乌堆MIUI13.0.13
 
 ## 参考信息
 
