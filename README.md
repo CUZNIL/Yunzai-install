@@ -23,7 +23,7 @@
 <details><summary>下载安装</summary>
 
 
-[点此下载TERMUX最新版本](https://f-droid.org/repo/com.termux_118.apk)。如果点击后无法正常下载可以加一下这篇文章结尾的[QQ群](http://jq.qq.com/?_wv=1027&k=tqiOtCVc)，我会上传到群文件。
+[点此下载TERMUX最新版本](https://f-droid.org/repo/com.termux_118.apk)。如果点击后无法正常下载可以加文末的[QQ群](http://jq.qq.com/?_wv=1027&k=tqiOtCVc)从群文件的BOT资源文件夹内获取，亦或是使用[天翼网盘下载（访问码：u9g9）](https://cloud.189.cn/t/rY3ueeYzENBj)
 
 
 ![输入图片说明](doc-use/1.png)
@@ -520,7 +520,7 @@ git remote -v
 
 接下来你有俩个方案，要么你回到文章开头安装openssh，要么你回到上面安装时雨插件。因为ssh门槛相对较高，我这里用时雨插件演示。如果你会用ssh，你看完应该就知道怎么用ssh操作了，所以我就不重复说明了。
 
-首先加入文末的[QQ群](http://jq.qq.com/?_wv=1027&k=tqiOtCVc)，我会在那里上传这俩个插件需要的所有资源。如果你不愿意或者不方便加群，这边还有天翼网盘的链接可用，[点击下载py插件表情包资源.zip](https://cloud.189.cn/t/aaEjy2n6vAve)即可，注意需要[访问码：row2](https://cloud.189.cn/t/aaEjy2n6vAve)。
+首先加入文末的[QQ群](http://jq.qq.com/?_wv=1027&k=tqiOtCVc)，我会在群文件的BOT资源文件夹内上传这俩个插件需要的所有资源。如果你不愿意或者不方便加群，这边还有天翼网盘的链接可用，[点击下载py插件表情包资源.zip](https://cloud.189.cn/t/aaEjy2n6vAve)即可，注意需要[访问码：row2](https://cloud.189.cn/t/aaEjy2n6vAve)。
 
 然后在QQ聊天界面向你的BOT发送以下内容，在群聊界面也可以。
 
@@ -876,7 +876,7 @@ git remote -v
 
 接下来你有俩个方案，要么你回到文章开头安装openssh，要么你回到上面安装时雨插件。因为ssh门槛相对较高，我这里用时雨插件演示。如果你会用ssh，你看完应该就知道怎么用ssh操作了，所以我就不重复说明了。
 
-首先加入文末的[QQ群](http://jq.qq.com/?_wv=1027&k=tqiOtCVc)，我会在那里上传这俩个插件需要的所有资源。如果你不愿意或者不方便加群，这边还有天翼网盘的链接可用，[点击下载py插件表情包资源.zip](https://cloud.189.cn/t/aaEjy2n6vAve)即可，注意需要[访问码：row2](https://cloud.189.cn/t/aaEjy2n6vAve)。
+首先加入文末的[QQ群](http://jq.qq.com/?_wv=1027&k=tqiOtCVc)，我会在群文件的BOT资源文件夹内上传这俩个插件需要的所有资源。如果你不愿意或者不方便加群，这边还有天翼网盘的链接可用，[点击下载py插件表情包资源.zip](https://cloud.189.cn/t/aaEjy2n6vAve)即可，注意需要[访问码：row2](https://cloud.189.cn/t/aaEjy2n6vAve)。
 
 然后在QQ聊天界面向你的BOT发送以下内容，在群聊界面也可以。
 
@@ -1050,7 +1050,8 @@ sshd && termux-wake-lock && tsyz y f
 
 <details><summary>2.使用NMM便捷管理云崽文件</summary>
 
-NMM应用可以从文末的[QQ群](http://jq.qq.com/?_wv=1027&k=tqiOtCVc)获取，或者从[天翼网盘下载（访问码：pui5）](https://cloud.189.cn/t/n2i6ZfJnUNRb)。
+NMM应用可以从文末的[QQ群](http://jq.qq.com/?_wv=1027&k=tqiOtCVc)的群文件的BOT资源文件夹内获取，或者从[天翼网盘下载（访问码：pui5）](https://cloud.189.cn/t/n2i6ZfJnUNRb)。
+
 <details><summary>如果手机已经root点此处</summary>
 
 如果手机已经root，可以直接访问`/data/data/com.termux/files/home`，这里就是termux的目录。
