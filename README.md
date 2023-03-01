@@ -1051,7 +1051,6 @@ sshd && termux-wake-lock && tsyz y f
 <details><summary>2.使用NMM便捷管理云崽文件</summary>
 
 NMM应用可以从文末的[QQ群](http://jq.qq.com/?_wv=1027&k=tqiOtCVc)获取，或者从[天翼网盘下载（访问码：pui5）](https://cloud.189.cn/t/n2i6ZfJnUNRb)。
-
 <details><summary>如果手机已经root点此处</summary>
 
 如果手机已经root，可以直接访问`/data/data/com.termux/files/home`，这里就是termux的目录。
