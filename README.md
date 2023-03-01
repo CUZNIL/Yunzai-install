@@ -1000,19 +1000,29 @@ pacman -Sy --noconfirm pkg-config node-gyp gcc make
 
 <details><summary>1.息屏挂机运行云崽</summary>
 
-
 ![输入图片说明](doc-use/dw4q89d.png)
 
 如图所示是我的BOT运行环境。出于省电的考虑建议开启你手机的超级省电模式，并在息屏状态下运行云崽。以下是具体步骤：
 
+进入手机的控制中心（一般在通知栏附近），寻找超级省电按钮。如果没有，可能需要再编辑里找一找手动添加后再选择。
 
-———————————分割线———————————
+![输入图片说明](doc-use/imawgeqw984.png)
 
-</details>
+如图进入超级省电模式后，手动添加你运行机器人需要的APP，比如这里我加了Termux本体、vbn和滑动验证助手。如果没啥问题其实加个Termux就行。
 
-<details><summary>2.使用NMM管理云崽文件</summary>
+进入Termux终端，输入下面这行指令以在息屏情况下持续地运行云崽。
 
-在写了在写了
+```
+termux-wake-lock && tsyz y f
+```
+
+当然如果你有在使用openssh，也可以用这行指令。
+
+```
+sshd && termux-wake-lock && tsyz y f
+```
+
+
 
 ———————————分割线———————————
 
