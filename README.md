@@ -1053,6 +1053,7 @@ sshd && termux-wake-lock && tsyz y f
 NMM应用可以从文末的[QQ群](http://jq.qq.com/?_wv=1027&k=tqiOtCVc)获取，或者从[天翼网盘下载（访问码：pui5）](https://cloud.189.cn/t/n2i6ZfJnUNRb)。
 
 <details><summary>如果手机已经root点此处</summary>
+
 如果手机已经root，可以直接访问`/data/data/com.termux/files/home`，这里就是termux的目录。
 
 再进入`/Arch/rootfs/root`，这里就是Arch容器的目录。
