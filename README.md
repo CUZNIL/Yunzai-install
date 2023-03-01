@@ -1050,7 +1050,19 @@ sshd && termux-wake-lock && tsyz y f
 
 <details><summary>2.使用NMM管理云崽文件</summary>
 
-如果你有root手机可以自行寻找，下面介绍你没有root的处理方式。
+
+<details><summary>如果手机已经root点此处</summary>
+如果手机已经root，可以直接访问`/data/data/com.termux/files/home`，这里就是termux的目录。
+
+再进入`/Arch/rootfs/root`，这里就是Arch容器的目录。
+
+最后再进入`/TRSS_Yunzai/Yunzai`，这里就是云崽本体的根目录。
+
+———————————分割线———————————
+
+</details>
+
+下面介绍你没有root的处理方式。
 
 ———————————分割线———————————
 
