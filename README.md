@@ -995,9 +995,39 @@ pacman -Sy --noconfirm pkg-config node-gyp gcc make
 </details>
 
 
+## 8.使用习惯建议
 
+
+<details><summary>1.息屏挂机运行云崽</summary>
+
+
+![输入图片说明](doc-use/dw4q89d.png)
+
+如图所示是我的BOT运行环境。出于省电的考虑建议开启你手机的超级省电模式，并在息屏状态下运行云崽。以下是具体步骤：
+
+
+———————————分割线———————————
+
+</details>
+
+<details><summary>2.使用NMM管理云崽文件</summary>
+
+在写了在写了
+
+———————————分割线———————————
+
+</details>
+
+<details><summary>2.使用NMM管理云崽文件</summary>
+
+在写了在写了
+
+———————————分割线———————————
+
+</details>
 
 ## 测试环境
+
 如果你的手机环境跟我完全一致，则基本不可能出现本教程未涵盖的情况。
 
 小米8(8+128) 系统版本：[MIUI12.5.2](https://xiaomirom.com/download/mi-8-dipper-stable-V12.5.2.0.QEACNXM/)
