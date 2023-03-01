@@ -1040,7 +1040,6 @@ sshd && termux-wake-lock && tsyz y f
 
 这样termux就会记住我们上一次输入了这条指令，我们下次因各种原因重新打开termux时就可以按"↑"回忆这条命令，再按enter确认输入即可。
 
-
 ———————————分割线———————————
 
 </details>
@@ -1051,7 +1050,7 @@ sshd && termux-wake-lock && tsyz y f
 
 <details><summary>2.使用NMM管理云崽文件</summary>
 
-在写了在写了
+如果你有root手机可以自行寻找，下面介绍你没有root的处理方式。
 
 ———————————分割线———————————
 
