@@ -3,7 +3,7 @@
 ## 0.介绍
 针对安卓手机搭建[V3云崽BOT](https://gitee.com/Le-niao/Yunzai-Bot)的一篇详细教程，也包含手机搭建前后会遇到的各种问题和解决方案。
 
-上次编辑时间：2023年3月2日00:35:59
+上次编辑时间：2023年3月4日15:13:34
 
 [本文Github页面](http://github.com/CUZNIL/Yunzai-install) [本文Gitee页面](https://gitee.com/CUZNIL/Yunzai-install)
 
@@ -11,7 +11,7 @@
 |---------|-----------------|
 | 安卓手机 网络 | vbn 遇到问题先搜索的好习惯 |
 
-如果你已经成功搭建，只是遇到一些问题，可以直接阅读[7.部分报错处理整合](https://gitee.com/CUZNIL/Yunzai-install/#7%E9%83%A8%E5%88%86%E6%8A%A5%E9%94%99%E5%A4%84%E7%90%86%E6%95%B4%E5%90%88)。
+如果你已经成功搭建，只是遇到一些问题，可以直接阅读[接近文末的7.部分报错处理整合](https://gitee.com/CUZNIL/Yunzai-install/#7%E9%83%A8%E5%88%86%E6%8A%A5%E9%94%99%E5%A4%84%E7%90%86%E6%95%B4%E5%90%88)。
 
 个人建议在空闲存储空间大于32G的手机上进行搭建。以下教程演示用的是红米K50(8+256)，使用时雨的[TRSS 脚本](https://trss.me/)搭建。
 
