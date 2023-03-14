@@ -147,6 +147,8 @@ bash <(curl -L gitee.com/TimeRainStarSky/TRSS_Yunzai/raw/main/Install.sh)
 
 <details><summary>云崽换源</summary>
 
+ **如果你是使用时雨脚本安装，则不需要执行此步。** (这是因为时雨脚本目前已经换源[他自己的云崽了](https://gitee.com/TimeRainStarSky/Yunzai-Bot))
+
 由于乐神云崽似乎暂时停更了，我们手动换喵喵的云崽已获取大佬的维护。进入Termux终端。输入`Arch/start`进入容器。
 
 ![输入图片说明](doc-use/asdff.png)
@@ -373,7 +375,13 @@ git remote -v
 
 从脚本默认的入口无法安装插件本体，就是因为你无法访问那个网站。时雨可能是出于后续方便维护的考虑做了重定向，但是你网络不好是没法访问的。不过我们只要手动安装即可，毕竟插件的项目地址本身是gitee，国内应该都可以访问。
 
-进入Termux终端，输入`tsyz`进入云崽管理脚本。依次选择插件管理、Git插件管理、安装插件、自定义，然后输入TRSS-Plugin，输入https://gitee.com/TimeRainStarSky/TRSS-Plugin/，最好点击确认即可。
+进入Termux终端，输入`tsyz`进入云崽管理脚本。依次选择插件管理、Git插件管理、安装插件、自定义，然后输入TRSS-Plugin，输入
+
+```
+https://gitee.com/TimeRainStarSky/TRSS-Plugin/
+```
+
+，最后点击确认即可。
 
 ![输入图片说明](doc-use/imageqwf789.png)
 
@@ -733,6 +741,8 @@ pacman -Sy --noconfirm pkg-config node-gyp gcc make
 | [真实评分](https://github.com/ldcivan/true_ranking_plugin)                               | 通过获取b站番剧长短评计算实际的评分数据    |
 | 恶臭计算器                                                                                | 论证任何数字都是臭的(生成114514计算式) |
 | 查询qq权重                                                                               | 查询QQ好的权重，越低越容易被封        |
+| [redis数据库备份](https://gitee.com/ThreeYi/sanyi-plugin/raw/master/apps/data_recover.js) | 备份redis中的QQ-uid         |
+
 
 
 
@@ -745,6 +755,8 @@ pacman -Sy --noconfirm pkg-config node-gyp gcc make
 以下报错或处理都在前文合适的位置出现过了，放在这里是为了方便查阅，如已仔细阅读前文则不必再看。
 
 <details><summary>云崽换源</summary>
+
+ **如果你是使用时雨脚本安装，则不需要执行此步。** (这是因为时雨脚本目前已经换源[他自己的云崽了](https://gitee.com/TimeRainStarSky/Yunzai-Bot))
 
 由于乐神云崽似乎暂时停更了，我们手动换喵喵的云崽已获取大佬的维护。进入Termux终端。输入`Arch/start`进入容器。
 
@@ -826,7 +838,13 @@ git remote -v
 
 从脚本默认的入口无法安装插件本体，就是因为你无法访问那个网站。时雨可能是出于后续方便维护的考虑做了重定向，但是你网络不好是没法访问的。不过我们只要手动安装即可，毕竟插件的项目地址本身是gitee，国内应该都可以访问。
 
-进入Termux终端，输入`tsyz`进入云崽管理脚本。依次选择插件管理、Git插件管理、安装插件、自定义，然后输入TRSS-Plugin，输入https://gitee.com/TimeRainStarSky/TRSS-Plugin/，最好点击确认即可。
+进入Termux终端，输入`tsyz`进入云崽管理脚本。依次选择插件管理、Git插件管理、安装插件、自定义，然后输入TRSS-Plugin，输入
+
+```
+https://gitee.com/TimeRainStarSky/TRSS-Plugin/
+```
+
+，最后点击确认即可。
 
 ![输入图片说明](doc-use/imageqwf789.png)
 
