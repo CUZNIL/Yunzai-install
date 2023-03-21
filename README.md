@@ -3,7 +3,7 @@
 ## 0.介绍
 针对安卓手机搭建[V3云崽BOT](https://gitee.com/Le-niao/Yunzai-Bot)的一篇详细教程，也包含手机搭建前后会遇到的各种问题和解决方案。
 
-上次编辑时间：2023年3月14日10:59:05
+上次编辑时间：2023年3月21日21:31:07
 
 [本文Github页面](http://github.com/CUZNIL/Yunzai-install) [本文Gitee页面](https://gitee.com/CUZNIL/Yunzai-install)
 
@@ -310,7 +310,7 @@ git remote -v
 |----|-------------------------------------------------------------------|-------------|----------------------------------------------|
 | 13 | [miao-plugin](https://gitee.com/yoimiya-kokomi/miao-plugin)       | 喵喵插件        | 角色面板查询(enka、米游社)、国内数据库查询(胡桃数据库)              |
 | 18 | [Guoba-Plugin](http://gitee.com/guoba-yunzai/guoba-plugin)        | 锅巴插件        | 提供后台管理界面、配置机器人的基础设置以及原神相关设置、可视化自定义编辑喵喵帮助     |
-| 43 | [xiaoyao-cvs-plugin](http://gitee.com/Ctrlcvs/xiaoyao-cvs-plugin) | 图鉴插件(注意有重名) | 扫码登录绑定ck/sk、大量图鉴信息查询、stoken绑定、更新抽卡记录、米游社全部签到 |
+| 44 | [xiaoyao-cvs-plugin](http://gitee.com/Ctrlcvs/xiaoyao-cvs-plugin) | 图鉴插件(注意有重名) | 扫码登录绑定ck/sk、大量图鉴信息查询、stoken绑定、更新抽卡记录、米游社全部签到 |
 
 
 
@@ -337,17 +337,15 @@ git remote -v
 | 单独 | [TRSS-Plugin](http://gitee.com/TimeRainStarSky/TRSS-Plugin)    | 时雨插件  | 本地语音合成，远程命令，文件操作等              |
 | 6  | [ap-plugin](https://gitee.com/yhArcadia/ap-plugin)             | 绘图插件  | AI绘图、抠图、二次元的我等                 |
 | 11 | [auto-plugin](https://gitee.com/Nwflower/auto-plugin)          | 自动化插件 | 提供各式各样的定时任务功能和自动监听功能           |
-| 32 | [earth-k-plugin](http://gitee.com/SmallK111407/earth-k-plugin) | 土块插件  | 大量娱乐功能如emoji合成、全角色语音、chatgpt等  |
+| 31 | [earth-k-plugin](http://gitee.com/SmallK111407/earth-k-plugin) | 土块插件  | 大量娱乐功能如emoji合成、全角色语音、chatgpt等  |
 | 24 | [flower-plugin](http://gitee.com/Nwflower/flower-plugin)       | 抽卡插件  | 提供百连、三十连等操作以免用户抽卡刷屏            |
 | 单独 | [py-plugin](http://gitee.com/realhuhu/py-plugin)               | Py插件  | 内置NoneBot，可装队伍伤害计算、表情包制作、幻影坦克等 |
 | 2  | [suiyue](http://gitee.com/Acceleratorsky/suiyue)               | 碎月插件  | 查各地疫情，今日关键词，加减乘除计算器            |
 | 35 | [windoge-plugin](http://github.com/gxy12345/windoge-plugin)    | 风歌插件  | xx参考面板，未复刻角色/武器，素材汇总图          |
 | 37 | [xiaofei-plugin](http://gitee.com/xfdown/xiaofei-plugin)       | 小飞插件  | 消息风控处理，高清语音点歌，查各地天气，原神注册时间     |
-| 30 | [xitian-plugin](http://gitee.com/XiTianGame/xitian-plugin)     | 戏天插件  | 便捷管理js插件                       |
+| 29 | [xitian-plugin](http://gitee.com/XiTianGame/xitian-plugin)     | 戏天插件  | 便捷管理js插件                       |
 | 21 | [yenai-plugin](http://gitee.com/yeyang52/yenai-plugin)         | 椰奶插件  | 角色收益曲线，群管理，消息监听等。提供对马甲的一些便捷操作  |
-
-
-
+| 28 | [xiaoye-plugin](https://gitee.com/xiaoye12123/xiaoye-plugin)   | 小叶插件  | 模拟刷圣遗物和强化,可自定义概率               |
 
 
 上面表格中带数字序号的插件你们按需安装即可，步骤参考“使用脚本安装或卸载插件”，部分插件会出现一些脚本暂时没有解决的问题我一会再单独介绍。
@@ -493,9 +491,10 @@ https://gitee.com/TimeRainStarSky/TRSS-Plugin/
 | nonebot_plugin_oddtext    | [文本生成器](https://github.com/noneplugin/nonebot-plugin-oddtext)       | 抽象话、火星文等文本生成。            |
 | nonebot_plugin_abbrreply  | [缩写查询器](https://github.com/anlen123/nonebot_plugin_abbrreply)       | 查看缩写可能的解释。               |
 | nonebot_plugin_miragetank | [幻影坦克图片合成](https://github.com/RafuiiChan/nonebot_plugin_miragetank) | 幻影坦克合成和分解。               |
-| nonebot_plugin_petpet     | [头像表情包](https://github.com/MeetWq/nonebot-plugin-petpet)            | 表情包制作。                   |
-| nonebot-plugin-memes      | [表情包制作](https://github.com/MeetWq/nonebot-plugin-memes)             | 表情包制作。                   |
-
+| nonebot_plugin_petpet     | [头像表情包](https://github.com/noneplugin/nonebot-plugin-petpet)        | 表情包制作。                   |
+| nonebot-plugin-memes      | [表情包制作](https://github.com/noneplugin/nonebot-plugin-memes)         | 表情包制作。                   |
+| nonebot_plugin_PicMenu    | [可视化菜单](https://github.com/hamo-reid/nonebot_plugin_PicMenu)        | 以图片方式呈现功能菜单。             |
+| nonebot_plugin_emojimix   | [emoji合成](https://github.com/noneplugin/nonebot-plugin-emojimix)    | emoji 合成器。               |
 
 
 针对上面这些插件中部分可能遇到问题的插件我单独做说明，要装哪个插件就只打开哪个栏目。
