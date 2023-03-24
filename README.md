@@ -156,7 +156,7 @@ bash <(curl -L gitee.com/TimeRainStarSky/TRSS_Yunzai/raw/main/Install.sh)
 
 3.  **[TRSS-Yunzai](https://gitee.com/TimeRainStarSky/Yunzai)** ：使用go-cqhttp协议，由时雨在原版云崽V3上进行了大改。
 
-如果不想折腾，建议选第一个就行，我这篇教程也是这么做的。
+如果不想折腾，建议选第一个就行，我这篇教程也是这么做的。其他版本可能会导致部分插件出现问题。
 
 如果愿意折腾可以玩第二个或者第三个。玩的话请先阅读对应的项目页！
 
@@ -177,7 +177,9 @@ bash <(curl -L gitee.com/TimeRainStarSky/TRSS_Yunzai/raw/main/Install.sh)
 
 <details><summary>云崽换源</summary>
 
- **如果你是使用时雨脚本安装，则不需要执行此步。** (这是因为时雨脚本目前已经换源[他自己的云崽了](https://gitee.com/TimeRainStarSky/Yunzai-Bot))
+ **如果你是使用时雨脚本安装，则不需要执行此步。**
+
+(这是因为时雨脚本目前已经换源好[合适的云崽](https://gitee.com/TimeRainStarSky/Yunzai-Bot)了)
 
 由于乐神云崽似乎暂时停更了，我们手动换喵喵的云崽已获取大佬的维护。进入Termux终端。输入`Arch/start`进入容器。
 
