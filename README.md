@@ -225,15 +225,13 @@ git remote -v
 以下是推荐的方法，根据个人情况打开对应部分。
 
 
-<details><summary>不方便使用电脑</summary>
 
-首先根据提示下载[滑动验证app，点击此处下载，密码3kuu](https://wwp.lanzouy.com/i6w3J08um92h)。
-
-下面俩种方法根据你有没有vbn选择。
 
 <details><summary>有vbn</summary>
 
-有的话事情就简单很多了，打开你的vbn，然后回到termux，选择2.滑动验证app请求码获取。
+首先根据提示下载[滑动验证app，点击此处下载，密码3kuu](https://wwp.lanzouy.com/i6w3J08um92h)。
+
+有vbn的话事情就简单很多了，打开你的vbn，然后回到termux，选择2.滑动验证app请求码获取。
 
 ![输入图片说明](doc-use/imageq4w98dqw.png)
 
@@ -255,7 +253,9 @@ git remote -v
 
 <details><summary>没有vbn</summary>
 
-如图，长按链接部分，选择复制。
+首先根据提示下载[滑动验证app，点击此处下载，密码3kuu](https://wwp.lanzouy.com/i6w3J08um92h)。
+
+回到termux。如图，长按链接部分，选择复制。
 
 ![输入图片说明](doc-use/imagewdq498.png)
 
@@ -273,9 +273,6 @@ git remote -v
 
 </details>
 
-———————————分割线———————————
-
-</details>
 
 <details><summary>方便使用电脑</summary>
 
