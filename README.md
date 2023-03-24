@@ -265,7 +265,7 @@ git remote -v
 
 通过后根据提示回到termux，将复制的ticket粘贴过来即可。
 
-![输入图片说明](doc-use/imagewqdq984ww.png)
+![输入图片说明](doc-use/imageqw9d48.png)
 
 至此你已经通过了滑动验证，可以继续下一步了。
 
