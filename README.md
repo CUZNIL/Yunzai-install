@@ -354,7 +354,9 @@ git remote -v
 
 如果脚本工作正常，你现在可以按下 ctrl + c ，再根据提示操作退出脚本。输入`tsyz y f`即可启动云崽，通过滑动验证即可顺利登录！
 
-如果还是报错版本过低或者报错禁止登录，则继续看 报错：禁止登录
+如果还是报错版本过低或者报错禁止登录，则尝试切换设备为MacOS，其他操作和上面一致。
+
+还不行就继续往下看“报错：禁止登录”
 
 ———————————分割线———————————
 
@@ -366,7 +368,7 @@ git remote -v
 
 进入Termux终端。输入`tsyz y file`进入脚本的文件管理页面。使用Termux底部的上下左右进入文件夹/node_modules/icqq/lib/core/，编辑文件device.js。
 
-![输入图片说明](doc-use/1r13419.png)
+![输入图片说明](doc-use/qd4w89wq.png)
 
 向下滑动直到你能看到最后一行。这时你能看到有一行的等号前面是[Platform.iPad].subid（注意是iPad！），等号后面会跟一串数字（可能和我截图的不一样）。
 
@@ -898,7 +900,11 @@ pacman -Sy --noconfirm pkg-config node-gyp gcc make
 
 <details><summary>云崽换源</summary>
 
- **如果你是使用时雨脚本安装，则不需要执行此步。** (这是因为时雨脚本目前已经换源[他自己的云崽了](https://gitee.com/TimeRainStarSky/Yunzai-Bot))
+ **如果你是使用时雨脚本安装，则不需要执行此步。**
+
+ **如果你完全跟着教程步骤安装，则不需要执行此步。**
+
+(这是因为时雨脚本目前已经换源好[合适的云崽](https://gitee.com/TimeRainStarSky/Yunzai-Bot)了)
 
 由于乐神云崽似乎暂时停更了，我们手动换喵喵的云崽已获取大佬的维护。进入Termux终端。输入`Arch/start`进入容器。
 
@@ -929,7 +935,7 @@ git remote -v
 
 </details>
 
-<details><summary>登录报错：版本过低</summary>
+<details><summary>报错：版本过低</summary>
 
 首先贴一张别人做的图，接下来的操作大概就是这个原理。不用跟这个图，管理脚本会处理好。
 
@@ -941,19 +947,21 @@ git remote -v
 
 如果脚本工作正常，你现在可以按下 ctrl + c ，再根据提示操作退出脚本。输入`tsyz y f`即可启动云崽，通过滑动验证即可顺利登录！
 
-如果还是报错版本过低或者报错禁止登录，则继续看 报错：禁止登录
+如果还是报错版本过低或者报错禁止登录，则尝试切换设备为MacOS，其他操作和上面一致。
+
+还不行就继续往下看“报错：禁止登录”
 
 ———————————分割线———————————
 
 </details>
 
-<details><summary>登录报错：禁止登录</summary>
+<details><summary>报错：禁止登录</summary>
 
 要解决这个报错，如果你会使用openssh在电脑使用xftp编辑文件会方便很多。这里为了方便讲述还是使用手机操作。
 
-进入Termux终端。输入`tsyz y file`进入脚本的文件管理页面。使用Termux底部的上下左右进入文件夹/node_modules/oicq/lib/core/，编辑文件device.js。
+进入Termux终端。输入`tsyz y file`进入脚本的文件管理页面。使用Termux底部的上下左右进入文件夹/node_modules/icqq/lib/core/，编辑文件device.js。
 
-![输入图片说明](doc-use/1r13419.png)
+![输入图片说明](doc-use/qd4w89wq.png)
 
 向下滑动直到你能看到最后一行。这时你能看到有一行的等号前面是[Platform.iPad].subid（注意是iPad！），等号后面会跟一串数字（可能和我截图的不一样）。
 
