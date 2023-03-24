@@ -71,7 +71,7 @@
 
 </details>
 
-<details><summary>安装openssh</summary>
+<details><summary>安装openssh（可选）</summary>
 
 如果你不知道openssh是什么的话，可以试着搜索。还是不明白的话这部分你应该用不上，可以收起该部分，跳到下一步：2.容器。
 
@@ -178,6 +178,8 @@ bash <(curl -L gitee.com/TimeRainStarSky/TRSS_Yunzai/raw/main/Install.sh)
 <details><summary>云崽换源</summary>
 
  **如果你是使用时雨脚本安装，则不需要执行此步。**
+
+ **如果你完全跟着教程步骤安装，则不需要执行此步。**
 
 (这是因为时雨脚本目前已经换源好[合适的云崽](https://gitee.com/TimeRainStarSky/Yunzai-Bot)了)
 
