@@ -491,7 +491,7 @@ git remote -v
 
 上面表格中带数字序号的插件你们按需安装即可，步骤参考“使用脚本安装或卸载插件”，部分插件会出现一些脚本暂时没有解决的问题我一会再单独介绍。
 
-如果你还想获取其他插件，除了时雨脚本已经适配好的整整50个插件，还可以看看渔火整理的[插件库](https://gitee.com/yhArcadia/Yunzai-Bot-plugins-index)。
+如果你还想获取其他插件，除了时雨脚本已经适配好的整整50个插件，还可以看看渔火整理的[Yunzai-Bot 插件索引](https://gitee.com/yhArcadia/Yunzai-Bot-plugins-index)。
 
 下面稍微提一下时雨插件和Py插件的安装使用，你们按需点开即可。
 
@@ -888,7 +888,7 @@ pacman -Sy --noconfirm pkg-config node-gyp gcc make
 
 
 
-如果你还想获取其他插件，还可以看看渔火整理的[插件库](https://gitee.com/yhArcadia/Yunzai-Bot-plugins-index)。
+如果你还想获取其他插件，还可以看看渔火整理的[Yunzai-Bot 插件索引](https://gitee.com/yhArcadia/Yunzai-Bot-plugins-index)。
 
 ## 7.部分报错处理整合
 
