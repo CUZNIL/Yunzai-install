@@ -402,7 +402,7 @@ git remote -v
 
 进入Termux终端。输入`tsyz`，依次选择插件管理、Git 插件管理、安装插件
 
-![输入图片说明](doc-use/image21312r5f.png)
+![输入图片说明](doc-use/imageqwd9qw48d.png)
 
 在这个页面选择你想安装的插件即可。以windoge风歌插件为例，直接点击35号插件，部分插件比如风歌没有gitee所以会让你选择github镜像源，有vbn或者能直连github的话建议选GitHub否则选GHProxy，一路确认即可，脚本会处理好几乎所有依赖。
 
