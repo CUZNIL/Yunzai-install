@@ -979,8 +979,6 @@ git remote -v
 
 ![输入图片说明](doc-use/imageqw9d48.png)
 
-至此你已经通过了滑动验证，可以继续下一步了。
-
 ———————————分割线———————————
 
 </details>
@@ -1370,6 +1368,19 @@ NMM应用可以从文末的[QQ群](http://jq.qq.com/?_wv=1027&k=tqiOtCVc)的群�
 红米K40(12+256) 系统版本：[MIUI13.0.7](https://xiaomirom.com/download/redmi-k40-mi-11x-poco-f3-alioth-stable-V13.0.7.0.SKHCNXM/) 乌堆MIUI开发版14.0.23 [MIUI14.0.5](https://xiaomirom.com/download/redmi-k40-mi-11x-poco-f3-alioth-stable-V14.0.5.0.TKHCNXM/)
 
 红米K50(8+256) 系统版本：[MIUI13.0.13](https://xiaomirom.com/download/redmi-k50-rubens-stable-V13.0.13.0.SLNCNXM/) 乌堆MIUI13.0.13
+
+<details><summary>Arch装字体</summary>
+
+仅个人留档，不保证有效。
+
+安装/data/data/com.termux/files/home/Arch/rootfs/usr/local/share/fonts/NotoSansSC-Regular.otf
+
+删除/data/data/com.termux/files/home/Arch/rootfs/root/TRSS_Yunzai/home/.cache/matplotlib/fontlist-v330.json
+
+
+———————————分割线———————————
+
+</details>
 
 ## 参考信息
 
