@@ -144,11 +144,27 @@ bash <(curl -L gitee.com/TimeRainStarSky/TRSS_Yunzai/raw/main/Install.sh)
 
 <details><summary>安装云崽</summary>
 
-如果有vbn建议这一步开启。根据提示输入`tsyz`，首次启动脚本等待时间会稍久，背景变蓝说明成功进入脚本了。国内可能会导致部分报错信息遮住确认键，按我下面的截图点击对应位置即可。依次点击Yunzai、确认、确认、回车。
+根据提示输入`tsyz`，首次启动脚本等待时间会稍久，背景变蓝说明成功进入脚本了。国内可能会导致部分报错信息遮住确认键，按我下面的截图点击对应位置即可。依次点击Yunzai、确认、确认、回车。
 
-![输入图片说明](doc-use/qwd65.png)
+![输入图片说明](doc-use/image98qw4dfdqf.png)
 
-极少数情况会发生依赖安装失败，这时根据脚本提示再次安装即可。至此，云崽本体被成功安装。如果打开了vbn在这里可以关闭他了。
+<details><summary>我想知道三个云崽都是干嘛的？</summary>
+
+1.  **[Le-Yunzai](https://gitee.com/TimeRainStarSky/Yunzai-Bot)** ：使用icqq协议，是原版云崽V3由各路大佬维护的版本，最推荐。
+
+2.  **[Miao-Yunzai](https://gitee.com/yoimiya-kokomi/Miao-Yunzai)** ：使用icqq协议，由喵喵在原版云崽V3上进行了大改。
+
+3.  **[TRSS-Yunzai](https://gitee.com/TimeRainStarSky/Yunzai)** ：使用go-cqhttp协议，由时雨在原版云崽V3上进行了大改。
+
+如果不想折腾，建议选第一个就行，我这篇教程也是这么做的。
+
+如果愿意折腾可以玩第二个或者第三个。玩的话请先阅读对应的项目页！
+
+———————————分割线———————————
+
+</details>
+
+极少数情况会发生依赖安装失败，这时根据脚本提示再次安装即可。至此，云崽本体被成功安装。
 
 接下来退出脚本。如果你懒得点直接杀termux后台也可以，再启动即可。
 
