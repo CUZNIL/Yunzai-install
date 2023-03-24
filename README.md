@@ -245,6 +245,18 @@ git remote -v
 
 ![输入图片说明](doc-use/qw4d89q4.png)
 
+<details><summary>如果没有看到网络请展开这栏</summary>
+
+如图所示，网络有可能默认隐藏，点击加号展开即可。
+
+![输入图片说明](doc-use/imageqw98d4qw89wwww.png)
+
+
+———————————分割线———————————
+
+</details>
+
+
 如果下面这张图里的红框内是黑色按钮，说明没有在记录网络日志。点一下让他变红，这样就能记录网络日志了。
 
 ![输入图片说明](doc-use/imageqwd498qw4d89qwd.png)
