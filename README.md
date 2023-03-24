@@ -187,7 +187,7 @@ bash <(curl -L gitee.com/TimeRainStarSky/TRSS_Yunzai/raw/main/Install.sh)
 
 (这是因为时雨脚本目前已经换源好[合适的云崽](https://gitee.com/TimeRainStarSky/Yunzai-Bot)了)
 
-由于乐神云崽似乎暂时停更了，我们手动换喵喵的云崽已获取大佬的维护。进入Termux终端。输入`Arch/start`进入容器。
+由于乐神云崽似乎暂时停更了，我们手动换喵喵的云崽已获取大佬的维护。进入Termux终端。输入`start`进入容器。
 
 ![输入图片说明](doc-use/asdff.png)
 
@@ -700,7 +700,7 @@ https://gitee.com/TimeRainStarSky/TRSS-Plugin/
 接下来依次输入以下指令：
 
 ```
-Arch/start
+start
 ```
 
 ```
@@ -773,7 +773,7 @@ rm data/README.txt py插件表情包资源.zip && exit
 
 
 ```
-Arch/start
+start
 ```
 
 接下来手动安装需要的依赖即可，输入下面这行指令。
@@ -834,7 +834,7 @@ pacman -Sy --noconfirm pkg-config node-gyp gcc make
 
 
 ```
-Arch/start
+start
 ```
 
 接下来手动安装需要的依赖即可，输入下面这行指令。
@@ -902,7 +902,7 @@ pacman -Sy --noconfirm pkg-config node-gyp gcc make
 
 (这是因为时雨脚本目前已经换源好[合适的云崽](https://gitee.com/TimeRainStarSky/Yunzai-Bot)了)
 
-由于乐神云崽似乎暂时停更了，我们手动换喵喵的云崽已获取大佬的维护。进入Termux终端。输入`Arch/start`进入容器。
+由于乐神云崽似乎暂时停更了，我们手动换喵喵的云崽已获取大佬的维护。进入Termux终端。输入`start`进入容器。
 
 ![输入图片说明](doc-use/asdff.png)
 
@@ -1184,7 +1184,7 @@ https://gitee.com/TimeRainStarSky/TRSS-Plugin/
 接下来依次输入以下指令：
 
 ```
-Arch/start
+start
 ```
 
 ```
@@ -1225,7 +1225,7 @@ rm data/README.txt py插件表情包资源.zip && exit
 
 
 ```
-Arch/start
+start
 ```
 
 接下来手动安装需要的依赖即可，输入下面这行指令。
@@ -1254,7 +1254,7 @@ pacman -Sy --noconfirm pkg-config node-gyp gcc make
 
 
 ```
-Arch/start
+start
 ```
 
 接下来手动安装需要的依赖即可，输入下面这行指令。
