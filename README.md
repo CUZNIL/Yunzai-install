@@ -429,7 +429,7 @@ git remote -v
 
 <details><summary>使用脚本卸载插件</summary>
 
-在Termux终端输入`tsyz`，进入云崽管理脚本。依次选择Le-Yunzai→插件管理→Git 插件管理→管理插件→你要卸载的插件(图中我们卸载vits插件)→删除插件→最后确认，然后稍等一俩秒就卸载干净了。
+在Termux终端输入`tsyz`，进入云崽管理脚本。依次选择Le-Yunzai→插件管理→Git 插件管理→管理插件→你要卸载的插件(图中我们卸载armoe插件)→删除插件→最后确认，然后稍等一俩秒就卸载干净了。
 
 ![输入图片说明](doc-use/imagewdqwd9849222.png)
 
@@ -443,12 +443,7 @@ git remote -v
 
 
 
-看到这一行应该都会安装插件了吧，脚本还是挺省事的。下面我推荐三个建议所有人安装的插件：
-
-
-
-
-
+下面我推荐三个建议所有人安装的插件：
 
 
 | 序号 | Git项目名                                                            | 中文名         | 简述                                           |
@@ -459,14 +454,9 @@ git remote -v
 
 
 
-
-
-
-
-
 <details><summary>点击查看脚本中这些插件的对应位置</summary>
 
-![输入图片说明](doc-use/image984.png)
+![输入图片说明](doc-use/qdh9u2141233.png)
 
 </details>
 
