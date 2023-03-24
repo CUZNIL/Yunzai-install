@@ -1,5 +1,5 @@
 # [V3云崽BOT手机搭建教程](https://gitee.com/CUZNIL/Yunzai-install)
-上次编辑时间：2023年3月24日14:41:06
+上次编辑时间：2023年3月24日14:44:04
 ## 0.介绍
 针对安卓手机搭建[V3云崽BOT](https://gitee.com/Le-niao/Yunzai-Bot)的一篇详细教程，也包含手机搭建前后会遇到的各种问题和解决方案。
 
@@ -1146,6 +1146,7 @@ NMM应用可以从文末的[QQ群](http://jq.qq.com/?_wv=1027&k=tqiOtCVc)的群�
 [README润色](https://gitee.com/TimeRainStarSky/TRSS-Plugin/edit/main/README.md)
 [TERMUX下载](https://f-droid.org/en/packages/com.termux/)
 [时雨脚本](https://trss.me/)
+[memes 403](https://gitee.com/realhuhu/py-plugin/issues/I6PDDV)
 
 
 
