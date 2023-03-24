@@ -1375,6 +1375,8 @@ NMM应用可以从文末的[QQ群](http://jq.qq.com/?_wv=1027&k=tqiOtCVc)的群�
 
 安装/data/data/com.termux/files/home/Arch/rootfs/usr/local/share/fonts/NotoSansSC-Regular.otf
 
+NotoSansSC-Regular.otf权限777
+
 删除/data/data/com.termux/files/home/Arch/rootfs/root/TRSS_Yunzai/home/.cache/matplotlib/fontlist-v330.json
 
 
