@@ -219,7 +219,8 @@ git remote -v
 
 ![输入图片说明](doc-use/image4984.png)
 
-<details><summary>【通过滑动验证】这个根据提示操作就行，如果实在不会就点击展开</summary>
+<details><summary>然后根据通过滑动验证。如果实在不会就点击展开</summary>
+
 
 以下是推荐的方法，根据个人情况打开对应部分。
 
@@ -228,6 +229,44 @@ git remote -v
 
 首先根据提示下载[滑动验证app，点击此处下载，密码3kuu](https://wwp.lanzouy.com/i6w3J08um92h)。
 
+下面俩种方法根据你有没有vbn选择。
+
+<details><summary>有vbn</summary>
+
+有的话事情就简单很多了，打开你的vbn，然后回到termux，选择2.滑动验证app请求码获取。
+
+![输入图片说明](doc-use/imageq4w98dqw.png)
+
+如图所示，我们会获得一个请求码，我获取的是1010。
+
+打开滑动验证app，输入你获得的请求码。我获得的是1010所以我就输入了1010。输入后点击下一步，通过滑动验证即可。
+
+![输入图片说明](doc-use/qw4d98qw74df.png)
+
+通过后根据提示回到termux，敲下回车即可。
+
+![输入图片说明](doc-use/imagedqw4d89q789dqw7d89q7.png)
+
+通过滑动验证后可以关闭你的vbn了，暂时用不到了。
+
+———————————分割线———————————
+
+</details>
+
+<details><summary>没有vbn</summary>
+
+如图，长按链接部分，选择复制。
+
+![输入图片说明](doc-use/imagewdq498.png)
+
+打开滑动验证app，输入你复制的链接。
+
+
+
+
+———————————分割线———————————
+
+</details>
 
 ———————————分割线———————————
 
