@@ -227,7 +227,7 @@ git remote -v
 
 
 
-<details><summary>有vbn</summary>
+<details><summary>不便使用电脑，但是有vbn</summary>
 
 首先根据提示下载[滑动验证app，点击此处下载，密码3kuu](https://wwp.lanzouy.com/i6w3J08um92h)。
 
@@ -251,7 +251,7 @@ git remote -v
 
 </details>
 
-<details><summary>没有vbn</summary>
+<details><summary>不便使用电脑，并且没有vbn</summary>
 
 首先根据提示下载[滑动验证app，点击此处下载，密码3kuu](https://wwp.lanzouy.com/i6w3J08um92h)。
 
