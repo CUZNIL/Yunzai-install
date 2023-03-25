@@ -685,6 +685,8 @@ rcp cp plugins/py-plugin/data/fonts/NotoSansSC-Regular.otf ../../../usr/local/sh
 
 rcp rm ../home/.cache/matplotlib/fontlist-v330.json
 
+#重启
+
 ———————————分割线———————————
 
 </details>
