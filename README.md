@@ -1,5 +1,5 @@
 # [V3云崽BOT手机搭建教程](https://gitee.com/CUZNIL/Yunzai-install)
-上次编辑时间2023年3月25日15:17:45
+上次编辑时间2023年3月25日18:18:06
 ## 0.介绍
 针对安卓手机搭建[V3云崽BOT](https://gitee.com/Le-niao/Yunzai-Bot)的一篇详细教程，也包含手机搭建前后会遇到的各种问题和解决方案。
 
@@ -667,13 +667,13 @@ https://gitee.com/TimeRainStarSky/TRSS-Plugin/
 
 <details><summary>头像表情包 表情包制作</summary>
 
-具体报错情况如下图，会出现大量的 口口口，即缺字体。
+具体报错情况如下图，发送“#头像表情包”会出现大量的 口口口，即缺字体。
 
 ![输入图片说明](doc-use/imagesad898.png)
 
 首先安装[时雨插件](https://gitee.com/TimeRainStarSky/TRSS-Plugin/)以便直接通过QQ操作。
 
-输入下面这行命令，检查字体资源是否下载好。
+向机器人输入下面这行命令，检查字体资源是否下载好。
 
 ```
 rcp ls plugins/py-plugin/data/fonts/
@@ -681,15 +681,27 @@ rcp ls plugins/py-plugin/data/fonts/
 
 ![输入图片说明](doc-use/imageqwd1498e41892.png)
 
+如图所示确认到有NotoSansSC-Regular.otf，说明字体资源下载好了。接下来为所有用户安装。
 
+![输入图片说明](doc-use/imageqw98edqw498ww.png)
 
+如图所示，向机器人依次发送下面三条消息。
+
+```
 rcp mkdir ../../../usr/local/share/fonts/
+```
 
+```
 rcp cp plugins/py-plugin/data/fonts/NotoSansSC-Regular.otf ../../../usr/local/share/fonts/NotoSansSC-Regular.otf
+```
 
+```
 rcp rm ../home/.cache/matplotlib/fontlist-v330.json
+```
 
-#重启
+最后重启机器人即可正常使用。比如你可以向机器人发消息“#重启”。
+
+![输入图片说明](doc-use/imagewwww12213123esadsa.png)
 
 ———————————分割线———————————
 
