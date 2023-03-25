@@ -1372,7 +1372,7 @@ rcp rm ../home/.cache/matplotlib/fontlist-v330.json
 [README润色](https://gitee.com/TimeRainStarSky/TRSS-Plugin/edit/main/README.md)
 [TERMUX下载](https://f-droid.org/en/packages/com.termux/)
 [时雨脚本](https://trss.me/)
-[memes 403](https://gitee.com/realhuhu/py-plugin/issues/I6PDDV)
+[memes403](https://gitee.com/realhuhu/py-plugin/issues/I6PDDV)
 [Arch字体安装](https://wiki.archlinuxcn.org/wiki/%E5%AD%97%E4%BD%93)
 
 
