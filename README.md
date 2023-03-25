@@ -667,23 +667,27 @@ https://gitee.com/TimeRainStarSky/TRSS-Plugin/
 
 <details><summary>头像表情包 表情包制作</summary>
 
-
 具体报错情况如下图，会出现大量的 口口口，即缺字体。
 
 ![输入图片说明](doc-use/imagesad898.png)
 
 解决方案：装字体，暂时不方便详细写，先放个简易版。
 
-
 安装时雨插件
 
-rcp mkdir ../../../usr/local/share/fonts/
+检查字体资源是否下载好
 
-检查字体资源是否下载好：rcp ls plugins/py-plugin/data/fonts/
+rcp ls plugins/py-plugin/data/fonts/
+
+rcp mkdir ../../../usr/local/share/fonts/
 
 rcp cp plugins/py-plugin/data/fonts/NotoSansSC-Regular.otf ../../../usr/local/share/fonts/NotoSansSC-Regular.otf
 
 rcp rm ../home/.cache/matplotlib/fontlist-v330.json
+
+———————————分割线———————————
+
+</details>
 
 ———————————分割线———————————
 
