@@ -685,7 +685,7 @@ rcp ls plugins/py-plugin/data/fonts/
 
 ![输入图片说明](doc-use/imageqwd1498e41892.png)
 
-如图所示确认到有NotoSansSC-Regular.otf，说明字体资源下载好了。接下来为所有用户安装。
+如图所示确认到有NotoSansSC-Regular.otf，说明字体资源下载好了。接下来为所有用户安装。如果没有请启动你的机器人，稍等一会他会自动下载表情包制作需要的所有资源（当然包括字体）。等待下载完毕再开始向后执行。
 
 ![输入图片说明](doc-use/imageqw98edqw498ww.png)
 
@@ -1151,7 +1151,7 @@ rcp ls plugins/py-plugin/data/fonts/
 
 ![输入图片说明](doc-use/imageqwd1498e41892.png)
 
-如图所示确认到有NotoSansSC-Regular.otf，说明字体资源下载好了。接下来为所有用户安装。
+如图所示确认到有NotoSansSC-Regular.otf，说明字体资源下载好了。接下来为所有用户安装。如果没有请启动你的机器人，稍等一会他会自动下载表情包制作需要的所有资源（当然包括字体）。等待下载完毕再开始向后执行。
 
 ![输入图片说明](doc-use/imageqw98edqw498ww.png)
 
