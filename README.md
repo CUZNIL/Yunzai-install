@@ -671,13 +671,17 @@ https://gitee.com/TimeRainStarSky/TRSS-Plugin/
 
 ![输入图片说明](doc-use/imagesad898.png)
 
-解决方案：装字体，暂时不方便详细写，先放个简易版。
+首先安装[时雨插件](https://gitee.com/TimeRainStarSky/TRSS-Plugin/)以便直接通过QQ操作。
 
-安装时雨插件
+输入下面这行命令，检查字体资源是否下载好。
 
-检查字体资源是否下载好
-
+```
 rcp ls plugins/py-plugin/data/fonts/
+```
+
+![输入图片说明](doc-use/imageqwd1498e41892.png)
+
+
 
 rcp mkdir ../../../usr/local/share/fonts/
 
