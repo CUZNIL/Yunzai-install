@@ -1,5 +1,5 @@
 # [V3云崽BOT手机搭建教程](https://gitee.com/CUZNIL/Yunzai-install)
-上次编辑时间2023年3月25日18:21:06
+上次编辑时间2023年3月25日18:26:59
 ## 0.介绍
 针对安卓手机搭建[V3云崽BOT](https://gitee.com/Le-niao/Yunzai-Bot)的一篇详细教程，也包含手机搭建前后会遇到的各种问题和解决方案。
 
@@ -495,12 +495,9 @@ git remote -v
 
 下面稍微提一下时雨插件和Py插件的安装使用，你们按需点开即可。
 
-
 <details><summary>时雨插件</summary>
 
-如果你在 **安装云崽** 这一步中听了我的建议打开了vbn，那么该插件应该会为你默认安装完毕。毕竟是脚本作者自己写的插件，有点私货能理解，你接受不了可以自己卸载。
-
-如果不开vbn可能会出现下图的情况导致安装失败。
+如果不开vbn直接用脚本安装可能会出现下图的情况导致安装失败。
 
 ![输入图片说明](doc-use/image849.png)
 
@@ -632,11 +629,9 @@ https://gitee.com/TimeRainStarSky/TRSS-Plugin/
 | nonebot_plugin_oddtext    | [文本生成器](https://github.com/noneplugin/nonebot-plugin-oddtext)       | 抽象话、火星文等文本生成。            |
 | nonebot_plugin_abbrreply  | [缩写查询器](https://github.com/anlen123/nonebot_plugin_abbrreply)       | 查看缩写可能的解释。               |
 | nonebot_plugin_miragetank | [幻影坦克图片合成](https://github.com/RafuiiChan/nonebot_plugin_miragetank) | 幻影坦克合成和分解。               |
-| nonebot_plugin_petpet     | [头像表情包](https://github.com/noneplugin/nonebot-plugin-petpet)        | 表情包制作。                   |
 | nonebot-plugin-memes      | [表情包制作](https://github.com/noneplugin/nonebot-plugin-memes)         | 表情包制作。                   |
 | nonebot_plugin_PicMenu    | [可视化菜单](https://github.com/hamo-reid/nonebot_plugin_PicMenu)        | 以图片方式呈现功能菜单。             |
 | nonebot_plugin_emojimix   | [emoji合成](https://github.com/noneplugin/nonebot-plugin-emojimix)    | emoji 合成器。               |
-
 
 针对上面这些插件中部分可能遇到问题的插件我单独做说明，要装哪个插件就只打开哪个栏目。
 
@@ -646,7 +641,16 @@ https://gitee.com/TimeRainStarSky/TRSS-Plugin/
 
 ![输入图片说明](doc-use/imagewq98988998.png)
 
-根据插件作者的说明配置好即可。
+根据插件作者的说明配置好即可，比如这是我的配置：
+
+```
+...（以上省略）
+gspanel_alias:
+  - nb面板
+gspanel_scale: 1
+resources_mirror: https://enka.network/ui/
+resources_dir: /root/TRSS_Yunzai/Yunzai/plugins/py-plugin/data
+```
 
 ———————————分割线———————————
 
