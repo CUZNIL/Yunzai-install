@@ -667,6 +667,9 @@ https://gitee.com/TimeRainStarSky/TRSS-Plugin/
 
 <details><summary>头像表情包 表情包制作</summary>
 
+
+ **已过时** 目前俩个插件已合并为[表情包制作](https://github.com/noneplugin/nonebot-plugin-memes) **暂时保留一段时间** 
+
 这俩个插件都需要下载一些资源才能正常使用，所以我放在一块说了。下载资源默认用的镜像站点，但是如图所示他的的速度太慢了，你有可能下俩三天都下不完。所以我建议你去手动下载好他需要的资源然后手动放到指定目录。
 
 ![输入图片说明](doc-use/imageqf8944.png)
@@ -1148,6 +1151,8 @@ https://gitee.com/TimeRainStarSky/TRSS-Plugin/
 </details>
 
 <details><summary>Nonebot插件：头像表情包、表情包制作 没反应</summary>
+
+ **已过时** 目前俩个插件已合并为[表情包制作](https://github.com/noneplugin/nonebot-plugin-memes) **暂时保留一段时间** 
 
 这俩个插件都需要下载一些资源才能正常使用，所以我放在一块说了。下载资源默认用的镜像站点，但是如图所示他的的速度太慢了，你有可能下俩三天都下不完。所以我建议你去手动下载好他需要的资源然后手动放到指定目录。
 
