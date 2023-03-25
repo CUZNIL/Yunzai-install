@@ -1378,11 +1378,15 @@ NMM应用可以从文末的[QQ群](http://jq.qq.com/?_wv=1027&k=tqiOtCVc)的群�
 
 仅个人留档，不保证有效。
 
-安装/data/data/com.termux/files/home/Arch/rootfs/usr/local/share/fonts/NotoSansSC-Regular.otf
+安装时雨插件
 
-NotoSansSC-Regular.otf权限777
+rcp mkdir ../../../usr/local/share/fonts/
 
-删除/data/data/com.termux/files/home/Arch/rootfs/root/TRSS_Yunzai/home/.cache/matplotlib/fontlist-v330.json
+检查字体资源是否下载好：rcp ls plugins/py-plugin/data/fonts/
+
+rcp cp plugins/py-plugin/data/fonts/NotoSansSC-Regular.otf ../../../usr/local/share/fonts/NotoSansSC-Regular.otf
+
+rcp rm ../home/.cache/matplotlib/fontlist-v330.json
 
 
 ———————————分割线———————————
