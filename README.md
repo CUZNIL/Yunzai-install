@@ -1,5 +1,5 @@
 # [V3云崽BOT手机搭建教程](https://gitee.com/CUZNIL/Yunzai-install)
-上次编辑时间2023年3月25日18:18:06
+上次编辑时间2023年3月25日18:21:06
 ## 0.介绍
 针对安卓手机搭建[V3云崽BOT](https://gitee.com/Le-niao/Yunzai-Bot)的一篇详细教程，也包含手机搭建前后会遇到的各种问题和解决方案。
 
@@ -665,13 +665,13 @@ https://gitee.com/TimeRainStarSky/TRSS-Plugin/
 
 </details>
 
-<details><summary>头像表情包 表情包制作</summary>
+<details><summary>表情包制作插件口口口</summary>
 
 具体报错情况如下图，发送“#头像表情包”会出现大量的 口口口，即缺字体。
 
 ![输入图片说明](doc-use/imagesad898.png)
 
-首先安装[时雨插件](https://gitee.com/TimeRainStarSky/TRSS-Plugin/)以便直接通过QQ操作。
+首先安装[时雨插件](https://gitee.com/TimeRainStarSky/TRSS-Plugin/)以便直接通过QQ操作。不愿意安装的话在合适路径参考下面命令执行是相同效果。
 
 向机器人输入下面这行命令，检查字体资源是否下载好。
 
@@ -1131,61 +1131,43 @@ https://gitee.com/TimeRainStarSky/TRSS-Plugin/
 
 </details>
 
-<details><summary>Nonebot插件：头像表情包、表情包制作 没反应</summary>
+<details><summary>Nonebot插件：表情包制作口口口</summary>
 
- **已过时** 目前俩个插件已合并为[表情包制作](https://github.com/noneplugin/nonebot-plugin-memes) **暂时保留一段时间** 
+具体报错情况如下图，发送“#头像表情包”会出现大量的 口口口，即缺字体。
 
-这俩个插件都需要下载一些资源才能正常使用，所以我放在一块说了。下载资源默认用的镜像站点，但是如图所示他的的速度太慢了，你有可能下俩三天都下不完。所以我建议你去手动下载好他需要的资源然后手动放到指定目录。
+![输入图片说明](doc-use/imagesad898.png)
 
-![输入图片说明](doc-use/imageqf8944.png)
+首先安装[时雨插件](https://gitee.com/TimeRainStarSky/TRSS-Plugin/)以便直接通过QQ操作。不愿意安装的话在合适路径参考下面命令执行是相同效果。
 
-接下来你有俩个方案，要么你回到文章开头安装openssh，要么你回到上面安装时雨插件。因为ssh门槛相对较高，我这里用时雨插件演示。如果你会用ssh，你看完应该就知道怎么用ssh操作了，所以我就不重复说明了。
-
-首先加入文末的[QQ群](http://jq.qq.com/?_wv=1027&k=tqiOtCVc)，我会在群文件的BOT资源文件夹内上传这俩个插件需要的所有资源。如果你不愿意或者不方便加群，这边还有天翼网盘的链接可用，[点击下载py插件表情包资源.zip](https://cloud.189.cn/t/aaEjy2n6vAve)即可，注意需要[访问码：row2](https://cloud.189.cn/t/aaEjy2n6vAve)。
-
-然后在QQ聊天界面向你的BOT发送以下内容，在群聊界面也可以。
+向机器人输入下面这行命令，检查字体资源是否下载好。
 
 ```
-文件下载/root/TRSS_Yunzai/Yunzai/plugins/py-plugin
+rcp ls plugins/py-plugin/data/fonts/
 ```
 
-![输入图片说明](doc-use/123985.png)
+![输入图片说明](doc-use/imageqwd1498e41892.png)
 
-最后在这个界面发送你刚才下载的文件“py插件表情包资源.zip”，BOT会在合适的路径下载该文件。如上图所示。
+如图所示确认到有NotoSansSC-Regular.otf，说明字体资源下载好了。接下来为所有用户安装。
 
-接下来退出你的云崽回到Termux终端初始位置，或者干脆再开一个进程。
+![输入图片说明](doc-use/imageqw98edqw498ww.png)
 
-<details><summary>如何再开一个进程</summary>
-
-如图所示，只要在侧边栏点击“NEW SESSION”即可再开一个进程。
-
-![输入图片说明](doc-use/image941224sss.png)
-
-———————————分割线———————————
-
-</details>
-
-接下来依次输入以下指令：
+如图所示，向机器人依次发送下面三条消息。
 
 ```
-start
+rcp mkdir ../../../usr/local/share/fonts/
 ```
 
 ```
-cd TRSS_Yunzai/Yunzai/plugins/py-plugin/ && unzip -o py插件表情包资源.zip
+rcp cp plugins/py-plugin/data/fonts/NotoSansSC-Regular.otf ../../../usr/local/share/fonts/NotoSansSC-Regular.otf
 ```
 
-如果运行正常，解压过程会像下图这样。
-
-![输入图片说明](doc-use/r87214ye83d.png)
-
-当你确认成功解压以后，输入以下指令来删除下载的文件避免浪费空间并退出:
-
 ```
-rm data/README.txt py插件表情包资源.zip && exit
+rcp rm ../home/.cache/matplotlib/fontlist-v330.json
 ```
 
-至此，你的头像表情包和表情包制作俩个插件需要下载的大量资源已经配置好，可以去愉快使用了！如果不需要这个进程，按下ctrl+d即可杀死该进程。
+最后重启机器人即可正常使用。比如你可以向机器人发消息“#重启”。
+
+![输入图片说明](doc-use/imagewwww12213123esadsa.png)
 
 ———————————分割线———————————
 
