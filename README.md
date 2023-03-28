@@ -43,8 +43,9 @@
 <details><summary>下载安装</summary>
 
 
-[点此下载TERMUX最新版本](https://f-droid.org/repo/com.termux_118.apk)。如果点击后无法正常下载可以加文末的[QQ群](http://jq.qq.com/?_wv=1027&k=tqiOtCVc)从群文件的BOT资源文件夹内获取，亦或是使用[天翼网盘下载（访问码：u9g9）](https://cloud.189.cn/t/rY3ueeYzENBj)
+[点此下载TERMUX最新版本](https://f-droid.org/repo/com.termux_118.apk)。
 
+**备用方案：**[QQ群](http://jq.qq.com/?_wv=1027&k=tqiOtCVc) [天翼网盘(访问码：u9g9)](https://cloud.189.cn/t/rY3ueeYzENBj) [gitee下载](https://gitee.com/CUZNIL/Yunzai-install/raw/master/download/apks/Termux_0.118.0_com.termux_118.apk) [github下载](https://github.com/CUZNIL/Yunzai-install/raw/master/download/apks/Termux_0.118.0_com.termux_118.apk) 
 
 ![输入图片说明](doc-use/1.png)
 
