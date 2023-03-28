@@ -1,5 +1,5 @@
 # [V3云崽BOT手机搭建教程](https://gitee.com/CUZNIL/Yunzai-install)
-上次编辑时间2023年3月25日18:26:59
+上次编辑时间2023年3月28日21:27:28
 ## 0.介绍
 针对安卓手机搭建[V3云崽BOT](https://gitee.com/Le-niao/Yunzai-Bot)的一篇详细教程，也包含手机搭建前后会遇到的各种问题和解决方案。
 
@@ -45,7 +45,7 @@
 
 [点此下载TERMUX最新版本](https://f-droid.org/repo/com.termux_118.apk)。
 
-**备用方案：**[QQ群](http://jq.qq.com/?_wv=1027&k=tqiOtCVc) [天翼网盘(访问码：u9g9)](https://cloud.189.cn/t/rY3ueeYzENBj) [gitee下载](https://gitee.com/CUZNIL/Yunzai-install/raw/master/download/apks/Termux_0.118.0_com.termux_118.apk) [github下载](https://github.com/CUZNIL/Yunzai-install/raw/master/download/apks/Termux_0.118.0_com.termux_118.apk) 
+**备用方案：**[QQ群文件](http://jq.qq.com/?_wv=1027&k=tqiOtCVc) [天翼网盘(访问码：u9g9)](https://cloud.189.cn/t/rY3ueeYzENBj) [gitee下载](https://gitee.com/CUZNIL/Yunzai-install/raw/master/download/apks/Termux_0.118.0_com.termux_118.apk) [github下载](https://github.com/CUZNIL/Yunzai-install/raw/master/download/apks/Termux_0.118.0_com.termux_118.apk) 
 
 ![输入图片说明](doc-use/1.png)
 
@@ -232,6 +232,8 @@ git remote -v
 
 首先根据提示下载[滑动验证app，点击此处下载，密码3kuu](https://wwp.lanzouy.com/i6w3J08um92h)。
 
+**备用下载方案：**[QQ群文件](http://jq.qq.com/?_wv=1027&k=tqiOtCVc) [gitee下载](https://gitee.com/CUZNIL/Yunzai-install/raw/master/download/apks/滑动验证app.apk) [github下载](https://github.com/CUZNIL/Yunzai-install/raw/master/download/apks/滑动验证app.apk) 
+
 有vbn的话事情就简单很多了，打开你的vbn，然后回到termux，选择2.滑动验证app请求码获取。
 
 ![输入图片说明](doc-use/imageq4w98dqw.png)
@@ -257,6 +259,8 @@ git remote -v
 <details><summary>不便使用电脑，并且没有vbn</summary>
 
 首先根据提示下载[滑动验证app，点击此处下载，密码3kuu](https://wwp.lanzouy.com/i6w3J08um92h)。
+
+**备用下载方案：**[QQ群文件](http://jq.qq.com/?_wv=1027&k=tqiOtCVc) [gitee下载](https://gitee.com/CUZNIL/Yunzai-install/raw/master/download/apks/滑动验证app.apk) [github下载](https://github.com/CUZNIL/Yunzai-install/raw/master/download/apks/滑动验证app.apk) 
 
 回到termux。如图，长按链接部分，选择复制。
 
@@ -928,6 +932,8 @@ git remote -v
 
 首先根据提示下载[滑动验证app，点击此处下载，密码3kuu](https://wwp.lanzouy.com/i6w3J08um92h)。
 
+**备用下载方案：**[QQ群文件](http://jq.qq.com/?_wv=1027&k=tqiOtCVc) [gitee下载](https://gitee.com/CUZNIL/Yunzai-install/raw/master/download/apks/滑动验证app.apk) [github下载](https://github.com/CUZNIL/Yunzai-install/raw/master/download/apks/滑动验证app.apk) 
+
 有vbn的话事情就简单很多了，打开你的vbn，然后回到termux，选择2.滑动验证app请求码获取。
 
 ![输入图片说明](doc-use/imageq4w98dqw.png)
@@ -953,6 +959,8 @@ git remote -v
 <details><summary>不便使用电脑，并且没有vbn</summary>
 
 首先根据提示下载[滑动验证app，点击此处下载，密码3kuu](https://wwp.lanzouy.com/i6w3J08um92h)。
+
+**备用下载方案：**[QQ群文件](http://jq.qq.com/?_wv=1027&k=tqiOtCVc) [gitee下载](https://gitee.com/CUZNIL/Yunzai-install/raw/master/download/apks/滑动验证app.apk) [github下载](https://github.com/CUZNIL/Yunzai-install/raw/master/download/apks/滑动验证app.apk) 
 
 回到termux。如图，长按链接部分，选择复制。
 
