@@ -1302,7 +1302,9 @@ sshd && termux-wake-lock && tsyz y f
 
 <details><summary>2.使用NMM便捷管理云崽文件</summary>
 
-NMM应用可以从文末的[QQ群](http://jq.qq.com/?_wv=1027&k=tqiOtCVc)的群文件的BOT资源文件夹内获取，或者从[天翼网盘下载（访问码：pui5）](https://cloud.189.cn/t/n2i6ZfJnUNRb)。下载后安装到手机。
+apk下载地址(任一)：[QQ群文件](http://jq.qq.com/?_wv=1027&k=tqiOtCVc) [天翼网盘(访问码：pui5)](https://cloud.189.cn/t/n2i6ZfJnUNRb) [gitee下载](https://gitee.com/CUZNIL/Yunzai-install/raw/master/download/apks/NMM(in.mfile.beta)_1.14.2-beta(200267).apk) [github下载](https://github.com/CUZNIL/Yunzai-install/raw/master/download/apks/NMM(in.mfile.beta)_1.14.2-beta(200267).apk) 
+
+下载后安装到手机。
 
 <details><summary>如果手机已经root点此处。</summary>
 
@@ -1341,25 +1343,6 @@ NMM应用可以从文末的[QQ群](http://jq.qq.com/?_wv=1027&k=tqiOtCVc)的群�
 红米K40(12+256) 系统版本：[MIUI13.0.7](https://xiaomirom.com/download/redmi-k40-mi-11x-poco-f3-alioth-stable-V13.0.7.0.SKHCNXM/) 乌堆MIUI开发版14.0.23 [MIUI14.0.5](https://xiaomirom.com/download/redmi-k40-mi-11x-poco-f3-alioth-stable-V14.0.5.0.TKHCNXM/)
 
 红米K50(8+256) 系统版本：[MIUI13.0.13](https://xiaomirom.com/download/redmi-k50-rubens-stable-V13.0.13.0.SLNCNXM/) 乌堆MIUI13.0.13
-
-<details><summary>Arch装字体</summary>
-
-仅个人留档，不保证有效。
-
-安装时雨插件
-
-rcp mkdir ../../../usr/local/share/fonts/
-
-检查字体资源是否下载好：rcp ls plugins/py-plugin/data/fonts/
-
-rcp cp plugins/py-plugin/data/fonts/NotoSansSC-Regular.otf ../../../usr/local/share/fonts/NotoSansSC-Regular.otf
-
-rcp rm ../home/.cache/matplotlib/fontlist-v330.json
-
-
-———————————分割线———————————
-
-</details>
 
 ## 参考信息
 
