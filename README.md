@@ -1,5 +1,5 @@
 # [V3云崽BOT手机搭建教程](https://gitee.com/CUZNIL/Yunzai-install)
-上次编辑时间2023年3月28日21:27:28
+上次编辑时间2023年3月28日23:17:24
 ## 0.介绍
 针对安卓手机搭建[V3云崽BOT](https://gitee.com/Le-niao/Yunzai-Bot)的一篇详细教程，也包含手机搭建前后会遇到的各种问题和解决方案。
 
@@ -45,7 +45,7 @@
 
 [点此下载TERMUX最新版本](https://f-droid.org/repo/com.termux_118.apk)。
 
-**备用方案：**[QQ群文件](http://jq.qq.com/?_wv=1027&k=tqiOtCVc) [天翼网盘(访问码：u9g9)](https://cloud.189.cn/t/rY3ueeYzENBj) [gitee下载](https://gitee.com/CUZNIL/Yunzai-install/raw/master/download/apks/Termux_0.118.0_com.termux_118.apk) [github下载](https://github.com/CUZNIL/Yunzai-install/raw/master/download/apks/Termux_0.118.0_com.termux_118.apk) 
+**备用方案：**[QQ群文件](http://jq.qq.com/?_wv=1027&k=tqiOtCVc) [天翼网盘(访问码：u9g9)](https://cloud.189.cn/t/rY3ueeYzENBj) [gitee下载](https://gitee.com/CUZNIL/Yunzai-install/raw/master/download/apks/Termux_0.118.0_com.termux_118.apk) [github下载](https://github.com/CUZNIL/Yunzai-install/raw/master/download/apks/Termux_0.118.0_com.termux_118.apk) [GHProxy下载](https://ghproxy.com/https://raw.githubusercontent.com/CUZNIL/Yunzai-install/master/download/apks/Termux_0.118.0_com.termux_118.apk) 
 
 ![输入图片说明](doc-use/1.png)
 
@@ -216,7 +216,7 @@ git remote -v
 
 首先根据提示下载[滑动验证app，点击此处下载，密码3kuu](https://wwp.lanzouy.com/i6w3J08um92h)。
 
-**备用下载方案：**[QQ群文件](http://jq.qq.com/?_wv=1027&k=tqiOtCVc) [gitee下载](https://gitee.com/CUZNIL/Yunzai-install/raw/master/download/apks/滑动验证app.apk) [github下载](https://github.com/CUZNIL/Yunzai-install/raw/master/download/apks/滑动验证app.apk) 
+**备用下载方案：**[QQ群文件](http://jq.qq.com/?_wv=1027&k=tqiOtCVc) [gitee下载](https://gitee.com/CUZNIL/Yunzai-install/raw/master/download/apks/滑动验证app.apk) [github下载](https://github.com/CUZNIL/Yunzai-install/raw/master/download/apks/滑动验证app.apk) [GHProxy下载](https://ghproxy.com/https://raw.githubusercontent.com/CUZNIL/Yunzai-install/master/download/apks/滑动验证app.apk) 
 
 有vbn的话事情就简单很多了，打开你的vbn，然后回到termux，选择2.滑动验证app请求码获取。
 
@@ -244,7 +244,7 @@ git remote -v
 
 首先根据提示下载[滑动验证app，点击此处下载，密码3kuu](https://wwp.lanzouy.com/i6w3J08um92h)。
 
-**备用下载方案：**[QQ群文件](http://jq.qq.com/?_wv=1027&k=tqiOtCVc) [gitee下载](https://gitee.com/CUZNIL/Yunzai-install/raw/master/download/apks/滑动验证app.apk) [github下载](https://github.com/CUZNIL/Yunzai-install/raw/master/download/apks/滑动验证app.apk) 
+**备用下载方案：**[QQ群文件](http://jq.qq.com/?_wv=1027&k=tqiOtCVc) [gitee下载](https://gitee.com/CUZNIL/Yunzai-install/raw/master/download/apks/滑动验证app.apk) [github下载](https://github.com/CUZNIL/Yunzai-install/raw/master/download/apks/滑动验证app.apk) [GHProxy下载](https://ghproxy.com/https://raw.githubusercontent.com/CUZNIL/Yunzai-install/master/download/apks/滑动验证app.apk) 
 
 回到termux。如图，长按链接部分，选择复制。
 
@@ -676,22 +676,20 @@ rcp ls plugins/py-plugin/data/fonts/
 
 如图所示确认到有NotoSansSC-Regular.otf，说明字体资源下载好了。接下来为所有用户安装。如果没有请启动你的机器人，稍等一会他会自动下载表情包制作需要的所有资源（当然包括字体）。等待下载完毕再开始向后执行。
 
-![输入图片说明](doc-use/imageqw98edqw498ww.png)
+![输入图片说明](doc-use/imagewqfg398e222.png)
 
 如图所示，向机器人依次发送下面三条消息。
 
 ```
-rcp mkdir ../../../usr/local/share/fonts/
+rcp mkdir /usr/local/share/fonts/
 ```
-
 ```
-rcp cd ../../../usr/local/share/fonts/ && curl -O NotoSansSC-Regular.otf
+rcp cd /usr/local/share/fonts && curl -O https://ghproxy.com/https://raw.githubusercontent.com/CUZNIL/Yunzai-install/master/download/NoneBot/meme-generator/fonts/NotoSansSC-Regular.otf
 ```
-
+下载快的话五六秒，慢的话一俩分钟。下载后出现如图所示的“标准错误输出”是正常现象。
 ```
 rcp rm ../home/.cache/matplotlib/fontlist-v330.json
 ```
-
 最后重启机器人即可正常使用。比如你可以向机器人发消息“#重启”。
 
 ![输入图片说明](doc-use/imagewwww12213123esadsa.png)
@@ -916,7 +914,7 @@ git remote -v
 
 首先根据提示下载[滑动验证app，点击此处下载，密码3kuu](https://wwp.lanzouy.com/i6w3J08um92h)。
 
-**备用下载方案：**[QQ群文件](http://jq.qq.com/?_wv=1027&k=tqiOtCVc) [gitee下载](https://gitee.com/CUZNIL/Yunzai-install/raw/master/download/apks/滑动验证app.apk) [github下载](https://github.com/CUZNIL/Yunzai-install/raw/master/download/apks/滑动验证app.apk) 
+**备用下载方案：**[QQ群文件](http://jq.qq.com/?_wv=1027&k=tqiOtCVc) [gitee下载](https://gitee.com/CUZNIL/Yunzai-install/raw/master/download/apks/滑动验证app.apk) [github下载](https://github.com/CUZNIL/Yunzai-install/raw/master/download/apks/滑动验证app.apk) [GHProxy下载](https://ghproxy.com/https://raw.githubusercontent.com/CUZNIL/Yunzai-install/master/download/apks/滑动验证app.apk) 
 
 有vbn的话事情就简单很多了，打开你的vbn，然后回到termux，选择2.滑动验证app请求码获取。
 
@@ -944,7 +942,7 @@ git remote -v
 
 首先根据提示下载[滑动验证app，点击此处下载，密码3kuu](https://wwp.lanzouy.com/i6w3J08um92h)。
 
-**备用下载方案：**[QQ群文件](http://jq.qq.com/?_wv=1027&k=tqiOtCVc) [gitee下载](https://gitee.com/CUZNIL/Yunzai-install/raw/master/download/apks/滑动验证app.apk) [github下载](https://github.com/CUZNIL/Yunzai-install/raw/master/download/apks/滑动验证app.apk) 
+**备用下载方案：**[QQ群文件](http://jq.qq.com/?_wv=1027&k=tqiOtCVc) [gitee下载](https://gitee.com/CUZNIL/Yunzai-install/raw/master/download/apks/滑动验证app.apk) [github下载](https://github.com/CUZNIL/Yunzai-install/raw/master/download/apks/滑动验证app.apk) [GHProxy下载](https://ghproxy.com/https://raw.githubusercontent.com/CUZNIL/Yunzai-install/master/download/apks/滑动验证app.apk) 
 
 回到termux。如图，长按链接部分，选择复制。
 
@@ -1136,7 +1134,7 @@ https://gitee.com/TimeRainStarSky/TRSS-Plugin/
 
 首先安装[时雨插件](https://gitee.com/TimeRainStarSky/TRSS-Plugin/)以便直接通过QQ操作。不愿意安装的话在合适路径参考下面命令执行是相同效果。
 
-向机器人输入下面这行命令，检查字体资源是否下载好。
+向机器人输入下面这行命令，检查时雨插件和表情包制作插件是否下载好。
 
 ```
 rcp ls plugins/py-plugin/data/fonts/
@@ -1146,22 +1144,20 @@ rcp ls plugins/py-plugin/data/fonts/
 
 如图所示确认到有NotoSansSC-Regular.otf，说明字体资源下载好了。接下来为所有用户安装。如果没有请启动你的机器人，稍等一会他会自动下载表情包制作需要的所有资源（当然包括字体）。等待下载完毕再开始向后执行。
 
-![输入图片说明](doc-use/imageqw98edqw498ww.png)
+![输入图片说明](doc-use/imagewqfg398e222.png)
 
 如图所示，向机器人依次发送下面三条消息。
 
 ```
-rcp mkdir ../../../usr/local/share/fonts/
+rcp mkdir /usr/local/share/fonts/
 ```
-
 ```
-rcp cp plugins/py-plugin/data/fonts/NotoSansSC-Regular.otf ../../../usr/local/share/fonts/NotoSansSC-Regular.otf
+rcp cd /usr/local/share/fonts && curl -O https://ghproxy.com/https://raw.githubusercontent.com/CUZNIL/Yunzai-install/master/download/NoneBot/meme-generator/fonts/NotoSansSC-Regular.otf
 ```
-
+下载快的话五六秒，慢的话一俩分钟。下载后出现如图所示的“标准错误输出”是正常现象。
 ```
 rcp rm ../home/.cache/matplotlib/fontlist-v330.json
 ```
-
 最后重启机器人即可正常使用。比如你可以向机器人发消息“#重启”。
 
 ![输入图片说明](doc-use/imagewwww12213123esadsa.png)
@@ -1294,7 +1290,7 @@ sshd && termux-wake-lock && tsab y f
 
 <details><summary>2.使用NMM便捷管理云崽文件</summary>
 
-apk下载地址(任一)：[QQ群文件](http://jq.qq.com/?_wv=1027&k=tqiOtCVc) [天翼网盘(访问码：pui5)](https://cloud.189.cn/t/n2i6ZfJnUNRb) [gitee下载](https://gitee.com/CUZNIL/Yunzai-install/raw/master/download/apks/NMM(in.mfile.beta)_1.14.2-beta(200267).apk) [github下载](https://github.com/CUZNIL/Yunzai-install/raw/master/download/apks/NMM(in.mfile.beta)_1.14.2-beta(200267).apk) 
+apk下载地址(任一)：[QQ群文件](http://jq.qq.com/?_wv=1027&k=tqiOtCVc) [天翼网盘(访问码：pui5)](https://cloud.189.cn/t/n2i6ZfJnUNRb) [gitee下载](https://gitee.com/CUZNIL/Yunzai-install/raw/master/download/apks/NMM(in.mfile.beta)_1.14.2-beta(200267).apk) [github下载](https://github.com/CUZNIL/Yunzai-install/raw/master/download/apks/NMM(in.mfile.beta)_1.14.2-beta(200267).apk) [GHProxy下载](https://ghproxy.com/https://raw.githubusercontent.com/CUZNIL/Yunzai-install/master/download/apks/NMM(in.mfile.beta)_1.14.2-beta(200267).apk) 
 
 下载后安装到手机。
 
