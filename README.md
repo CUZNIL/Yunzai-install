@@ -106,64 +106,48 @@
 
 </details>
 
-## 2.容器
+## 2.容器和脚本
 
 
-<details><summary>脚本安装Arch</summary>
+<details><summary>脚本安装Arch以及管理脚本</summary>
 
 进入Termux终端。输入
-
 
 ```
 curl -LO gitee.com/TimeRainStarSky/TRSS-MTArch/raw/main/Install.sh && bash Install.sh
 ```
 
-
-
 ，稍作等待会显示如下页面，说明容器安装完毕。
 
 ![输入图片说明](doc-use/wqfg.jpg)
+
+现在脚本做了更新，你安装后会默认启动脚本。
 
 </details>
 
 ## 3.云崽本体
 
-
-<details><summary>安装管理脚本</summary>
-
-进入Termux终端。输入
-
-```
-bash <(curl -L gitee.com/TimeRainStarSky/TRSS_Yunzai/raw/main/Install.sh)
-```
-
-，稍作等待会显示如下页面，说明时雨脚本安装完毕。
-
-![输入图片说明](doc-use/qwfqw65gf4.jpg)
-
-
-———————————分割线———————————
-
-</details>
-
-
 <details><summary>安装云崽</summary>
 
-根据提示输入`tsyz`，首次启动脚本等待时间会稍久，背景变蓝说明成功进入脚本了。国内可能会导致部分报错信息遮住确认键，按我下面的截图点击对应位置即可。依次点击Yunzai、确认、确认、回车。
+**如果你下面显示的内容跟我不完全一致，选择最接近的按钮即可。**
+
+依次点击7 Le-Yunzai、确认、确认、回车。
 
 ![输入图片说明](doc-use/image98qw4dfdqf.png)
 
 <details><summary>我想知道三个云崽都是干嘛的？</summary>
 
-1.  **[Le-Yunzai](https://gitee.com/TimeRainStarSky/Yunzai-Bot)** ：使用icqq协议，是原版云崽V3由各路大佬维护的版本，最推荐。
+**[7.Le-Yunzai](https://gitee.com/TimeRainStarSky/Yunzai-Bot)** ：使用icqq协议，是原版云崽V3由各路大佬维护的版本，最推荐。
 
-2.  **[Miao-Yunzai](https://gitee.com/yoimiya-kokomi/Miao-Yunzai)** ：使用icqq协议，由喵喵在原版云崽V3上进行了大改。
+**[8.Miao-Yunzai](https://gitee.com/yoimiya-kokomi/Miao-Yunzai)** ：使用icqq协议，由喵喵在原版云崽V3上进行了大改。
 
-3.  **[TRSS-Yunzai](https://gitee.com/TimeRainStarSky/Yunzai)** ：使用go-cqhttp协议，由时雨在原版云崽V3上进行了大改。
+**[9.TRSS-Yunzai](https://gitee.com/TimeRainStarSky/Yunzai)** ：使用go-cqhttp协议，由时雨在原版云崽V3上进行了大改。
 
-如果不想折腾，建议选第一个就行，我这篇教程也是这么做的。其他版本可能会导致部分插件出现问题。
+如果不想折腾，建议选第一个Le-Yunzai就行，我这篇教程也是这么做的。其他版本可能会导致部分插件出现问题。
 
 如果愿意折腾可以玩第二个或者第三个。玩的话请先阅读对应的项目页！
+
+其他都是别的BOT了，你折腾好云崽想玩可以自己去玩。
 
 ———————————分割线———————————
 
@@ -220,7 +204,7 @@ git remote -v
 
 <details><summary>启动云崽</summary>
 
-进入Termux终端。输入`tsyz y f`即可启动云崽。首次启动请根据提示配置你的bot账密，登录方式建议iPad。
+进入Termux终端。输入`tsab y f`即可启动云崽。首次启动请根据提示配置你的bot账密，登录方式建议iPad。
 
 ![输入图片说明](doc-use/image4984.png)
 
@@ -357,11 +341,11 @@ git remote -v
 
 ![输入图片说明](doc-use/qfqef.bmp)
 
-进入Termux终端。输入`tsyz y`进入脚本的云崽管理界面。依次选择修复版本过低→iPad→BOT的账号。
+进入Termux终端。输入`tsab y`进入脚本的云崽管理界面。依次选择修复版本过低→iPad→BOT的账号。
 
 ![输入图片说明](doc-use/123rf.png)
 
-如果脚本工作正常，你现在可以按下 ctrl + c ，再根据提示操作退出脚本。输入`tsyz y f`即可启动云崽，通过滑动验证即可顺利登录！
+如果脚本工作正常，你现在可以按下 ctrl + c ，再根据提示操作退出脚本。输入`tsab y f`即可启动云崽，通过滑动验证即可顺利登录！
 
 如果还是报错版本过低或者报错禁止登录，则尝试切换设备为MacOS，其他操作和上面一致。
 
@@ -375,7 +359,7 @@ git remote -v
 
 要解决这个报错，如果你会使用openssh在电脑使用xftp编辑文件会方便很多。这里为了方便讲述还是使用手机操作。
 
-进入Termux终端。输入`tsyz y file`进入脚本的文件管理页面。使用Termux底部的上下左右进入文件夹/node_modules/icqq/lib/core/，编辑文件device.js。
+进入Termux终端。输入`tsab y file`进入脚本的文件管理页面。使用Termux底部的上下左右进入文件夹/node_modules/icqq/lib/core/，编辑文件device.js。
 
 ![输入图片说明](doc-use/qd4w89wq.png)
 
@@ -385,7 +369,7 @@ git remote -v
 
 ![输入图片说明](doc-use/im984.png)
 
-输入`tsyz y f`即可启动云崽，通过滑动验证即可顺利登录！
+输入`tsab y f`即可启动云崽，通过滑动验证即可顺利登录！
 
 如果无法正常登录请再次执行上面“报错：版本过低”的方案后再次执行“报错：禁止登录”的方案，目前挺多人用了这套组合拳下来都能解决。
 
@@ -409,7 +393,7 @@ git remote -v
 
 本教程提到的所有插件该脚本都能在不碰键盘的情况下完成安装，所以不用担心。
 
-进入Termux终端。输入`tsyz`，依次选择Le-Yunzai、插件管理、Git 插件管理、安装插件
+进入Termux终端。输入`tsab`，依次选择Le-Yunzai、插件管理、Git 插件管理、安装插件
 
 ![输入图片说明](doc-use/imageqwd9qw48d.png)
 
@@ -438,7 +422,7 @@ git remote -v
 
 <details><summary>使用脚本卸载插件</summary>
 
-在Termux终端输入`tsyz`，进入云崽管理脚本。依次选择Le-Yunzai→插件管理→Git 插件管理→管理插件→你要卸载的插件(图中我们卸载armoe插件)→删除插件→最后确认，然后稍等一俩秒就卸载干净了。
+在Termux终端输入`tsab`，进入云崽管理脚本。依次选择Le-Yunzai→插件管理→Git 插件管理→管理插件→你要卸载的插件(图中我们卸载armoe插件)→删除插件→最后确认，然后稍等一俩秒就卸载干净了。
 
 ![输入图片说明](doc-use/imagewdqwd9849222.png)
 
@@ -516,7 +500,7 @@ git remote -v
 
 从脚本默认的入口无法安装插件本体，就是因为你无法访问那个网站。时雨可能是出于后续方便维护的考虑做了重定向，但是你网络不好是没法访问的。不过我们只要手动安装即可，毕竟插件的项目地址本身是gitee，国内应该都可以访问。
 
-进入Termux终端，输入`tsyz`进入云崽管理脚本。依次选择插件管理、Git插件管理、安装插件、自定义，然后输入TRSS-Plugin，输入
+进入Termux终端，输入`tsab`进入云崽管理脚本。依次选择插件管理、Git插件管理、安装插件、自定义，然后输入TRSS-Plugin，输入
 
 ```
 https://gitee.com/TimeRainStarSky/TRSS-Plugin/
@@ -540,7 +524,7 @@ https://gitee.com/TimeRainStarSky/TRSS-Plugin/
 
 接下来就很简单了，使用脚本完成插件本体的安装即可。
 
-进入Termux终端，输入`tsyz`进入云崽管理脚本。依次选择插件管理、Git插件管理、TRSS插件、确认即可。
+进入Termux终端，输入`tsab`进入云崽管理脚本。依次选择插件管理、Git插件管理、TRSS插件、确认即可。
 
 ![输入图片说明](doc-use/wqdf.png)
 
@@ -555,13 +539,13 @@ https://gitee.com/TimeRainStarSky/TRSS-Plugin/
 <details><summary>插件配置</summary>
 
 
-进入Termux终端，输入`tsyz`进入云崽管理脚本。依次选择插件管理、Git插件管理、TRSS插件。
+进入Termux终端，输入`tsab`进入云崽管理脚本。依次选择插件管理、Git插件管理、TRSS插件。
 
 ![输入图片说明](doc-use/imageqwd987.png)
 
 在这个页面根据你的需要安装对应内容即可，脚本全处理好了。比如你需要本地合成原神角色音色，你就安装语音合成和语音合成 原神模型就可以了。
 
-完成你需要的所有安装以后请注意，该插件的语音合成默认用接口但是目前接口失效了，所有必须手动更改配置文件。首先我们退出脚本，然后输入`tsyz y f`启动云崽，在成功登录进去以后再按ctrl+c退出。输入`tsyz`进入云崽管理脚本。依次选择插件管理、Git插件管理、TRSS插件、修改配置文件。
+完成你需要的所有安装以后请注意，该插件的语音合成默认用接口但是目前接口失效了，所有必须手动更改配置文件。首先我们退出脚本，然后输入`tsab y f`启动云崽，在成功登录进去以后再按ctrl+c退出。输入`tsab`进入云崽管理脚本。依次选择插件管理、Git插件管理、TRSS插件、修改配置文件。
 
 ![输入图片说明](doc-use/imagewd98123.png)
 
@@ -588,7 +572,7 @@ https://gitee.com/TimeRainStarSky/TRSS-Plugin/
 
 首先是安装说明：
 
-进入Termux终端，输入`tsyz`进入云崽管理脚本。依次选择插件管理、Git插件管理、Py插件、确认即可。
+进入Termux终端，输入`tsab`进入云崽管理脚本。依次选择插件管理、Git插件管理、Py插件、确认即可。
 
 ![输入图片说明](doc-use/imageqwd894.png)
 
@@ -738,7 +722,7 @@ rcp rm ../home/.cache/matplotlib/fontlist-v330.json
 
 ![输入图片说明](doc-use/image12893dc.png)
 
-进入Termux终端，输入`tsyz p g`以进入Git插件管理页面。接下来依次选择管理插件、你缺依赖的插件(这里是ap-plugin)、软件包管理、安装软件包，然后输入你缺的依赖名称(这里是baidu-aip-sdk)即可。下图展示了一次成功安装依赖的过程。
+进入Termux终端，输入`tsab p g`以进入Git插件管理页面。接下来依次选择管理插件、你缺依赖的插件(这里是ap-plugin)、软件包管理、安装软件包，然后输入你缺的依赖名称(这里是baidu-aip-sdk)即可。下图展示了一次成功安装依赖的过程。
 
 ![输入图片说明](doc-use/image98qw7891.png)
 
@@ -808,7 +792,7 @@ pacman -Sy --noconfirm pkg-config node-gyp gcc make
 
 ![输入图片说明](doc-use/image12893dc.png)
 
-进入Termux终端，输入`tsyz p g`以进入Git插件管理页面。接下来依次选择管理插件、你缺依赖的插件(这里是ap-plugin)、软件包管理、安装软件包，然后输入你缺的依赖名称(这里是baidu-aip-sdk)即可。下图展示了一次成功安装依赖的过程。
+进入Termux终端，输入`tsab p g`以进入Git插件管理页面。接下来依次选择管理插件、你缺依赖的插件(这里是ap-plugin)、软件包管理、安装软件包，然后输入你缺的依赖名称(这里是baidu-aip-sdk)即可。下图展示了一次成功安装依赖的过程。
 
 ![输入图片说明](doc-use/image98qw7891.png)
 
@@ -1044,11 +1028,11 @@ git remote -v
 
 ![输入图片说明](doc-use/qfqef.bmp)
 
-进入Termux终端。输入`tsyz y`进入脚本的云崽管理界面。依次选择修复版本过低→iPad→BOT的账号。
+进入Termux终端。输入`tsab y`进入脚本的云崽管理界面。依次选择修复版本过低→iPad→BOT的账号。
 
 ![输入图片说明](doc-use/123rf.png)
 
-如果脚本工作正常，你现在可以按下 ctrl + c ，再根据提示操作退出脚本。输入`tsyz y f`即可启动云崽，通过滑动验证即可顺利登录！
+如果脚本工作正常，你现在可以按下 ctrl + c ，再根据提示操作退出脚本。输入`tsab y f`即可启动云崽，通过滑动验证即可顺利登录！
 
 如果还是报错版本过低或者报错禁止登录，则尝试切换设备为MacOS，其他操作和上面一致。
 
@@ -1062,7 +1046,7 @@ git remote -v
 
 要解决这个报错，如果你会使用openssh在电脑使用xftp编辑文件会方便很多。这里为了方便讲述还是使用手机操作。
 
-进入Termux终端。输入`tsyz y file`进入脚本的文件管理页面。使用Termux底部的上下左右进入文件夹/node_modules/icqq/lib/core/，编辑文件device.js。
+进入Termux终端。输入`tsab y file`进入脚本的文件管理页面。使用Termux底部的上下左右进入文件夹/node_modules/icqq/lib/core/，编辑文件device.js。
 
 ![输入图片说明](doc-use/qd4w89wq.png)
 
@@ -1072,7 +1056,7 @@ git remote -v
 
 ![输入图片说明](doc-use/im984.png)
 
-输入`tsyz y f`即可启动云崽，通过滑动验证即可顺利登录！
+输入`tsab y f`即可启动云崽，通过滑动验证即可顺利登录！
 
 如果无法正常登录请再次执行上面“报错：版本过低”的方案后再次执行“报错：禁止登录”的方案，目前挺多人用了这套组合拳下来都能解决。
 
@@ -1091,7 +1075,7 @@ git remote -v
 
 从脚本默认的入口无法安装插件本体，就是因为你无法访问那个网站。时雨可能是出于后续方便维护的考虑做了重定向，但是你网络不好是没法访问的。不过我们只要手动安装即可，毕竟插件的项目地址本身是gitee，国内应该都可以访问。
 
-进入Termux终端，输入`tsyz`进入云崽管理脚本。依次选择插件管理、Git插件管理、安装插件、自定义，然后输入TRSS-Plugin，输入
+进入Termux终端，输入`tsab`进入云崽管理脚本。依次选择插件管理、Git插件管理、安装插件、自定义，然后输入TRSS-Plugin，输入
 
 ```
 https://gitee.com/TimeRainStarSky/TRSS-Plugin/
@@ -1115,7 +1099,7 @@ https://gitee.com/TimeRainStarSky/TRSS-Plugin/
 
 接下来就很简单了，使用脚本完成插件本体的安装即可。
 
-进入Termux终端，输入`tsyz`进入云崽管理脚本。依次选择插件管理、Git插件管理、TRSS插件、确认即可。
+进入Termux终端，输入`tsab`进入云崽管理脚本。依次选择插件管理、Git插件管理、TRSS插件、确认即可。
 
 ![输入图片说明](doc-use/wqdf.png)
 
@@ -1128,13 +1112,13 @@ https://gitee.com/TimeRainStarSky/TRSS-Plugin/
 
 <details><summary>时雨插件合成语音没反应</summary>
 
-进入Termux终端，输入`tsyz`进入云崽管理脚本。依次选择插件管理、Git插件管理、TRSS插件。
+进入Termux终端，输入`tsab`进入云崽管理脚本。依次选择插件管理、Git插件管理、TRSS插件。
 
 ![输入图片说明](doc-use/imageqwd987.png)
 
 在这个页面根据你的需要安装对应内容即可，脚本全处理好了。比如你需要本地合成原神角色音色，你就安装语音合成和语音合成 原神模型就可以了。
 
-完成你需要的所有安装以后请注意，该插件的语音合成默认用接口但是目前接口失效了，所有必须手动更改配置文件。首先我们退出脚本，然后输入`tsyz y f`启动云崽，在成功登录进去以后再按ctrl+c退出。输入`tsyz`进入云崽管理脚本。依次选择插件管理、Git插件管理、TRSS插件、修改配置文件。
+完成你需要的所有安装以后请注意，该插件的语音合成默认用接口但是目前接口失效了，所有必须手动更改配置文件。首先我们退出脚本，然后输入`tsab y f`启动云崽，在成功登录进去以后再按ctrl+c退出。输入`tsab`进入云崽管理脚本。依次选择插件管理、Git插件管理、TRSS插件、修改配置文件。
 
 ![输入图片说明](doc-use/imagewd98123.png)
 
@@ -1273,13 +1257,13 @@ pacman -Sy --noconfirm pkg-config node-gyp gcc make
 进入Termux终端，输入下面这行指令以在息屏情况下持续地运行云崽。
 
 ```
-termux-wake-lock && tsyz y f
+termux-wake-lock && tsab y f
 ```
 
 当然如果你有在使用openssh，也可以用这行指令。保证只用一行命令能方便下次启动时直接按"↑"回忆一行命令即可所以推荐全挤在一行。
 
 ```
-sshd && termux-wake-lock && tsyz y f
+sshd && termux-wake-lock && tsab y f
 ```
 
 如果你是首次使用`termux-wake-lock`，可能会有需要你操作的地方，比如小米会跳转到这个页面，根据我们的需要那当然是从默认的智能限制改为无限制。
@@ -1292,7 +1276,7 @@ sshd && termux-wake-lock && tsyz y f
 
 首先需要让termux记住你输入过上面的指令，需要一次正常的退出进程。具体步骤如下：
 
-首先正常输入一遍启动指令，比如我需要openssh我就用`sshd && termux-wake-lock && tsyz y f`。
+首先正常输入一遍启动指令，比如我需要openssh我就用`sshd && termux-wake-lock && tsab y f`。
 
 ![输入图片说明](doc-use/imag222e.png)
 
