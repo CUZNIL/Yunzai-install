@@ -666,7 +666,7 @@ resources_dir: /root/TRSS_Yunzai/Yunzai/plugins/py-plugin/data
 
 首先安装[时雨插件](https://gitee.com/TimeRainStarSky/TRSS-Plugin/)以便直接通过QQ操作。不愿意安装的话在合适路径参考下面命令执行是相同效果。
 
-向机器人输入下面这行命令，检查字体资源是否下载好。
+向机器人输入下面这行命令，检查时雨插件和表情包制作插件是否下载好。
 
 ```
 rcp ls plugins/py-plugin/data/fonts/
@@ -685,7 +685,7 @@ rcp mkdir ../../../usr/local/share/fonts/
 ```
 
 ```
-rcp cp plugins/py-plugin/data/fonts/NotoSansSC-Regular.otf ../../../usr/local/share/fonts/NotoSansSC-Regular.otf
+rcp cd ../../../usr/local/share/fonts/ && curl -O NotoSansSC-Regular.otf
 ```
 
 ```
