@@ -1,5 +1,5 @@
 # [V3云崽BOT手机搭建教程](https://gitee.com/CUZNIL/Yunzai-install)
-上次编辑时间2023年3月28日23:30:36
+上次编辑时间2023年3月29日23:19:33
 ## 0.介绍
 针对安卓手机搭建[V3云崽BOT](https://gitee.com/Le-niao/Yunzai-Bot)的一篇详细教程，也包含手机搭建前后会遇到的各种问题和解决方案。
 
@@ -207,6 +207,16 @@ git remote -v
 进入Termux终端。输入`tsab y f`即可启动云崽。首次启动请根据提示配置你的bot账密，登录方式建议iPad。
 
 ![输入图片说明](doc-use/image4984.png)
+
+<details><summary>账密登录却唐突要求扫码登录</summary>
+
+暂不方便写教程，自行参考此issue解决。
+
+https://gitee.com/yoimiya-kokomi/Yunzai-Bot/issues/I6RGB3
+
+———————————分割线———————————
+
+</details>
 
 <details><summary>然后根据通过滑动验证。如果实在不会就点击展开</summary>
 
@@ -862,6 +872,17 @@ pacman -Sy --noconfirm pkg-config node-gyp gcc make
 ## 7.部分报错处理整合
 
 以下报错或处理都在前文合适的位置出现过了，放在这里是为了方便查阅，如已仔细阅读前文则不必再看。
+
+
+<details><summary>账密登录却唐突要求扫码登录</summary>
+
+暂不方便写教程，自行参考此issue解决。
+
+https://gitee.com/yoimiya-kokomi/Yunzai-Bot/issues/I6RGB3
+
+———————————分割线———————————
+
+</details>
 
 <details><summary>云崽换源</summary>
 
