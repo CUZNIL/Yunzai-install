@@ -1,0 +1,38 @@
+log_level: INFO
+command_start:
+  - ""
+  - "#"
+  - "/"
+command_sep:
+  - .
+nickname:
+  - 云崽
+  - yunzai
+superusers:
+  - 123456
+  - 654321
+need_at: no
+plugins:
+  - nonebot-plugin-memes
+  - nonebot-plugin-gspanel
+  - nonebot-plugin-bawiki
+  - nonebot_plugin_oddtext
+  - nonebot_plugin_abbrreply
+  - nonebot_plugin_miragetank
+  - nonebot_plugin_PicMenu
+  - nonebot_plugin_emojimix
+host: 127.0.0.1
+port: 43215
+independent: false
+encoding: utf-8
+setup_check: false
+# nonebot-plugin-gspanel 配置项
+gspanel_alias:
+  - nb面板
+gspanel_scale: 1
+resources_mirror: https://enka.network/ui/
+resources_dir: /root/TRSS_Yunzai/Yunzai/plugins/py-plugin/data
+# nonebot-plugin-memes 配置项
+memes_check_resources_on_startup: true
+memes_prompt_params_error: true
+memes_use_sender_when_no_image: true
