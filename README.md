@@ -1,5 +1,5 @@
 # [V3云崽BOT手机搭建教程](https://gitee.com/CUZNIL/Yunzai-install)
-上次编辑时间2023年3月29日23:19:33
+上次编辑时间2023年3月30日14:23:41
 ## 0.介绍
 针对安卓手机搭建[V3云崽BOT](https://gitee.com/Le-niao/Yunzai-Bot)的一篇详细教程，也包含手机搭建前后会遇到的各种问题和解决方案。
 
@@ -207,16 +207,6 @@ git remote -v
 进入Termux终端。输入`tsab y f`即可启动云崽。首次启动请根据提示配置你的bot账密，登录方式建议iPad。
 
 ![输入图片说明](doc-use/image4984.png)
-
-<details><summary>账密登录却唐突要求扫码登录</summary>
-
-暂不方便写教程，自行参考此issue解决。
-
-https://gitee.com/yoimiya-kokomi/Yunzai-Bot/issues/I6RGB3
-
-———————————分割线———————————
-
-</details>
 
 <details><summary>然后根据通过滑动验证。如果实在不会就点击展开</summary>
 
@@ -697,6 +687,11 @@ rcp mkdir /usr/local/share/fonts/
 rcp cd /usr/local/share/fonts && curl -O https://ghproxy.com/https://raw.githubusercontent.com/CUZNIL/Yunzai-install/master/download/NoneBot/meme-generator/fonts/NotoSansSC-Regular.otf
 ```
 下载快的话五六秒，慢的话一俩分钟。下载后出现如图所示的“标准错误输出”是正常现象。
+![输入图片说明](doc-use/imageqwd8qw9wwww.png)
+
+但是如果标准错误输出的结尾包含类似上图的红框内容，请重新下载，再次输入刚才的命令直到“标准错误输出”中没有出现上图的红框内容。
+
+↓确认没有问题继续。↓
 ```
 rcp rm ../home/.cache/matplotlib/fontlist-v330.json
 ```
@@ -872,17 +867,6 @@ pacman -Sy --noconfirm pkg-config node-gyp gcc make
 ## 7.部分报错处理整合
 
 以下报错或处理都在前文合适的位置出现过了，放在这里是为了方便查阅，如已仔细阅读前文则不必再看。
-
-
-<details><summary>账密登录却唐突要求扫码登录</summary>
-
-暂不方便写教程，自行参考此issue解决。
-
-https://gitee.com/yoimiya-kokomi/Yunzai-Bot/issues/I6RGB3
-
-———————————分割线———————————
-
-</details>
 
 <details><summary>云崽换源</summary>
 
@@ -1169,6 +1153,11 @@ rcp mkdir /usr/local/share/fonts/
 rcp cd /usr/local/share/fonts && curl -O https://ghproxy.com/https://raw.githubusercontent.com/CUZNIL/Yunzai-install/master/download/NoneBot/meme-generator/fonts/NotoSansSC-Regular.otf
 ```
 下载快的话五六秒，慢的话一俩分钟。下载后出现如图所示的“标准错误输出”是正常现象。
+![输入图片说明](doc-use/imageqwd8qw9wwww.png)
+
+但是如果标准错误输出的结尾包含类似上图的红框内容，请重新下载，再次输入刚才的命令直到“标准错误输出”中没有出现上图的红框内容。
+
+↓确认没有问题继续。↓
 ```
 rcp rm ../home/.cache/matplotlib/fontlist-v330.json
 ```
