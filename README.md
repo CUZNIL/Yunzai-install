@@ -1,5 +1,5 @@
 # [V3云崽BOT手机搭建教程](https://gitee.com/CUZNIL/Yunzai-install)
-上次编辑时间2023年3月30日14:23:41
+上次编辑时间2023年4月2日23:52:39
 ## 0.介绍
 针对安卓手机搭建[V3云崽BOT](https://gitee.com/Le-niao/Yunzai-Bot)的一篇详细教程，也包含手机搭建前后会遇到的各种问题和解决方案。
 
@@ -684,7 +684,7 @@ rcp ls plugins/py-plugin/data/fonts/
 rcp mkdir /usr/local/share/fonts/
 ```
 ```
-rcp cd /usr/local/share/fonts && curl -O https://ghproxy.com/https://raw.githubusercontent.com/CUZNIL/Yunzai-install/master/download/NoneBot/meme-generator/fonts/NotoSansSC-Regular.otf
+rcp cd /usr/local/share/fonts && curl -O https://ghproxy.com/https://raw.githubusercontent.com/CUZNIL/Yunzai-install/master/download/plugins/py-plugin/data/fonts/NotoSansSC-Regular.otf
 ```
 下载快的话五六秒，慢的话一俩分钟。下载后出现如图所示的“标准错误输出”是正常现象。
 ![输入图片说明](doc-use/imageqwd8qw9wwww.png)
@@ -1150,8 +1150,9 @@ rcp ls plugins/py-plugin/data/fonts/
 rcp mkdir /usr/local/share/fonts/
 ```
 ```
-rcp cd /usr/local/share/fonts && curl -O https://ghproxy.com/https://raw.githubusercontent.com/CUZNIL/Yunzai-install/master/download/NoneBot/meme-generator/fonts/NotoSansSC-Regular.otf
+rcp cd /usr/local/share/fonts && curl -O https://ghproxy.com/https://raw.githubusercontent.com/CUZNIL/Yunzai-install/master/download/plugins/py-plugin/data/fonts/NotoSansSC-Regular.otf
 ```
+
 下载快的话五六秒，慢的话一俩分钟。下载后出现如图所示的“标准错误输出”是正常现象。
 ![输入图片说明](doc-use/imageqwd8qw9wwww.png)
 
