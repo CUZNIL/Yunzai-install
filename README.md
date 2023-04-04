@@ -1,5 +1,5 @@
 # [V3云崽BOT手机搭建教程](https://gitee.com/CUZNIL/Yunzai-install)
-上次编辑时间2023年4月4日17:03:47
+上次编辑时间2023年4月4日17:13:20
 ## 0.介绍
 针对安卓手机搭建[V3云崽BOT](https://gitee.com/Le-niao/Yunzai-Bot)的一篇详细教程，也包含手机搭建前后会遇到的各种问题和解决方案。
 
@@ -630,7 +630,7 @@ https://gitee.com/TimeRainStarSky/TRSS-Plugin/
 
 ![输入图片说明](download/README_pictures/imagewq98988998.png)
 
-根据插件作者的说明配置好即可，比如这是我的配置：
+根据插件作者的说明配置好即可，比如这是[我的配置](https://gitee.com/CUZNIL/Yunzai-install/blob/master/download/TRSS_AllBot/Yunzai/plugins/py-plugin/config.yaml)：
 
 ```
 ...（以上省略）
