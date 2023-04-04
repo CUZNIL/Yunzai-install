@@ -14,13 +14,13 @@
 
 1. **32位系统** ：该教程为了简化步骤直接使用时雨脚本，安装过程不支持32位系统。如果不知道自己手机是不是32位，可以先跟教程试试，如在安装容器时遇下图相同报错则说明是32位。
 
-![输入图片说明](doc-use/wq9d84qf.png)
+![输入图片说明](download/README_pictures/wq9d84qf.png)
 
 2. **空闲存储空间小于32G** ：云崽本体用不到那么大容量，但是为了你愉快地下载bot需要的资源，以及为了不出一些意料之外的问题，十分建议保证容量充足！不足当然也可以尝试，不保证成功。
 
 3. **MIUI14** ：MIUI14使用安卓13，锅巴插件会报错找不到系统信息，其他插件也可能有类似问题，总之不建议使用。如需装载bot，建议先将机子降级为MIUI13，以免后续bug难以处理。尚不方便验证其他系手机的安卓13会不会有类似问题。
 
-![输入图片说明](doc-use/wwwwwwwww.png)
+![输入图片说明](download/README_pictures/wwwwwwwww.png)
 
 4. **vivo系手机** ：vivo的超级省电模式使用`termux-wake-lock`后前台息屏挂机依旧会杀后台，可能是vivo故意的。总之不推荐。当然如果你愿意保持亮屏的话也许没问题？开发者选项→充电时不息屏。
 
@@ -47,16 +47,16 @@
 
 **备用方案：**[QQ群文件](http://jq.qq.com/?_wv=1027&k=tqiOtCVc) [天翼网盘(访问码：u9g9)](https://cloud.189.cn/t/rY3ueeYzENBj) [gitee下载](https://gitee.com/CUZNIL/Yunzai-install/raw/master/download/apks/Termux_0.118.0_com.termux_118.apk) [github下载](https://github.com/CUZNIL/Yunzai-install/raw/master/download/apks/Termux_0.118.0_com.termux_118.apk) [GHProxy下载](https://ghproxy.com/https://raw.githubusercontent.com/CUZNIL/Yunzai-install/master/download/apks/Termux_0.118.0_com.termux_118.apk) 
 
-![输入图片说明](doc-use/1.png)
+![输入图片说明](download/README_pictures/1.png)
 
 
 下载后安装并打开此应用
 
-![输入图片说明](doc-use/2.png)
+![输入图片说明](download/README_pictures/2.png)
 
 打开以后应该长这样，后面就叫他Termux终端了。
 
-![输入图片说明](doc-use/image.png)
+![输入图片说明](download/README_pictures/image.png)
 
 ———————————分割线———————————
 
@@ -68,7 +68,7 @@
 
 如果没有跳出键盘，点击屏幕空白区域即可，还是没有的话就从左侧滑出侧边栏再点击KEYBOARD
 
-![输入图片说明](doc-use/123124.png)
+![输入图片说明](download/README_pictures/123124.png)
 
 假设后续因为某些原因发生了无法解决的问题，你只需要清除Termux的全部数据即可。手机不支持清除数据的话可以卸载重装。
 
@@ -83,20 +83,20 @@
 进入Termux终端，输入`termux-change-repo`。如果手机打指令太慢或者怕打错的话多用截图左下角用红框框柱的那个的按钮，他能帮你补全大部分代码。
 
 
-![输入图片说明](doc-use/qwd.png)
+![输入图片说明](download/README_pictures/qwd.png)
 
 发送后你会来到这样一个可以点击交互的界面。先点击OK，再点击最下面的镜像，再点击OK，最后的输出如图。如果看文字不清楚的话可以看图，跟着图片的步骤点击就行。
 
-![输入图片说明](doc-use/wqdqw.png)
+![输入图片说明](download/README_pictures/wqdqw.png)
 
 确认上一步完成后，输入`pkg update -y`。中间他会停下来几次问你要选择哪种操作，你每次都输入一个大写的Y就行。
 
-![输入图片说明](doc-use/qwfqfg654.png)
+![输入图片说明](download/README_pictures/qwfqfg654.png)
 
 
 确认上一步完成后，输入`pkg install openssh -y`。最后输出以下内容就是安装openssh成功了。
 
-![输入图片说明](doc-use/awfq.jpg)
+![输入图片说明](download/README_pictures/awfq.jpg)
 
 输入`passwd`配置密码，输入`sshd`启动openssh。
 
@@ -119,7 +119,7 @@ curl -LO gitee.com/TimeRainStarSky/TRSS-MTArch/raw/main/Install.sh && bash Insta
 
 ，稍作等待会显示如下页面，说明容器安装完毕。
 
-![输入图片说明](doc-use/wqfg.jpg)
+![输入图片说明](download/README_pictures/wqfg.jpg)
 
 现在脚本做了更新，你安装后会默认启动脚本。
 
@@ -133,7 +133,7 @@ curl -LO gitee.com/TimeRainStarSky/TRSS-MTArch/raw/main/Install.sh && bash Insta
 
 依次点击7 Le-Yunzai、确认、确认、回车。
 
-![输入图片说明](doc-use/image98qw4dfdqf.png)
+![输入图片说明](download/README_pictures/image98qw4dfdqf.png)
 
 <details><summary>我想知道三个云崽都是干嘛的？</summary>
 
@@ -157,7 +157,7 @@ curl -LO gitee.com/TimeRainStarSky/TRSS-MTArch/raw/main/Install.sh && bash Insta
 
 接下来退出脚本。如果你懒得点直接杀termux后台也可以，再启动即可。
 
-![输入图片说明](doc-use/dwqdq.png)
+![输入图片说明](download/README_pictures/dwqdq.png)
 
 ———————————分割线———————————
 
@@ -174,7 +174,7 @@ curl -LO gitee.com/TimeRainStarSky/TRSS-MTArch/raw/main/Install.sh && bash Insta
 
 由于乐神云崽似乎暂时停更了，我们手动换喵喵的云崽已获取大佬的维护。进入Termux终端。输入`start`进入容器。
 
-![输入图片说明](doc-use/asdff.png)
+![输入图片说明](download/README_pictures/asdff.png)
 
 
 进入容器后输入`cd TRSS_Yunzai/Yunzai/`进入到云崽根目录，再输入
@@ -191,11 +191,11 @@ git remote -v
 
 做最后确认，输出和我完全一致就是成功了。
 
-![输入图片说明](doc-use/qwdwqf.png)
+![输入图片说明](download/README_pictures/qwdwqf.png)
 
 按下 ctrl + d 即可退出容器
 
-![输入图片说明](doc-use/qwgrg234234edsdc.png)
+![输入图片说明](download/README_pictures/qwgrg234234edsdc.png)
 
 ———————————分割线———————————
 
@@ -206,7 +206,7 @@ git remote -v
 
 进入Termux终端。输入`tsab y f`即可启动云崽。首次启动请根据提示配置你的bot账密，登录方式建议iPad。
 
-![输入图片说明](doc-use/image4984.png)
+![输入图片说明](download/README_pictures/image4984.png)
 
 <details><summary>然后根据通过滑动验证。如果实在不会就点击展开</summary>
 
@@ -220,19 +220,19 @@ git remote -v
 
 有vbn的话事情就简单很多了，打开你的vbn，然后回到termux，选择2.滑动验证app请求码获取。
 
-![输入图片说明](doc-use/imageq4w98dqw.png)
+![输入图片说明](download/README_pictures/imageq4w98dqw.png)
 
 如图所示，我们会获得一个请求码，我获取的是1010。
 
 打开滑动验证app，输入你获得的请求码。我获得的是1010所以我就输入了1010。输入后点击下一步，通过滑动验证即可。
 
-![输入图片说明](doc-use/qw4d98qw74df.png)
+![输入图片说明](download/README_pictures/qw4d98qw74df.png)
 
 如果app让你滑动多次，属于正常现象，按要求操作即可。
 
 通过后根据提示回到termux，敲下回车即可。
 
-![输入图片说明](doc-use/imagedqw4d89q789dqw7d89q7.png)
+![输入图片说明](download/README_pictures/imagedqw4d89q789dqw7d89q7.png)
 
 通过滑动验证后可以关闭你的vbn了，暂时用不到了。
 
@@ -248,17 +248,17 @@ git remote -v
 
 回到termux。如图，长按链接部分，选择复制。
 
-![输入图片说明](doc-use/imagewdq498.png)
+![输入图片说明](download/README_pictures/imagewdq498.png)
 
 打开滑动验证app，输入你复制的链接。点击下一步，通过滑动验证。
 
-![输入图片说明](doc-use/imagewqdqw984.png)
+![输入图片说明](download/README_pictures/imagewqdqw984.png)
 
 如果app让你滑动多次，属于正常现象，按要求操作即可。
 
 通过后根据提示回到termux，将复制的ticket粘贴过来即可。
 
-![输入图片说明](doc-use/imageqw9d48.png)
+![输入图片说明](download/README_pictures/imageqw9d48.png)
 
 至此你已经通过了滑动验证，可以继续下一步了。
 
@@ -273,17 +273,17 @@ git remote -v
 
 如图，长按链接部分，将他转发到电脑上用浏览器打开。
 
-![输入图片说明](doc-use/imagewdq498.png)
+![输入图片说明](download/README_pictures/imagewdq498.png)
 
 按键盘上的F12，调出开发工具，选择网络。
 
-![输入图片说明](doc-use/qw4d89q4.png)
+![输入图片说明](download/README_pictures/qw4d89q4.png)
 
 <details><summary>如果没有看到网络请展开这栏</summary>
 
 如图所示，网络有可能默认隐藏，点击加号展开即可。
 
-![输入图片说明](doc-use/imageqw98d4qw89wwww.png)
+![输入图片说明](download/README_pictures/imageqw98d4qw89wwww.png)
 
 
 ———————————分割线———————————
@@ -293,11 +293,11 @@ git remote -v
 
 如果下面这张图里的红框内是黑色按钮，说明没有在记录网络日志。点一下让他变红，这样就能记录网络日志了。
 
-![输入图片说明](doc-use/imageqwd498qw4d89qwd.png)
+![输入图片说明](download/README_pictures/imageqwd498qw4d89qwd.png)
 
 为了避免过多我们不需要的日志干扰，点击下图内红框中的清除标志来清除当前日志。
 
-![输入图片说明](doc-use/qw48d9ww.png)
+![输入图片说明](download/README_pictures/qw48d9ww.png)
 
 接下来拉动滑块通过验证即可，证明你不是机器人。
 
@@ -305,15 +305,15 @@ git remote -v
 
 重复上面步骤直到画面空白，说明已经你完成了滑动验证。ticket就在如图所示的红框内。
 
-![输入图片说明](doc-use/wq984f8qe41f56egrh348u.png)
+![输入图片说明](download/README_pictures/wq984f8qe41f56egrh348u.png)
 
 点击后会展开具体内容，接下来在ticket上右键，选择复制值即可。
 
-![输入图片说明](doc-use/wq9f48e324.png)
+![输入图片说明](download/README_pictures/wq9f48e324.png)
 
 接下来将这串内容传到手机上，选择1.手动获取ticket，然后输入即可。
 
-![输入图片说明](doc-use/imageqwd948qd984w.png)
+![输入图片说明](download/README_pictures/imageqwd948qd984w.png)
 
 ———————————分割线———————————
 
@@ -326,24 +326,24 @@ git remote -v
 
 在你通过滑动验证后大概率会迎来你的搭建过程中第一个需要处理的报错，他有可能是图中的禁止登录，也有可能是版本过低。如果你很幸运地没有遇到报错，那么根据提示即可顺利让云崽登录你的机器人账号，接下来可以进入第四步挑选插件了，后续如果出现此报错再来处理。
 
-![输入图片说明](doc-use/wqf65.png)
+![输入图片说明](download/README_pictures/wqf65.png)
 
 因为可能有俩种报错，你根据你实际显示的报错选择下面的处理方案即可，报错以上面图片中红框内内容为准。
 
 按俩次 ctrl + c ，再根据提示操作退出脚本。
 
-![输入图片说明](doc-use/imagewqf1.png)
+![输入图片说明](download/README_pictures/imagewqf1.png)
 
 
 <details><summary>报错：版本过低</summary>
 
 首先贴一张别人做的图，接下来的操作大概就是这个原理。不用跟这个图，管理脚本会处理好。
 
-![输入图片说明](doc-use/qfqef.bmp)
+![输入图片说明](download/README_pictures/qfqef.bmp)
 
 进入Termux终端。输入`tsab y`进入脚本的云崽管理界面。依次选择修复版本过低→iPad→BOT的账号。
 
-![输入图片说明](doc-use/123rf.png)
+![输入图片说明](download/README_pictures/123rf.png)
 
 如果脚本工作正常，你现在可以按下 ctrl + c ，再根据提示操作退出脚本。输入`tsab y f`即可启动云崽，通过滑动验证即可顺利登录！
 
@@ -361,13 +361,13 @@ git remote -v
 
 进入Termux终端。输入`tsab y file`进入脚本的文件管理页面。使用Termux底部的上下左右进入文件夹/node_modules/icqq/lib/core/，编辑文件device.js。
 
-![输入图片说明](doc-use/qd4w89wq.png)
+![输入图片说明](download/README_pictures/qd4w89wq.png)
 
 向下滑动直到你能看到最后一行。这时你能看到有一行的等号前面是[Platform.iPad].subid（注意是iPad！），等号后面会跟一串数字（可能和我截图的不一样）。
 
 无论等号后的数字是多少，把他手动改成537128930，如图左边是改动前右边是改动后。按下ctrl+s保存该文件，按下ctrl+q退出文本编辑，按下q退出脚本的文件管理。
 
-![输入图片说明](doc-use/im984.png)
+![输入图片说明](download/README_pictures/im984.png)
 
 输入`tsab y f`即可启动云崽，通过滑动验证即可顺利登录！
 
@@ -395,11 +395,11 @@ git remote -v
 
 进入Termux终端。输入`tsab`，依次选择Le-Yunzai、插件管理、Git 插件管理、安装插件
 
-![输入图片说明](doc-use/imageqwd9qw48d.png)
+![输入图片说明](download/README_pictures/imageqwd9qw48d.png)
 
 在这个页面选择你想安装的插件即可。以windoge风歌插件为例，直接点击35号插件，部分插件比如风歌没有gitee所以会让你选择github镜像源，有vbn或者能直连github的话建议选GitHub否则选GHProxy，一路确认即可，脚本会处理好几乎所有依赖。
 
-![输入图片说明](doc-use/image9658489.png)
+![输入图片说明](download/README_pictures/image9658489.png)
 
 如果你想要安装.js插件，在Git 插件管理的安装插件处选择安装30号插件xitian-plugin戏天插件即可。
 
@@ -409,11 +409,11 @@ git remote -v
 
 进入脚本→Le-Yunzai→插件管理→Git 插件管理→安装插件，然后选择自定义，输入插件名(这个随便写，最好是和项目名一致)，输入插件URL(项目地址，直接从网页复制)，确认，稍等片刻即可安装成功。
 
-![输入图片说明](doc-use/41894qwr.png)
+![输入图片说明](download/README_pictures/41894qwr.png)
 
 但是安装自定义插件时可能会出现安装不完全的情况，需要自行阅读插件的README确认。比如我们可以看到[vits_yunzai_plugin](https://gitee.com/sumght/vits_yunzai_plugin#%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B)的安装并没有止步于此，还需要配置权重文件等，下面这张图里红框的部分我们都没有完成。脚本未适配的插件需要你手动折腾，碰到问题先自己搜索尝试解决，不行再有礼貌地带着清晰的问题找人问。
 
-![输入图片说明](doc-use/image21.png)
+![输入图片说明](download/README_pictures/image21.png)
 
 ———————————分割线———————————
 
@@ -424,7 +424,7 @@ git remote -v
 
 在Termux终端输入`tsab`，进入云崽管理脚本。依次选择Le-Yunzai→插件管理→Git 插件管理→管理插件→你要卸载的插件(图中我们卸载armoe插件)→删除插件→最后确认，然后稍等一俩秒就卸载干净了。
 
-![输入图片说明](doc-use/imagewdqwd9849222.png)
+![输入图片说明](download/README_pictures/imagewdqwd9849222.png)
 
 ———————————分割线———————————
 
@@ -449,7 +449,7 @@ git remote -v
 
 <details><summary>点击查看脚本中这些插件的对应位置</summary>
 
-![输入图片说明](doc-use/qdh9u2141233.png)
+![输入图片说明](download/README_pictures/qdh9u2141233.png)
 
 </details>
 
@@ -488,7 +488,7 @@ git remote -v
 
 如果不开vbn直接用脚本安装可能会出现下图的情况导致安装失败。
 
-![输入图片说明](doc-use/image849.png)
+![输入图片说明](download/README_pictures/image849.png)
 
 下面分为你没有vbn和有vbn俩种情况进行安装的教学，根据自己情况点开。
 
@@ -496,7 +496,7 @@ git remote -v
 
 请先尝试点击[这个网页](https://trss.me/)，如果能在不手动刷新的情况下一次就正常显示如下页面，恭喜你网络不错，你可以直接使用下面有vbn的步骤但是不用打开vbn，现在可以收起这个栏目。
 
-![输入图片说明](doc-use/imageqw9d848.png)
+![输入图片说明](download/README_pictures/imageqw9d848.png)
 
 从脚本默认的入口无法安装插件本体，就是因为你无法访问那个网站。时雨可能是出于后续方便维护的考虑做了重定向，但是你网络不好是没法访问的。不过我们只要手动安装即可，毕竟插件的项目地址本身是gitee，国内应该都可以访问。
 
@@ -508,7 +508,7 @@ https://gitee.com/TimeRainStarSky/TRSS-Plugin/
 
 ，最后点击确认即可。
 
-![输入图片说明](doc-use/imageqwf789.png)
+![输入图片说明](download/README_pictures/imageqwf789.png)
 
 显示插件依赖顺利安装成功，则可以进行下一步的插件配置。
 
@@ -520,13 +520,13 @@ https://gitee.com/TimeRainStarSky/TRSS-Plugin/
 
 第一步当然是打开你的vbn，这个不便过多描述，为了过审我甚至一直故意打错字。
 
-![输入图片说明](doc-use/123894.png)
+![输入图片说明](download/README_pictures/123894.png)
 
 接下来就很简单了，使用脚本完成插件本体的安装即可。
 
 进入Termux终端，输入`tsab`进入云崽管理脚本。依次选择插件管理、Git插件管理、TRSS插件、确认即可。
 
-![输入图片说明](doc-use/wqdf.png)
+![输入图片说明](download/README_pictures/wqdf.png)
 
 显示插件依赖顺利安装成功，则可以进行下一步的插件配置。到这里你可以关闭你的vbn了。
 
@@ -541,13 +541,13 @@ https://gitee.com/TimeRainStarSky/TRSS-Plugin/
 
 进入Termux终端，输入`tsab`进入云崽管理脚本。依次选择插件管理、Git插件管理、TRSS插件。
 
-![输入图片说明](doc-use/imageqwd987.png)
+![输入图片说明](download/README_pictures/imageqwd987.png)
 
 在这个页面根据你的需要安装对应内容即可，脚本全处理好了。比如你需要本地合成原神角色音色，你就安装语音合成和语音合成 原神模型就可以了。
 
 完成你需要的所有安装以后请注意，该插件的语音合成默认用接口但是目前接口失效了，所有必须手动更改配置文件。首先我们退出脚本，然后输入`tsab y f`启动云崽，在成功登录进去以后再按ctrl+c退出。输入`tsab`进入云崽管理脚本。依次选择插件管理、Git插件管理、TRSS插件、修改配置文件。
 
-![输入图片说明](doc-use/imagewd98123.png)
+![输入图片说明](download/README_pictures/imagewd98123.png)
 
 如图所示，将publicApi对应的值由默认的true改为false，按ctrl+s保存本次更改，按ctrl+q退出本次编辑。
 
@@ -574,7 +574,7 @@ https://gitee.com/TimeRainStarSky/TRSS-Plugin/
 
 进入Termux终端，输入`tsab`进入云崽管理脚本。依次选择插件管理、Git插件管理、Py插件、确认即可。
 
-![输入图片说明](doc-use/imageqwd894.png)
+![输入图片说明](download/README_pictures/imageqwd894.png)
 
 正常会显示依赖安装成功，如果失败根据提示重装直到依赖安装成功即可。
 
@@ -586,22 +586,22 @@ https://gitee.com/TimeRainStarSky/TRSS-Plugin/
 [YzBot][20:15:38.550][INFO] py服务器连接成功
 ```
 
-![输入图片说明](doc-use/image1qf1879.png)
+![输入图片说明](download/README_pictures/image1qf1879.png)
 
 
 私聊BOT或者群聊发送`py帮助`即可获取该插件的常用操作列表。
 
-![输入图片说明](doc-use/imagew899.png)
+![输入图片说明](download/README_pictures/imagew899.png)
 
 安装插件只需要发送`py下载插件+nonebot插件名称`即可。
 
 首先挑选我们喜欢的nonebot插件，如图可以从[nonebot商店](https://v2.nonebot.dev/store)获取插件的完整名称，如果点不进去可以尝试[这个链接](https://nb2.baka.icu/store)。下面以安装[头像表情包](https://github.com/noneplugin/nonebot-plugin-petpet)为例。
 
-![输入图片说明](doc-use/imagedqw9d8747we9184e2.png)
+![输入图片说明](download/README_pictures/imagedqw9d8747we9184e2.png)
 
 从这里我们确认到我们需要的这个插件的完整名称是`nonebot_plugin_petpet`，所以我们在聊天界面向BOT发送消息`py下载插件nonebot_plugin_petpet`，稍等片刻即可安装完毕。
 
-![输入图片说明](doc-use/qw89f798f.png)
+![输入图片说明](download/README_pictures/qw89f798f.png)
 
 确认到如图内容， **说明该插件已经正确安装。** 
 
@@ -628,7 +628,7 @@ https://gitee.com/TimeRainStarSky/TRSS-Plugin/
 
 请仔细阅读[该插件作者对py插件用户的说明](https://github.com/monsterxcn/nonebot-plugin-gspanel/issues/17)。考虑到可能有人无法访问github，下面是页面截图。请仔细确认，我觉得作者说的很详细了所以不做更多说明。
 
-![输入图片说明](doc-use/imagewq98988998.png)
+![输入图片说明](download/README_pictures/imagewq98988998.png)
 
 根据插件作者的说明配置好即可，比如这是我的配置：
 
@@ -651,7 +651,7 @@ resources_dir: /root/TRSS_Yunzai/Yunzai/plugins/py-plugin/data
 
 但如果你已经安装，你依旧可以选择卸载该插件。如图发送`py卸载插件nonebot-plugin-bawiki`即可。
 
-![输入图片说明](doc-use/wqfd964.png)
+![输入图片说明](download/README_pictures/wqfd964.png)
 
 
 ———————————分割线———————————
@@ -662,7 +662,7 @@ resources_dir: /root/TRSS_Yunzai/Yunzai/plugins/py-plugin/data
 
 具体报错情况如下图，发送“#头像表情包”会出现大量的 口口口，即缺字体。
 
-![输入图片说明](doc-use/imagesad898.png)
+![输入图片说明](download/README_pictures/imagesad898.png)
 
 首先安装[时雨插件](https://gitee.com/TimeRainStarSky/TRSS-Plugin/)以便直接通过QQ操作。不愿意安装的话在合适路径参考下面命令执行是相同效果。
 
@@ -672,11 +672,11 @@ resources_dir: /root/TRSS_Yunzai/Yunzai/plugins/py-plugin/data
 rcp ls plugins/py-plugin/data/fonts/
 ```
 
-![输入图片说明](doc-use/imageqwd1498e41892.png)
+![输入图片说明](download/README_pictures/imageqwd1498e41892.png)
 
 如图所示确认到有NotoSansSC-Regular.otf，说明字体资源下载好了。接下来为所有用户安装。如果没有请启动你的机器人，稍等一会他会自动下载表情包制作需要的所有资源（当然包括字体）。等待下载完毕再开始向后执行。
 
-![输入图片说明](doc-use/imagewqfg398e222.png)
+![输入图片说明](download/README_pictures/imagewqfg398e222.png)
 
 如图所示，向机器人依次发送下面三条消息。
 
@@ -687,7 +687,7 @@ rcp mkdir /usr/local/share/fonts/
 rcp cd /usr/local/share/fonts && curl -O https://ghproxy.com/https://raw.githubusercontent.com/CUZNIL/Yunzai-install/master/download/TRSS_AllBot/Yunzai/plugins/py-plugin/data/fonts/NotoSansSC-Regular.otf
 ```
 下载快的话五六秒，慢的话一俩分钟。下载后出现如图所示的“标准错误输出”是正常现象。
-![输入图片说明](doc-use/imageqwd8qw9wwww.png)
+![输入图片说明](download/README_pictures/imageqwd8qw9wwww.png)
 
 但是如果标准错误输出的结尾包含类似上图的红框内容，请重新下载，再次输入刚才的命令直到“标准错误输出”中没有出现上图的红框内容。
 
@@ -697,7 +697,7 @@ rcp rm ../home/.cache/matplotlib/fontlist-v330.json
 ```
 最后重启机器人即可正常使用。比如你可以向机器人发消息“#重启”。
 
-![输入图片说明](doc-use/imagewwww12213123esadsa.png)
+![输入图片说明](download/README_pictures/imagewwww12213123esadsa.png)
 
 ———————————分割线———————————
 
@@ -723,11 +723,11 @@ rcp rm ../home/.cache/matplotlib/fontlist-v330.json
 
 比如绘图插件提示我们在使用图片审核前需要安装baidu-aip-sdk这个依赖。那么我们以这个做为例子直接使用脚本安装。
 
-![输入图片说明](doc-use/image12893dc.png)
+![输入图片说明](download/README_pictures/image12893dc.png)
 
 进入Termux终端，输入`tsab p g`以进入Git插件管理页面。接下来依次选择管理插件、你缺依赖的插件(这里是ap-plugin)、软件包管理、安装软件包，然后输入你缺的依赖名称(这里是baidu-aip-sdk)即可。下图展示了一次成功安装依赖的过程。
 
-![输入图片说明](doc-use/image98qw7891.png)
+![输入图片说明](download/README_pictures/image98qw7891.png)
 
 如果安装失败，可以重试几次。一直不行则继续往后阅读，本教程涉及的插件的所有依赖问题都有解决方案。
 
@@ -739,7 +739,7 @@ rcp rm ../home/.cache/matplotlib/fontlist-v330.json
 
 如果你的报错长下面这个样子，则继续往下看，否则大概率是网络问题，请先重试几次。
 
-![输入图片说明](doc-use/image1984.png)
+![输入图片说明](download/README_pictures/image1984.png)
 
 仔细阅读报错信息，可以看到其实已经说明安装失败的原因。
 
@@ -762,11 +762,11 @@ start
 pacman -Sy --noconfirm pkg-config node-gyp gcc make
 ```
 
-![输入图片说明](doc-use/image948w4d.png)
+![输入图片说明](download/README_pictures/image948w4d.png)
 
 如图显示则依赖安装成功，我们现在回到管理脚本安装canvas依赖即可。
 
-![输入图片说明](doc-use/123981273.png)
+![输入图片说明](download/README_pictures/123981273.png)
 
 如图显示依赖安装成功。
 
@@ -793,11 +793,11 @@ pacman -Sy --noconfirm pkg-config node-gyp gcc make
 
 比如绘图插件提示我们在使用图片审核前需要安装baidu-aip-sdk这个依赖。那么我们以这个做为例子直接使用脚本安装。
 
-![输入图片说明](doc-use/image12893dc.png)
+![输入图片说明](download/README_pictures/image12893dc.png)
 
 进入Termux终端，输入`tsab p g`以进入Git插件管理页面。接下来依次选择管理插件、你缺依赖的插件(这里是ap-plugin)、软件包管理、安装软件包，然后输入你缺的依赖名称(这里是baidu-aip-sdk)即可。下图展示了一次成功安装依赖的过程。
 
-![输入图片说明](doc-use/image98qw7891.png)
+![输入图片说明](download/README_pictures/image98qw7891.png)
 
 如果安装失败，可以重试几次。一直不行则继续往后阅读，本教程涉及的插件的所有依赖问题都有解决方案。
 
@@ -823,11 +823,11 @@ start
 pacman -Sy --noconfirm pkg-config node-gyp gcc make
 ```
 
-![输入图片说明](doc-use/image948w4d.png)
+![输入图片说明](download/README_pictures/image948w4d.png)
 
 如图显示则依赖安装成功，我们现在回到管理脚本安装nodejieba依赖即可。
 
-![输入图片说明](doc-use/imageqwd798798.png)
+![输入图片说明](download/README_pictures/imageqwd798798.png)
 
 如图显示依赖安装成功。
 
@@ -878,7 +878,7 @@ pacman -Sy --noconfirm pkg-config node-gyp gcc make
 
 由于乐神云崽似乎暂时停更了，我们手动换喵喵的云崽已获取大佬的维护。进入Termux终端。输入`start`进入容器。
 
-![输入图片说明](doc-use/asdff.png)
+![输入图片说明](download/README_pictures/asdff.png)
 
 
 进入容器后输入`cd TRSS_Yunzai/Yunzai/`进入到云崽根目录，再输入
@@ -895,11 +895,11 @@ git remote -v
 
 做最后确认，输出和我完全一致就是成功了。
 
-![输入图片说明](doc-use/qwdwqf.png)
+![输入图片说明](download/README_pictures/qwdwqf.png)
 
 按下 ctrl + d 即可退出容器
 
-![输入图片说明](doc-use/qwgrg234234edsdc.png)
+![输入图片说明](download/README_pictures/qwgrg234234edsdc.png)
 
 ———————————分割线———————————
 
@@ -917,19 +917,19 @@ git remote -v
 
 有vbn的话事情就简单很多了，打开你的vbn，然后回到termux，选择2.滑动验证app请求码获取。
 
-![输入图片说明](doc-use/imageq4w98dqw.png)
+![输入图片说明](download/README_pictures/imageq4w98dqw.png)
 
 如图所示，我们会获得一个请求码，我获取的是1010。
 
 打开滑动验证app，输入你获得的请求码。我获得的是1010所以我就输入了1010。输入后点击下一步，通过滑动验证即可。
 
-![输入图片说明](doc-use/qw4d98qw74df.png)
+![输入图片说明](download/README_pictures/qw4d98qw74df.png)
 
 如果app让你滑动多次，属于正常现象，按要求操作即可。
 
 通过后根据提示回到termux，敲下回车即可。
 
-![输入图片说明](doc-use/imagedqw4d89q789dqw7d89q7.png)
+![输入图片说明](download/README_pictures/imagedqw4d89q789dqw7d89q7.png)
 
 通过滑动验证后可以关闭你的vbn了，暂时用不到了。
 
@@ -945,17 +945,17 @@ git remote -v
 
 回到termux。如图，长按链接部分，选择复制。
 
-![输入图片说明](doc-use/imagewdq498.png)
+![输入图片说明](download/README_pictures/imagewdq498.png)
 
 打开滑动验证app，输入你复制的链接。点击下一步，通过滑动验证。
 
-![输入图片说明](doc-use/imagewqdqw984.png)
+![输入图片说明](download/README_pictures/imagewqdqw984.png)
 
 如果app让你滑动多次，属于正常现象，按要求操作即可。
 
 通过后根据提示回到termux，将复制的ticket粘贴过来即可。
 
-![输入图片说明](doc-use/imageqw9d48.png)
+![输入图片说明](download/README_pictures/imageqw9d48.png)
 
 ———————————分割线———————————
 
@@ -968,17 +968,17 @@ git remote -v
 
 如图，长按链接部分，将他转发到电脑上用浏览器打开。
 
-![输入图片说明](doc-use/imagewdq498.png)
+![输入图片说明](download/README_pictures/imagewdq498.png)
 
 按键盘上的F12，调出开发工具，选择网络。
 
-![输入图片说明](doc-use/qw4d89q4.png)
+![输入图片说明](download/README_pictures/qw4d89q4.png)
 
 <details><summary>如果没有看到网络请展开这栏</summary>
 
 如图所示，网络有可能默认隐藏，点击加号展开即可。
 
-![输入图片说明](doc-use/imageqw98d4qw89wwww.png)
+![输入图片说明](download/README_pictures/imageqw98d4qw89wwww.png)
 
 
 ———————————分割线———————————
@@ -988,11 +988,11 @@ git remote -v
 
 如果下面这张图里的红框内是黑色按钮，说明没有在记录网络日志。点一下让他变红，这样就能记录网络日志了。
 
-![输入图片说明](doc-use/imageqwd498qw4d89qwd.png)
+![输入图片说明](download/README_pictures/imageqwd498qw4d89qwd.png)
 
 为了避免过多我们不需要的日志干扰，点击下图内红框中的清除标志来清除当前日志。
 
-![输入图片说明](doc-use/qw48d9ww.png)
+![输入图片说明](download/README_pictures/qw48d9ww.png)
 
 接下来拉动滑块通过验证即可，证明你不是机器人。
 
@@ -1000,15 +1000,15 @@ git remote -v
 
 重复上面步骤直到画面空白，说明已经你完成了滑动验证。ticket就在如图所示的红框内。
 
-![输入图片说明](doc-use/wq984f8qe41f56egrh348u.png)
+![输入图片说明](download/README_pictures/wq984f8qe41f56egrh348u.png)
 
 点击后会展开具体内容，接下来在ticket上右键，选择复制值即可。
 
-![输入图片说明](doc-use/wq9f48e324.png)
+![输入图片说明](download/README_pictures/wq9f48e324.png)
 
 接下来将这串内容传到手机上，选择1.手动获取ticket，然后输入即可。
 
-![输入图片说明](doc-use/imageqwd948qd984w.png)
+![输入图片说明](download/README_pictures/imageqwd948qd984w.png)
 
 ———————————分割线———————————
 
@@ -1022,11 +1022,11 @@ git remote -v
 
 首先贴一张别人做的图，接下来的操作大概就是这个原理。不用跟这个图，管理脚本会处理好。
 
-![输入图片说明](doc-use/qfqef.bmp)
+![输入图片说明](download/README_pictures/qfqef.bmp)
 
 进入Termux终端。输入`tsab y`进入脚本的云崽管理界面。依次选择修复版本过低→iPad→BOT的账号。
 
-![输入图片说明](doc-use/123rf.png)
+![输入图片说明](download/README_pictures/123rf.png)
 
 如果脚本工作正常，你现在可以按下 ctrl + c ，再根据提示操作退出脚本。输入`tsab y f`即可启动云崽，通过滑动验证即可顺利登录！
 
@@ -1044,13 +1044,13 @@ git remote -v
 
 进入Termux终端。输入`tsab y file`进入脚本的文件管理页面。使用Termux底部的上下左右进入文件夹/node_modules/icqq/lib/core/，编辑文件device.js。
 
-![输入图片说明](doc-use/qd4w89wq.png)
+![输入图片说明](download/README_pictures/qd4w89wq.png)
 
 向下滑动直到你能看到最后一行。这时你能看到有一行的等号前面是[Platform.iPad].subid（注意是iPad！），等号后面会跟一串数字（可能和我截图的不一样）。
 
 无论等号后的数字是多少，把他手动改成537128930，如图左边是改动前右边是改动后。按下ctrl+s保存该文件，按下ctrl+q退出文本编辑，按下q退出脚本的文件管理。
 
-![输入图片说明](doc-use/im984.png)
+![输入图片说明](download/README_pictures/im984.png)
 
 输入`tsab y f`即可启动云崽，通过滑动验证即可顺利登录！
 
@@ -1067,7 +1067,7 @@ git remote -v
 
 请先尝试点击[这个网页](https://trss.me/)，如果能在不手动刷新的情况下一次就正常显示如下页面，恭喜你网络不错，你可以直接使用下面有vbn的步骤但是不用打开vbn，现在可以收起这个栏目。
 
-![输入图片说明](doc-use/imageqw9d848.png)
+![输入图片说明](download/README_pictures/imageqw9d848.png)
 
 从脚本默认的入口无法安装插件本体，就是因为你无法访问那个网站。时雨可能是出于后续方便维护的考虑做了重定向，但是你网络不好是没法访问的。不过我们只要手动安装即可，毕竟插件的项目地址本身是gitee，国内应该都可以访问。
 
@@ -1079,7 +1079,7 @@ https://gitee.com/TimeRainStarSky/TRSS-Plugin/
 
 ，最后点击确认即可。
 
-![输入图片说明](doc-use/imageqwf789.png)
+![输入图片说明](download/README_pictures/imageqwf789.png)
 
 显示插件依赖顺利安装成功，则可以进行下一步的插件配置。
 
@@ -1091,13 +1091,13 @@ https://gitee.com/TimeRainStarSky/TRSS-Plugin/
 
 第一步当然是打开你的vbn，这个不便过多描述，为了过审我甚至一直故意打错字。
 
-![输入图片说明](doc-use/123894.png)
+![输入图片说明](download/README_pictures/123894.png)
 
 接下来就很简单了，使用脚本完成插件本体的安装即可。
 
 进入Termux终端，输入`tsab`进入云崽管理脚本。依次选择插件管理、Git插件管理、TRSS插件、确认即可。
 
-![输入图片说明](doc-use/wqdf.png)
+![输入图片说明](download/README_pictures/wqdf.png)
 
 显示插件依赖顺利安装成功，则可以进行下一步的插件配置。到这里你可以关闭你的vbn了。
 
@@ -1110,13 +1110,13 @@ https://gitee.com/TimeRainStarSky/TRSS-Plugin/
 
 进入Termux终端，输入`tsab`进入云崽管理脚本。依次选择插件管理、Git插件管理、TRSS插件。
 
-![输入图片说明](doc-use/imageqwd987.png)
+![输入图片说明](download/README_pictures/imageqwd987.png)
 
 在这个页面根据你的需要安装对应内容即可，脚本全处理好了。比如你需要本地合成原神角色音色，你就安装语音合成和语音合成 原神模型就可以了。
 
 完成你需要的所有安装以后请注意，该插件的语音合成默认用接口但是目前接口失效了，所有必须手动更改配置文件。首先我们退出脚本，然后输入`tsab y f`启动云崽，在成功登录进去以后再按ctrl+c退出。输入`tsab`进入云崽管理脚本。依次选择插件管理、Git插件管理、TRSS插件、修改配置文件。
 
-![输入图片说明](doc-use/imagewd98123.png)
+![输入图片说明](download/README_pictures/imagewd98123.png)
 
 如图所示，将publicApi对应的值由默认的true改为false，按ctrl+s保存本次更改，按ctrl+q退出本次编辑。
 
@@ -1128,7 +1128,7 @@ https://gitee.com/TimeRainStarSky/TRSS-Plugin/
 
 具体报错情况如下图，发送“#头像表情包”会出现大量的 口口口，即缺字体。
 
-![输入图片说明](doc-use/imagesad898.png)
+![输入图片说明](download/README_pictures/imagesad898.png)
 
 首先安装[时雨插件](https://gitee.com/TimeRainStarSky/TRSS-Plugin/)以便直接通过QQ操作。不愿意安装的话在合适路径参考下面命令执行是相同效果。
 
@@ -1138,11 +1138,11 @@ https://gitee.com/TimeRainStarSky/TRSS-Plugin/
 rcp ls plugins/py-plugin/data/fonts/
 ```
 
-![输入图片说明](doc-use/imageqwd1498e41892.png)
+![输入图片说明](download/README_pictures/imageqwd1498e41892.png)
 
 如图所示确认到有NotoSansSC-Regular.otf，说明字体资源下载好了。接下来为所有用户安装。如果没有请启动你的机器人，稍等一会他会自动下载表情包制作需要的所有资源（当然包括字体）。等待下载完毕再开始向后执行。
 
-![输入图片说明](doc-use/imagewqfg398e222.png)
+![输入图片说明](download/README_pictures/imagewqfg398e222.png)
 
 如图所示，向机器人依次发送下面三条消息。
 
@@ -1154,7 +1154,7 @@ rcp cd /usr/local/share/fonts && curl -O https://ghproxy.com/https://raw.githubu
 ```
 
 下载快的话五六秒，慢的话一俩分钟。下载后出现如图所示的“标准错误输出”是正常现象。
-![输入图片说明](doc-use/imageqwd8qw9wwww.png)
+![输入图片说明](download/README_pictures/imageqwd8qw9wwww.png)
 
 但是如果标准错误输出的结尾包含类似上图的红框内容，请重新下载，再次输入刚才的命令直到“标准错误输出”中没有出现上图的红框内容。
 
@@ -1164,7 +1164,7 @@ rcp rm ../home/.cache/matplotlib/fontlist-v330.json
 ```
 最后重启机器人即可正常使用。比如你可以向机器人发消息“#重启”。
 
-![输入图片说明](doc-use/imagewwww12213123esadsa.png)
+![输入图片说明](download/README_pictures/imagewwww12213123esadsa.png)
 
 ———————————分割线———————————
 
@@ -1174,7 +1174,7 @@ rcp rm ../home/.cache/matplotlib/fontlist-v330.json
 
 如果你的报错长下面这个样子，则继续往下看，否则大概率是网络问题，请先重试几次。
 
-![输入图片说明](doc-use/image1984.png)
+![输入图片说明](download/README_pictures/image1984.png)
 
 仔细阅读报错信息，可以看到其实已经说明安装失败的原因。
 
@@ -1197,11 +1197,11 @@ start
 pacman -Sy --noconfirm pkg-config node-gyp gcc make
 ```
 
-![输入图片说明](doc-use/image948w4d.png)
+![输入图片说明](download/README_pictures/image948w4d.png)
 
 如图显示则依赖安装成功，我们现在回到管理脚本安装canvas依赖即可。
 
-![输入图片说明](doc-use/123981273.png)
+![输入图片说明](download/README_pictures/123981273.png)
 
 如图显示依赖安装成功。
 
@@ -1226,11 +1226,11 @@ start
 pacman -Sy --noconfirm pkg-config node-gyp gcc make
 ```
 
-![输入图片说明](doc-use/image948w4d.png)
+![输入图片说明](download/README_pictures/image948w4d.png)
 
 如图显示则依赖安装成功，我们现在回到管理脚本安装nodejieba依赖即可。
 
-![输入图片说明](doc-use/imageqwd798798.png)
+![输入图片说明](download/README_pictures/imageqwd798798.png)
 
 如图显示依赖安装成功。
 
@@ -1242,13 +1242,13 @@ pacman -Sy --noconfirm pkg-config node-gyp gcc make
 
 <details><summary>1.息屏挂机运行云崽</summary>
 
-![输入图片说明](doc-use/dw4q89d.png)
+![输入图片说明](download/README_pictures/dw4q89d.png)
 
 如图所示是我的BOT运行环境。出于省电的考虑建议开启你手机的超级省电模式，并在息屏状态下运行云崽。以下是具体步骤，以红米K40的MIUI13为例：
 
 进入手机的控制中心（一般在通知栏附近），寻找超级省电按钮。如果没有，可能需要再编辑里找一找手动添加后再选择。
 
-![输入图片说明](doc-use/imawgeqw984.png)
+![输入图片说明](download/README_pictures/imawgeqw984.png)
 
 如图进入超级省电模式后，手动添加你运行机器人需要的APP，比如这里我加了Termux本体、vbn和滑动验证助手。如果没啥问题其实加个Termux就行。
 
@@ -1266,7 +1266,7 @@ sshd && termux-wake-lock && tsab y f
 
 如果你是首次使用`termux-wake-lock`，可能会有需要你操作的地方，比如小米会跳转到这个页面，根据我们的需要那当然是从默认的智能限制改为无限制。
 
-![输入图片说明](doc-use/image98721398131dd.png)
+![输入图片说明](download/README_pictures/image98721398131dd.png)
 
 如此操作以后便可以放心息屏使用了，不出意外是云崽是不会突然停止的了。
 
@@ -1276,7 +1276,7 @@ sshd && termux-wake-lock && tsab y f
 
 首先正常输入一遍启动指令，比如我需要openssh我就用`sshd && termux-wake-lock && tsab y f`。
 
-![输入图片说明](doc-use/imag222e.png)
+![输入图片说明](download/README_pictures/imag222e.png)
 
 然后我们按下ctrl+c再根据提示退出脚本，最后按下ctrl+d即可进行一次正常的退出进程了。
 
@@ -1310,7 +1310,7 @@ apk下载地址(任一)：[QQ群文件](http://jq.qq.com/?_wv=1027&k=tqiOtCVc) [
 
 下面介绍你没有root的处理方式。首先请 **确保Termux没有被后台杀掉，然后打开NMM** 。以一加ace2的ColorOS 13为例演示如何通过NMM访问Termux文件。
 
-![输入图片说明](doc-use/imag213e.png)
+![输入图片说明](download/README_pictures/imag213e.png)
 
 如图所示，选择左上角展开，点击加号，点击外部存储，点击左上角展开，点击Termux，点击底部使用此文件夹，点击允许。这样你就可以通过NMM直接进入Termux目录并管理所有文件了。
 
@@ -1318,7 +1318,7 @@ apk下载地址(任一)：[QQ群文件](http://jq.qq.com/?_wv=1027&k=tqiOtCVc) [
 
 如果你在点击Termux后显示暂时无法加载内容(如下图)，则说明你的Termux被杀后台了。请保证Termux在后台时执行以上步骤。
 
-![输入图片说明](doc-use/qw9f874.jpg)
+![输入图片说明](download/README_pictures/qw9f874.jpg)
 
 ———————————分割线———————————
 
@@ -1358,4 +1358,4 @@ apk下载地址(任一)：[QQ群文件](http://jq.qq.com/?_wv=1027&k=tqiOtCVc) [
 
 答案  **火花骑士** 
 
-[![群](doc-use/QQ%E7%BE%A4.png)](http://jq.qq.com/?_wv=1027&k=tqiOtCVc)
+[![群](download/README_pictures/QQ%E7%BE%A4.png)](http://jq.qq.com/?_wv=1027&k=tqiOtCVc)
