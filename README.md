@@ -1,5 +1,5 @@
 # [V3云崽BOT手机搭建教程](https://gitee.com/CUZNIL/Yunzai-install)
-上次编辑时间2023年4月4日17:13:20
+上次编辑时间2023年4月4日21:02:25
 ## 0.介绍
 针对安卓手机搭建[V3云崽BOT](https://gitee.com/Le-niao/Yunzai-Bot)的一篇详细教程，也包含手机搭建前后会遇到的各种问题和解决方案。
 
@@ -29,9 +29,9 @@
 </details>
 
 
-如果你已经成功搭建，只是遇到一些问题，可以直接阅读[接近文末的7.部分报错处理整合](https://gitee.com/CUZNIL/Yunzai-install/#7%E9%83%A8%E5%88%86%E6%8A%A5%E9%94%99%E5%A4%84%E7%90%86%E6%95%B4%E5%90%88)。
+如果你已经成功搭建，只是遇到一些问题，可以直接阅读[接近文末的7.部分报错处理整合](../../#7%E9%83%A8%E5%88%86%E6%8A%A5%E9%94%99%E5%A4%84%E7%90%86%E6%95%B4%E5%90%88)。
 
-虽然是手机教程，但是服务器搭建电脑搭建也可以参考。如需非手机脚本请自行访问[时雨网页](https://trs·s.me/)获取。
+虽然是手机教程，但是服务器搭建电脑搭建也可以参考。如需非手机脚本请自行访问[时雨网页](https://trss.me/)获取。
 
 以下教程演示用的是红米K50(8+256)，使用时雨的[TRSS 脚本](https://trss.me/)搭建。
 
@@ -100,7 +100,7 @@
 
 输入`passwd`配置密码，输入`sshd`启动openssh。
 
-如果你完全不了解openssh，只是因为我写了就跟着操作的话，我建议阅读[这篇文章](https://blog.csdn.net/qq_45740348/article/details/115602001)
+如果你完全不了解openssh，只是因为我写了就跟着操作的话，可以阅读[这篇文章](https://blog.csdn.net/qq_45740348/article/details/115602001)。
 
 ———————————分割线———————————
 
@@ -137,11 +137,11 @@ curl -LO gitee.com/TimeRainStarSky/TRSS-MTArch/raw/main/Install.sh && bash Insta
 
 <details><summary>我想知道三个云崽都是干嘛的？</summary>
 
-**[7.Le-Yunzai](https://gitee.com/TimeRainStarSky/Yunzai-Bot)** ：使用icqq协议，是原版云崽V3由各路大佬维护的版本，最推荐。
+**[7.Le-Yunzai](../../../../TimeRainStarSky/Yunzai-Bot)** ：使用icqq协议，是原版云崽V3由各路大佬维护的版本，最推荐。脚本会安装时雨fork的版本。
 
-**[8.Miao-Yunzai](https://gitee.com/yoimiya-kokomi/Miao-Yunzai)** ：使用icqq协议，由喵喵在原版云崽V3上进行了大改。
+**[8.Miao-Yunzai](../../../../yoimiya-kokomi/Miao-Yunzai)** ：使用icqq协议，由喵喵在原版云崽V3上进行了大改。
 
-**[9.TRSS-Yunzai](https://gitee.com/TimeRainStarSky/Yunzai)** ：使用go-cqhttp协议，由时雨在原版云崽V3上进行了大改。
+**[9.TRSS-Yunzai](../../../../TimeRainStarSky/Yunzai)** ：使用go-cqhttp协议，由时雨在原版云崽V3上进行了大改。
 
 如果不想折腾，建议选第一个Le-Yunzai就行，我这篇教程也是这么做的。其他版本可能会导致部分插件出现问题。
 
@@ -170,7 +170,7 @@ curl -LO gitee.com/TimeRainStarSky/TRSS-MTArch/raw/main/Install.sh && bash Insta
 
  **如果你完全跟着教程步骤安装，则不需要执行此步。**
 
-(这是因为时雨脚本目前已经换源好[合适的云崽](https://gitee.com/TimeRainStarSky/Yunzai-Bot)了)
+(这是因为时雨脚本目前已经换源好[合适的云崽](../../../../TimeRainStarSky/Yunzai-Bot)了)
 
 由于乐神云崽似乎暂时停更了，我们手动换喵喵的云崽已获取大佬的维护。进入Termux终端。输入`start`进入容器。
 
@@ -434,18 +434,13 @@ git remote -v
 
 </details>
 
-
-
 下面我推荐三个建议所有人安装的插件：
 
-
-| 序号 | Git项目名                                                            | 中文名         | 简述                                           |
-|----|-------------------------------------------------------------------|-------------|----------------------------------------------|
-| 13 | [miao-plugin](https://gitee.com/yoimiya-kokomi/miao-plugin)       | 喵喵插件        | 角色面板查询(enka、米游社)、国内数据库查询(胡桃数据库)              |
-| 18 | [Guoba-Plugin](http://gitee.com/guoba-yunzai/guoba-plugin)        | 锅巴插件        | 提供后台管理界面、配置机器人的基础设置以及原神相关设置、可视化自定义编辑喵喵帮助     |
-| 44 | [xiaoyao-cvs-plugin](http://gitee.com/Ctrlcvs/xiaoyao-cvs-plugin) | 图鉴插件(注意有重名) | 扫码登录绑定ck/sk、大量图鉴信息查询、stoken绑定、更新抽卡记录、米游社全部签到 |
-
-
+| 序号 | Git项目名                                                       | 中文名         | 简述                                           |
+|----|--------------------------------------------------------------|-------------|----------------------------------------------|
+| 13 | [miao-plugin](../../../../yoimiya-kokomi/miao-plugin)        | 喵喵插件        | 角色面板查询(enka、米游社)、国内数据库查询(胡桃数据库)              |
+| 18 | [Guoba-Plugin](../../../../guoba-yunzai/guoba-plugin)        | 锅巴插件        | 提供后台管理界面、配置机器人的基础设置以及原神相关设置、可视化自定义编辑喵喵帮助     |
+| 44 | [xiaoyao-cvs-plugin](../../../../Ctrlcvs/xiaoyao-cvs-plugin) | 图鉴插件(注意有重名) | 扫码登录绑定ck/sk、大量图鉴信息查询、stoken绑定、更新抽卡记录、米游社全部签到 |
 
 <details><summary>点击查看脚本中这些插件的对应位置</summary>
 
@@ -461,26 +456,24 @@ git remote -v
 
 除了上面推荐的三个插件，以下是我安装的其他Git插件。
 
-
-| 序号 | Git项目名                                                         | 中文名   | 简述                             |
-|----|----------------------------------------------------------------|-------|--------------------------------|
-| 单独 | [TRSS-Plugin](http://gitee.com/TimeRainStarSky/TRSS-Plugin)    | 时雨插件  | 本地语音合成，远程命令，文件操作等              |
-| 6  | [ap-plugin](https://gitee.com/yhArcadia/ap-plugin)             | 绘图插件  | AI绘图、抠图、二次元的我等                 |
-| 11 | [auto-plugin](https://gitee.com/Nwflower/auto-plugin)          | 自动化插件 | 提供各式各样的定时任务功能和自动监听功能           |
-| 31 | [earth-k-plugin](http://gitee.com/SmallK111407/earth-k-plugin) | 土块插件  | 大量娱乐功能如emoji合成、全角色语音、chatgpt等  |
-| 24 | [flower-plugin](http://gitee.com/Nwflower/flower-plugin)       | 抽卡插件  | 提供百连、三十连等操作以免用户抽卡刷屏            |
-| 单独 | [py-plugin](http://gitee.com/realhuhu/py-plugin)               | Py插件  | 内置NoneBot，可装队伍伤害计算、表情包制作、幻影坦克等 |
-| 2  | [suiyue](http://gitee.com/Acceleratorsky/suiyue)               | 碎月插件  | 查各地疫情，今日关键词，加减乘除计算器            |
-| 35 | [windoge-plugin](http://github.com/gxy12345/windoge-plugin)    | 风歌插件  | xx参考面板，未复刻角色/武器，素材汇总图          |
-| 37 | [xiaofei-plugin](http://gitee.com/xfdown/xiaofei-plugin)       | 小飞插件  | 消息风控处理，高清语音点歌，查各地天气，原神注册时间     |
-| 29 | [xitian-plugin](http://gitee.com/XiTianGame/xitian-plugin)     | 戏天插件  | 便捷管理js插件                       |
-| 21 | [yenai-plugin](http://gitee.com/yeyang52/yenai-plugin)         | 椰奶插件  | 角色收益曲线，群管理，消息监听等。提供对马甲的一些便捷操作  |
-| 28 | [xiaoye-plugin](https://gitee.com/xiaoye12123/xiaoye-plugin)   | 小叶插件  | 模拟刷圣遗物和强化,可自定义概率               |
-
+| 序号 | Git项目名                                                       | 中文名   | 简述                             |
+|----|--------------------------------------------------------------|-------|--------------------------------|
+| 单独 | [TRSS-Plugin](../../../../TimeRainStarSky/TRSS-Plugin)       | 时雨插件  | 本地语音合成，远程命令，文件操作等              |
+| 6  | [ap-plugin](../../../../yhArcadia/ap-plugin)                 | 绘图插件  | AI绘图、抠图、二次元的我等                 |
+| 11 | [auto-plugin](../../../../Nwflower/auto-plugin)              | 自动化插件 | 提供各式各样的定时任务功能和自动监听功能           |
+| 31 | [earth-k-plugin](../../../../SmallK111407/earth-k-plugin)    | 土块插件  | 大量娱乐功能如emoji合成、全角色语音、chatgpt等  |
+| 24 | [flower-plugin](../../../../Nwflower/flower-plugin)          | 抽卡插件  | 提供百连、三十连等操作以免用户抽卡刷屏            |
+| 单独 | [py-plugin](../../../../realhuhu/py-plugin)                  | Py插件  | 内置NoneBot，可装队伍伤害计算、表情包制作、幻影坦克等 |
+| 2  | [suiyue](http://gitee.com/Acceleratorsky/suiyue)             | 碎月插件  | 查各地疫情，今日关键词，加减乘除计算器            |
+| 35 | [windoge-plugin](http://github.com/gxy12345/windoge-plugin)  | 风歌插件  | xx参考面板，未复刻角色/武器，素材汇总图          |
+| 37 | [xiaofei-plugin](../../../../xfdown/xiaofei-plugin)          | 小飞插件  | 消息风控处理，高清语音点歌，查各地天气，原神注册时间     |
+| 29 | [xitian-plugin](../../../../XiTianGame/xitian-plugin)        | 戏天插件  | 便捷管理js插件                       |
+| 21 | [yenai-plugin](../../../../yeyang52/yenai-plugin)            | 椰奶插件  | 角色收益曲线，群管理，消息监听等。提供对马甲的一些便捷操作  |
+| 28 | [xiaoye-plugin](https://gitee.com/xiaoye12123/xiaoye-plugin) | 小叶插件  | 模拟刷圣遗物和强化,可自定义概率               |
 
 上面表格中带数字序号的插件你们按需安装即可，步骤参考“使用脚本安装或卸载插件”，部分插件会出现一些脚本暂时没有解决的问题我一会再单独介绍。
 
-如果你还想获取其他插件，除了时雨脚本已经适配好的整整50个插件，还可以看看渔火整理的[Yunzai-Bot 插件索引](https://gitee.com/yhArcadia/Yunzai-Bot-plugins-index)。
+如果你还想获取其他插件，除了时雨脚本已经适配好的整整50个插件，还可以看看渔火整理的[**Yunzai-Bot 插件索引**](../../../../yhArcadia/Yunzai-Bot-plugins-index)。
 
 下面稍微提一下时雨插件和Py插件的安装使用，你们按需点开即可。
 
@@ -630,15 +623,17 @@ https://gitee.com/TimeRainStarSky/TRSS-Plugin/
 
 ![输入图片说明](download/README_pictures/imagewq98988998.png)
 
-根据插件作者的说明配置好即可，比如这是[我的配置](https://gitee.com/CUZNIL/Yunzai-install/blob/master/download/TRSS_AllBot/Yunzai/plugins/py-plugin/config.yaml)：
+根据插件作者的说明配置好即可，比如这是[我的配置](download/TRSS_AllBot/Yunzai/plugins/py-plugin/config.yaml)：
 
 ```
 ...（以上省略）
+# nonebot-plugin-gspanel 配置项
 gspanel_alias:
   - nb面板
 gspanel_scale: 1
 resources_mirror: https://enka.network/ui/
-resources_dir: /root/TRSS_Yunzai/Yunzai/plugins/py-plugin/data
+resources_dir: /root/TRSS_AllBot/Yunzai/plugins/py-plugin/data
+...（以下省略）
 ```
 
 ———————————分割线———————————
@@ -664,7 +659,7 @@ resources_dir: /root/TRSS_Yunzai/Yunzai/plugins/py-plugin/data
 
 ![输入图片说明](download/README_pictures/imagesad898.png)
 
-首先安装[时雨插件](https://gitee.com/TimeRainStarSky/TRSS-Plugin/)以便直接通过QQ操作。不愿意安装的话在合适路径参考下面命令执行是相同效果。
+首先安装[时雨插件](../../../../TimeRainStarSky/TRSS-Plugin/)以便直接通过QQ操作。不愿意安装的话在合适路径参考下面命令执行是相同效果。
 
 向机器人输入下面这行命令，检查时雨插件和表情包制作插件是否下载好。
 
@@ -848,21 +843,21 @@ pacman -Sy --noconfirm pkg-config node-gyp gcc make
 
 ## 6.我安装的js插件
 
-| js插件名称                                                                                                                                           | 大概功能                    |
-|--------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------|
-| [账号管理](https://gitee.com/CUZNIL/Yunzai-QQmanager)                                                                                                | 当前马甲被封禁时自动切换其他马甲        |
-| [给头衔](https://gitee.com/CUZNIL/Yunzai-giveTitle)                                                                                                 | 让群友可以自己领想要的专属头衔。        |
-| [查委托](https://gitee.com/mofengdada/chaweituo)                                                                                                    | 查询指定委托有无成就，如果有会概述如何获取   |
-| [谁艾特我](https://gitee.com/Saury-loser/Saury)                                                                                                      | 快速定位谁在几百年前@了你，降血压必备     |
-| [更换节点](https://gitee.com/ThreeYi/sy_js_plugin#1%E6%9B%B4%E6%8D%A2%E8%8A%82%E7%82%B9)                                                             | 更换喵喵插件使用的enka节点         |
-| 域名是否被拦截                                                                                                                                          | 判断给定网站能否访问              |
-| 优质睡眠                                                                                                                                             | 将想要睡觉的群友禁言到明早八点         |
-| [真实评分](https://github.com/ldcivan/true_ranking_plugin)                                                                                           | 通过获取b站番剧长短评计算实际的评分数据    |
-| 恶臭计算器                                                                                                                                            | 论证任何数字都是臭的(生成114514计算式) |
-| 查询qq权重                                                                                                                                           | 查询QQ好的权重，越低越容易被封        |
-| [redis数据库备份](https://gitee.com/CUZNIL/Yunzai-install/blob/master/download/TRSS_AllBot/Yunzai/plugins/example/redis%E6%95%B0%E6%8D%AE%E5%BA%93%E5%A4%87%E4%BB%BD.js) | 备份redis中的QQ-uid         |
+| js插件名称                                                                                                          | 大概功能                    |
+|-----------------------------------------------------------------------------------------------------------------|-------------------------|
+| [账号管理](../../../Yunzai-QQmanager)                                                                               | 当前马甲被封禁时自动切换其他马甲        |
+| [给头衔](../../../Yunzai-giveTitle)                                                                                | 让群友可以自己领想要的专属头衔。        |
+| [查委托](https://gitee.com/mofengdada/chaweituo)                                                                   | 查询指定委托有无成就，如果有会概述如何获取   |
+| [谁艾特我](https://gitee.com/Saury-loser/Saury)                                                                     | 快速定位谁在几百年前@了你，降血压必备     |
+| [更换节点](https://gitee.com/ThreeYi/sy_js_plugin#1%E6%9B%B4%E6%8D%A2%E8%8A%82%E7%82%B9)                            | 更换喵喵插件使用的enka节点         |
+| 域名是否被拦截                                                                                                         | 判断给定网站能否访问              |
+| 优质睡眠                                                                                                            | 将想要睡觉的群友禁言到明早八点         |
+| [真实评分](https://github.com/ldcivan/true_ranking_plugin)                                                          | 通过获取b站番剧长短评计算实际的评分数据    |
+| 恶臭计算器                                                                                                           | 论证任何数字都是臭的(生成114514计算式) |
+| 查询qq权重                                                                                                          | 查询QQ好的权重，越低越容易被封        |
+| [redis数据库备份](download/TRSS_AllBot/Yunzai/plugins/example/redis%E6%95%B0%E6%8D%AE%E5%BA%93%E5%A4%87%E4%BB%BD.js) | 备份redis中的QQ-uid         |
 
-如果你还想获取其他插件，还可以看看渔火整理的[Yunzai-Bot 插件索引](https://gitee.com/yhArcadia/Yunzai-Bot-plugins-index)。
+如果你还想获取其他插件，还可以看看渔火整理的[**Yunzai-Bot 插件索引**](../../../../yhArcadia/Yunzai-Bot-plugins-index)。
 
 ## 7.部分报错处理整合
 
@@ -874,7 +869,7 @@ pacman -Sy --noconfirm pkg-config node-gyp gcc make
 
  **如果你完全跟着教程步骤安装，则不需要执行此步。**
 
-(这是因为时雨脚本目前已经换源好[合适的云崽](https://gitee.com/TimeRainStarSky/Yunzai-Bot)了)
+(这是因为时雨脚本目前已经换源好[合适的云崽](../../../../TimeRainStarSky/Yunzai-Bot)了)
 
 由于乐神云崽似乎暂时停更了，我们手动换喵喵的云崽已获取大佬的维护。进入Termux终端。输入`start`进入容器。
 
@@ -1130,7 +1125,7 @@ https://gitee.com/TimeRainStarSky/TRSS-Plugin/
 
 ![输入图片说明](download/README_pictures/imagesad898.png)
 
-首先安装[时雨插件](https://gitee.com/TimeRainStarSky/TRSS-Plugin/)以便直接通过QQ操作。不愿意安装的话在合适路径参考下面命令执行是相同效果。
+首先安装[时雨插件](../../../../TimeRainStarSky/TRSS-Plugin/)以便直接通过QQ操作。不愿意安装的话在合适路径参考下面命令执行是相同效果。
 
 向机器人输入下面这行命令，检查时雨插件和表情包制作插件是否下载好。
 
@@ -1334,6 +1329,8 @@ apk下载地址(任一)：[QQ群文件](http://jq.qq.com/?_wv=1027&k=tqiOtCVc) [
 
 红米K50(8+256) 系统版本：[MIUI13.0.13](https://xiaomirom.com/download/redmi-k50-rubens-stable-V13.0.13.0.SLNCNXM/) 乌堆MIUI13.0.13
 
+红米K60(16+512) 系统版本：[MIUI开发版14.0.23](https://xiaomirom.com/download/redmi-k60-poco-f5-pro-mondrian-weekly-V14.0.23.1.30.DEV/)
+
 ## 参考信息
 
 大量内容我只是搬运，以下是实际来源网页。
@@ -1346,7 +1343,7 @@ apk下载地址(任一)：[QQ群文件](http://jq.qq.com/?_wv=1027&k=tqiOtCVc) [
 [git换源2](https://blog.csdn.net/as8996606/article/details/124879105)
 [部分依赖](https://blog.csdn.net/qq_39099905/article/details/125228920)
 [pacman](https://zhuanlan.zhihu.com/p/383694450)
-[README润色](https://gitee.com/TimeRainStarSky/TRSS-Plugin/edit/main/README.md)
+[README润色](../../../../TimeRainStarSky/TRSS-Plugin/edit/main/README.md)
 [TERMUX下载](https://f-droid.org/en/packages/com.termux/)
 [时雨脚本](https://trss.me/)
 [memes403](https://gitee.com/realhuhu/py-plugin/issues/I6PDDV)
