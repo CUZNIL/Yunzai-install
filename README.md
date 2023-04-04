@@ -1,5 +1,5 @@
 # [V3云崽BOT手机搭建教程](https://gitee.com/CUZNIL/Yunzai-install)
-上次编辑时间2023年4月2日23:52:39
+上次编辑时间2023年4月4日17:03:47
 ## 0.介绍
 针对安卓手机搭建[V3云崽BOT](https://gitee.com/Le-niao/Yunzai-Bot)的一篇详细教程，也包含手机搭建前后会遇到的各种问题和解决方案。
 
@@ -684,7 +684,7 @@ rcp ls plugins/py-plugin/data/fonts/
 rcp mkdir /usr/local/share/fonts/
 ```
 ```
-rcp cd /usr/local/share/fonts && curl -O https://ghproxy.com/https://raw.githubusercontent.com/CUZNIL/Yunzai-install/master/download/plugins/py-plugin/data/fonts/NotoSansSC-Regular.otf
+rcp cd /usr/local/share/fonts && curl -O https://ghproxy.com/https://raw.githubusercontent.com/CUZNIL/Yunzai-install/master/download/TRSS_AllBot/Yunzai/plugins/py-plugin/data/fonts/NotoSansSC-Regular.otf
 ```
 下载快的话五六秒，慢的话一俩分钟。下载后出现如图所示的“标准错误输出”是正常现象。
 ![输入图片说明](doc-use/imageqwd8qw9wwww.png)
@@ -860,7 +860,7 @@ pacman -Sy --noconfirm pkg-config node-gyp gcc make
 | [真实评分](https://github.com/ldcivan/true_ranking_plugin)                                                                                           | 通过获取b站番剧长短评计算实际的评分数据    |
 | 恶臭计算器                                                                                                                                            | 论证任何数字都是臭的(生成114514计算式) |
 | 查询qq权重                                                                                                                                           | 查询QQ好的权重，越低越容易被封        |
-| [redis数据库备份](https://gitee.com/CUZNIL/Yunzai-install/blob/master/download/plugins/example/redis%E6%95%B0%E6%8D%AE%E5%BA%93%E5%A4%87%E4%BB%BD.js) | 备份redis中的QQ-uid         |
+| [redis数据库备份](https://gitee.com/CUZNIL/Yunzai-install/blob/master/download/TRSS_AllBot/Yunzai/plugins/example/redis%E6%95%B0%E6%8D%AE%E5%BA%93%E5%A4%87%E4%BB%BD.js) | 备份redis中的QQ-uid         |
 
 如果你还想获取其他插件，还可以看看渔火整理的[Yunzai-Bot 插件索引](https://gitee.com/yhArcadia/Yunzai-Bot-plugins-index)。
 
@@ -1150,7 +1150,7 @@ rcp ls plugins/py-plugin/data/fonts/
 rcp mkdir /usr/local/share/fonts/
 ```
 ```
-rcp cd /usr/local/share/fonts && curl -O https://ghproxy.com/https://raw.githubusercontent.com/CUZNIL/Yunzai-install/master/download/plugins/py-plugin/data/fonts/NotoSansSC-Regular.otf
+rcp cd /usr/local/share/fonts && curl -O https://ghproxy.com/https://raw.githubusercontent.com/CUZNIL/Yunzai-install/master/download/TRSS_AllBot/Yunzai/plugins/py-plugin/data/fonts/NotoSansSC-Regular.otf
 ```
 
 下载快的话五六秒，慢的话一俩分钟。下载后出现如图所示的“标准错误输出”是正常现象。
