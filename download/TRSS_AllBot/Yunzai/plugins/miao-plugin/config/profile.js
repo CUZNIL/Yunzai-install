@@ -18,7 +18,7 @@
 * 
 * 感谢@MiniGrayGay 大佬提供的服务(Github: https://github.com/MiniGrayGay)
 *
-* 使用代理(科学上网)可以配置proxyAgent
+* 使用vbn可以配置proxyAgent
 * 例如: http://127.0.0.1:1080
 * */
 
