@@ -1,5 +1,5 @@
 # [V3云崽BOT手机搭建教程](https://gitee.com/CUZNIL/Yunzai-install)
-上次编辑时间2023年4月15日20:12:24
+上次编辑时间2023年4月20日00:09:35
 ## 0.介绍
 针对安卓手机搭建[V3云崽BOT](https://gitee.com/Le-niao/Yunzai-Bot)的一篇详细教程，也包含手机搭建前后会遇到的各种问题和解决方案。
 
@@ -845,21 +845,20 @@ pacman -Sy --noconfirm pkg-config node-gyp gcc make
 
 ## 6.我安装的js插件
 
-| js插件名称                                                                                                          | 大概功能                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
-| [账号管理](../../../Yunzai-QQmanager)                                                                               | 当前马甲被封禁时自动切换其他马甲                                                                                                                                 |
-| [给头衔](../../../Yunzai-giveTitle)                                                                                | 让群友可以自己领想要的专属头衔。                                                                                                                                 |
-| [面板通用化](../../../Yunzai-MiaoToGspanel)                                                                          | 将[喵喵插件](../../../../yoimiya-kokomi/miao-plugin)产生的面板数据适配到[Gspanel](https://github.com/monsterxcn/nonebot-plugin-gspanel)。因为原神3.6更新导致作者摸鱼到现在还没写完。 |
-| [redis数据库备份](download/TRSS_AllBot/Yunzai/plugins/example/redis%E6%95%B0%E6%8D%AE%E5%BA%93%E5%A4%87%E4%BB%BD.js) | 备份redis中的QQ-uid                                                                                                                                  |
-| [查委托](https://gitee.com/mofengdada/chaweituo)                                                                   | 查询指定委托有无成就，如果有会概述如何获取                                                                                                                            |
-| [谁艾特我](https://gitee.com/Saury-loser/Saury)                                                                     | 快速定位谁在几百年前@了你，降血压必备                                                                                                                              |
-| [更换节点](https://gitee.com/ThreeYi/sy_js_plugin#1%E6%9B%B4%E6%8D%A2%E8%8A%82%E7%82%B9)                            | 更换喵喵插件使用的enka节点                                                                                                                                  |
-| 域名是否被拦截                                                                                                         | 判断给定网站能否访问                                                                                                                                       |
-| 优质睡眠                                                                                                            | 将想要睡觉的群友禁言到明早八点                                                                                                                                  |
-| [真实评分](https://github.com/ldcivan/true_ranking_plugin)                                                          | 通过获取b站番剧长短评计算实际的评分数据                                                                                                                             |
-| 恶臭计算器                                                                                                           | 论证任何数字都是臭的(生成114514计算式)                                                                                                                          |
-| 查询qq权重                                                                                                          | 查询QQ好的权重，越低越容易被封                                                                                                                                 |
-
+| js插件名称                                                                                                          | 大概功能                                                                                                                      |
+|-----------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
+| [账号管理](../../../Yunzai-QQmanager)                                                                               | 当前马甲被封禁时自动切换其他马甲                                                                                                          |
+| [给头衔](../../../Yunzai-giveTitle)                                                                                | 让群友可以自己领想要的专属头衔。                                                                                                          |
+| [面板通用化](../../../Yunzai-MiaoToGspanel)                                                                          | 将[喵喵插件](../../../../yoimiya-kokomi/miao-plugin)产生的面板数据适配到[Gspanel](https://github.com/monsterxcn/nonebot-plugin-gspanel)。 |
+| [redis数据库备份](download/TRSS_AllBot/Yunzai/plugins/example/redis%E6%95%B0%E6%8D%AE%E5%BA%93%E5%A4%87%E4%BB%BD.js) | 备份redis中的QQ-uid                                                                                                           |
+| [查委托](https://gitee.com/mofengdada/chaweituo)                                                                   | 查询指定委托有无成就，如果有会概述如何获取                                                                                                     |
+| [谁艾特我](https://gitee.com/Saury-loser/Saury)                                                                     | 快速定位谁在几百年前@了你，降血压必备                                                                                                       |
+| [更换节点](https://gitee.com/ThreeYi/sy_js_plugin#1%E6%9B%B4%E6%8D%A2%E8%8A%82%E7%82%B9)                            | 更换喵喵插件使用的enka节点                                                                                                           |
+| 域名是否被拦截                                                                                                         | 判断给定网站能否访问                                                                                                                |
+| 优质睡眠                                                                                                            | 将想要睡觉的群友禁言到明早八点                                                                                                           |
+| [真实评分](https://github.com/ldcivan/true_ranking_plugin)                                                          | 通过获取b站番剧长短评计算实际的评分数据                                                                                                      |
+| 恶臭计算器                                                                                                           | 论证任何数字都是臭的(生成114514计算式)                                                                                                   |
+| 查询qq权重                                                                                                          | 查询QQ好的权重，越低越容易被封                                                                                                          |
 作者已经发布到github/gitee的插件均有超链接，点击即可获取。
 
 如果你还想获取其他插件，还可以看看渔火整理的[**Yunzai-Bot 插件索引**](../../../../yhArcadia/Yunzai-Bot-plugins-index)。
