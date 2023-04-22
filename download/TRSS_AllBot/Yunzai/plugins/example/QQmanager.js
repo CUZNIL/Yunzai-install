@@ -6,13 +6,10 @@
 如果决定要卸载本插件，请不要单独删除本js，否则可能导致BOT无法正常响应消息！！！！！
 正确卸载姿势是对BOT说：“卸载账号管理插件，但是保留账密在/resources/QQmanager/bot.yaml”，这样插件会删除除了账密文件的所有该插件生成的文件（包括自身）。
 如果你账密不需要在云崽目录记录，卸载请发送“完全卸载账号管理插件”，这样插件会删除所有该插件生成的文件（包括自身）。
-此js最后一次编辑于2023年3月22日14:21:07
+此js最后一次编辑于2023年4月18日09:50:28
 //*/
 
-import { segment } from "oicq";
 import fetch from "node-fetch";
-import lodash from 'lodash'
-
 import fs from 'node:fs'
 import YAML from 'yaml'
 import { Restart } from '../other/restart.js'
@@ -21,13 +18,14 @@ import cfg from '../../lib/config/config.js'
 let qq = 0
 let pw
 let First_Run = false
+let queryAPI = "http://tc.tfkapi.top/API/qqqz.php?type=json&qq="
 
 export class zhanghao extends plugin {
   constructor() {
     super({
       name: '帐号管理',
       event: 'message',
-      priority: 4000,
+      priority: 2333,
       rule: [
         {
           reg: '^(#|(确认))切换(\\d)+$',
@@ -77,7 +75,6 @@ export class zhanghao extends plugin {
         {
           reg: '^#?账号?管理?(帮助)?$',
           fnc: 'help',
-          permission: 'master'
         }
       ]
     })
@@ -91,8 +88,8 @@ export class zhanghao extends plugin {
         fs.writeFileSync(`${this._path}/resources/QQmanager/bot.yaml`, YAML.stringify(yaml), 'utf8')
       }
       fs.writeFileSync(`${this._path}/resources/QQmanager/Default.yaml`, "# qq账号\nqq:\n# 密码，为空则用扫码登录,扫码登录现在仅能在同一ip下进行\npwd:\n# 1:安卓手机、 2:aPad 、 3:安卓手表、 4:MacOS 、 5:iPad\nplatform:\n", 'utf8')
-      fs.writeFileSync(`${this._path}/lib/events/checkonline.js`, "import EventListener from '../listener/listener.js'\nimport fs from 'node:fs'\nimport { createRequire } from 'module'\nimport YAML from 'yaml'\nlet _path = process.cwd()\nconst require = createRequire(import.meta.url)\nconst { exec } = require('child_process')\nexport default class onlineEvent extends EventListener {\n    constructor() {\n        super({ event: 'system.offline' })\n        this.key = 'restart'\n        this.keys = 'setrestart'\n    }\n\n\n    /** 默认方法 */\n    async execute(e) {\n        let setrestart = await redis.get(this.keys)\n        if (!setrestart) {\n            return true\n        }\n        let cm = 'npm run restart'\n        let asd = this.get('bot')\n        let deFault = fs.readFileSync(`${_path}/resources/QQmanager/Default.yaml`, 'utf-8')\n        for (let i in asd) {\n            if (fs.existsSync(`${_path}/data/${asd[i].qq[0]}/token`)) {\n                deFault = deFault.replace(/qq:/g, 'qq: ' + asd[i].qq[0])\n                deFault = deFault.replace(/pwd:/g, `pwd:  '${asd[i].pw}'`)\n                deFault = deFault.replace(/platform:/g, 'platform: ' + asd[i].plat[0])\n                fs.writeFileSync(`${_path}/config/config/qq.yaml`, deFault, 'utf8')\n                break\n            }\n        }\n        console.log(`开始重启`)\n        await redis.set(this.key, '1')\n        exec(cm, { windowsHide: true }, (error, stdout, stderr) => {\n            if (error) {\n                redis.del(this.key)\n                logger.error(`重启失败\n${error.stack}`)\n            } else if (stdout) {\n                logger.mark('重启成功，运行已由前台转为后台')\n                logger.mark('查看日志请用命令：npm run log')\n                logger.mark('停止后台运行命令：npm stop')\n                process.exit()\n            }\n        })\n    }\n\n    get(name) {\n        let file = `${_path}/resources/QQmanager/${name}.yaml`\n        let key = `${name}`\n        this[key] = YAML.parse(\n            fs.readFileSync(file, 'utf8')\n        )\n        return this[key]\n    }\n}\n", 'utf8')
     }
+    fs.writeFileSync(`${this._path}/lib/events/checkonline.js`, "import EventListener from '../listener/listener.js'\nimport fs from 'node:fs'\nimport { createRequire } from 'module'\nimport YAML from 'yaml'\nlet _path = process.cwd()\nconst require = createRequire(import.meta.url)\nconst { exec } = require('child_process')\nexport default class onlineEvent extends EventListener {\n    constructor() {\n        super({ event: 'system.offline' })\n        this.key = 'restart'\n        this.keys = 'setrestart'\n    }\n    async execute(e) {\n        let setrestart = await redis.get(this.keys)\n        if (!setrestart) {\n            return true\n        }\n        let cm = 'npm run restart'\n        let ret = await new Promise((resolve, reject) => {\n            exec('pnpm -v', { windowsHide: true }, (error, stdout, stderr) => {\n                resolve({ error, stdout, stderr })\n            })\n        })\n        if (ret.stdout) cm = 'pnpm run restart'\n        let asd = this.get('bot')\n        let deFault = fs.readFileSync(`${_path}/resources/QQmanager/Default.yaml`, 'utf-8')\n        for (let i in asd) {\n            if (fs.existsSync(`${_path}/data/${asd[i].qq[0]}_token`)) {\n                deFault = deFault.replace(/qq:/g, 'qq: ' + asd[i].qq[0])\n                deFault = deFault.replace(/pwd:/g, `pwd:  '${asd[i].pw}'`)\n                deFault = deFault.replace(/platform:/g, 'platform: ' + asd[i].plat[0])\n                fs.writeFileSync(`${_path}/config/config/qq.yaml`, deFault, 'utf8')\n                break\n            }\n        }\n        console.log(`开始重启`)\n        await redis.set(this.key, '1')\n        exec(cm, { windowsHide: true }, (error, stdout, stderr) => {\n            if (error) {\n                redis.del(this.key)\n                logger.error(`账号管理插件：检测到掉线，但重启失败${error.stack}`)\n            } else if (stdout) {\n                logger.mark('账号管理插件：检测到掉线，重启成功，运行已由前台转为后台')\n                logger.mark('查看日志请用命令：pnpm run log')\n                logger.mark('停止后台运行命令：pnpm stop')\n                process.exit()\n            }\n        })\n    }\n    get(name) {\n        let file = `${_path}/resources/QQmanager/${name}.yaml`\n        let key = `${name}`\n        this[key] = YAML.parse(\n            fs.readFileSync(file, 'utf8')\n        )\n        return this[key]\n    }\n}", 'utf8')
     this.asd = this.get('bot')
     this.key = 'restart'
     this.keys = 'setrestart'
@@ -156,18 +153,22 @@ export class zhanghao extends plugin {
 
   async checkpwdask() {
     if (/^是$/.test(this.e.msg)) {
-      let msg = []
-      let title = [`帐号如下:\n(当前帐号为${Bot.uin})`]
-      for (let i in this.asd) {
-        msg.push(`${parseInt(i) + 1}、${this.asd[i].qq[0]}   ${this.asd[i].pw[0]}   。该账号${fs.existsSync(`${this._path}/data/${this.asd[i].qq[0]}_token`) ? "有token。" : "无token，请谨慎切换！"}`)
-      }
-      msg.push(`如果是手贱触发，撤回防不了小人，安全起见建议改账密。`)
-      let forward = await this.makeForwardMsg(Bot.uin, title, msg)
-      this.reply(forward)
+      this.checkpwdyes()
     } else {
       this.reply("润了润了")
     }
     this.finish('checkpwdask')
+  }
+
+  async checkpwdyes() {
+    let msg = []
+    let title = [`帐号如下:\n(当前帐号为${Bot.uin})`]
+    for (let i in this.asd) {
+      msg.push(`${parseInt(i) + 1}、${this.asd[i].qq[0]}   ${this.asd[i].pw[0]}   。该账号${fs.existsSync(`${this._path}/data/${this.asd[i].qq[0]}_token`) ? "有token。" : "无token，请谨慎切换！"}`)
+    }
+    msg.push(`如果是手贱触发，撤回防不了小人，安全起见建议改账密。`)
+    let forward = await this.makeForwardMsg(Bot.uin, title, msg)
+    this.reply(forward)
   }
 
   async checkweight() {
@@ -175,14 +176,15 @@ export class zhanghao extends plugin {
     let msg = []
     let title = [`帐号如下:\n(当前帐号为${Bot.uin})`]
     for (let i in this.asd) {
-      let url = `http://tc.tfkapi.top/API/qqqz.php?type=json&qq=${this.asd[i].qq[0]}`;
-      let response = await fetch(url);
-      let res = await response.json();
-      if (segment.text(res.msg) == "查询成功") {
-        this.reply("似乎无法访问到API，请使用#查看。")
-        return false
+      let url = queryAPI.concat(this.asd[i].qq[0])
+      try {
+        let response = await fetch(url)
+        let res = await response.json()
+        msg.push(`${parseInt(i) + 1}、${this.asd[i].qq[0]}。该账号${fs.existsSync(`${this._path}/data/${this.asd[i].qq[0]}_token`) ? "有token。" : "无token，请谨慎切换！"}权重为${res.qz}。`)
+      } catch (e) {
+        console.error(e)
+        msg.push(`${parseInt(i) + 1}、${this.asd[i].qq[0]}。该账号${fs.existsSync(`${this._path}/data/${this.asd[i].qq[0]}_token`) ? "有token。" : "无token，请谨慎切换！"}权重查询接口访问失败。`)
       }
-      msg.push(`${parseInt(i) + 1}、${this.asd[i].qq[0]}。该账号${fs.existsSync(`${this._path}/data/${this.asd[i].qq[0]}_token`) ? "有token。" : "无token，请谨慎切换！"}权重为${res.qz}。`)
     }
     msg.push(`切换账号的指令是#切换+数字\n非账号封禁导致的token消失一般可以正常切换\n权重越低越容易封号，权重低时别涩涩啦！\n更多指令回复#账号管理帮助 获取`)
     let forward = await this.makeForwardMsg(Bot.uin, title, msg)
@@ -357,6 +359,9 @@ export class zhanghao extends plugin {
         nickname: "插件地址"
       },
     ]
+    if (!this.e.isMaster) {
+      forwardMsg.push({ message: `温馨提示：你不是主人，你只能调用帮助哦~`, user_id: Bot.uin, nickname: "主人判定" })
+    }
     if (e.isGroup) {
       forwardMsg = await e.group.makeForwardMsg(forwardMsg)
     } else {
@@ -416,13 +421,7 @@ export class zhanghao extends plugin {
       .replace(/___+/, `<title color="#777777" size="26">${title}</title>`)
     return forwardMsg
   }
-
   restart() {
     new Restart(this.e).restart()
   }
-
-
 }
-
-
-
