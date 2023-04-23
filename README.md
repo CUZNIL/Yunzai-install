@@ -692,6 +692,9 @@ rcp cd /usr/local/share/fonts && curl -O https://ghproxy.com/https://raw.githubu
 ```
 rcp rm ../home/.cache/matplotlib/fontlist-v330.json
 ```
+```
+rcp rm ../home/.cache/nonebot2/nonebot_plugin_memes/*
+```
 最后重启机器人即可正常使用。比如你可以向机器人发消息“#重启”。
 
 ![输入图片说明](download/README_pictures/imagewwww12213123esadsa.png)
@@ -1162,6 +1165,9 @@ rcp cd /usr/local/share/fonts && curl -O https://ghproxy.com/https://raw.githubu
 ↓确认没有问题继续。↓
 ```
 rcp rm ../home/.cache/matplotlib/fontlist-v330.json
+```
+```
+rcp rm ../home/.cache/nonebot2/nonebot_plugin_memes/*
 ```
 最后重启机器人即可正常使用。比如你可以向机器人发消息“#重启”。
 
