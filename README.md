@@ -1,5 +1,5 @@
 # [V3云崽BOT手机搭建教程](https://gitee.com/CUZNIL/Yunzai-install)
-上次编辑时间2023年4月23日14:18:19
+上次编辑时间2023年4月26日13:36:35
 ## 0.介绍
 针对安卓手机搭建[V3云崽BOT](https://gitee.com/Le-niao/Yunzai-Bot)的一篇详细教程，也包含手机搭建前后会遇到的各种问题和解决方案。
 
@@ -671,30 +671,84 @@ rcp ls plugins/py-plugin/data/fonts/
 
 ![输入图片说明](download/README_pictures/imageqwd1498e41892.png)
 
-如图所示确认到有NotoSansSC-Regular.otf，说明字体资源下载好了。接下来为所有用户安装。如果没有请启动你的机器人，稍等一会他会自动下载表情包制作需要的所有资源（当然包括字体）。等待下载完毕再开始向后执行。
+如上图所示确认到有NotoSansSC-Regular.otf，说明字体资源下载好了。接下来为所有用户安装。
 
-![输入图片说明](download/README_pictures/imagewqfg398e222.png)
+如果没有请启动你的机器人，稍等一会他会自动下载表情包制作需要的所有资源（当然包括字体）。等待下载完毕再开始向后执行。
 
-如图所示，向机器人依次发送下面三条消息。
+接下来向机器人依次发送下面四条消息。
+
+ **新建字体文件夹：** 
 
 ```
 rcp mkdir /usr/local/share/fonts/
 ```
+<details><summary>远程命令错误：无法创建目录：文件已存在</summary>
+
+也许你曾创建过该文件夹。这个报错不会影响，可以继续往下执行。
+
+———————————分割线———————————
+
+</details>
+
+ **复制要安装的字体：** 
+```
+rcp cp plugins/py-plugin/data/fonts/NotoSansSC-Regular.otf /usr/local/share/fonts/NotoSansSC-Regular.otf
+```
+
+<details><summary>复制失败</summary>
+
+理论上不会出现这种情况了，但是如果你遇到了可以尝试通过下载来解决。向机器人发送下面这条消息：
+
+
 ```
 rcp cd /usr/local/share/fonts && curl -O https://ghproxy.com/https://raw.githubusercontent.com/CUZNIL/Yunzai-install/master/download/TRSS_AllBot/Yunzai/plugins/py-plugin/data/fonts/NotoSansSC-Regular.otf
 ```
+
 下载快的话五六秒，慢的话一俩分钟。下载后出现如图所示的“标准错误输出”是正常现象。
 ![输入图片说明](download/README_pictures/imageqwd8qw9wwww.png)
 
 但是如果标准错误输出的结尾包含类似上图的红框内容，请重新下载，再次输入刚才的命令直到“标准错误输出”中没有出现上图的红框内容。
 
-↓确认没有问题继续。↓
+———————————分割线———————————
+
+</details>
+
+ **删除字体缓存：** 
 ```
 rcp rm ../home/.cache/matplotlib/fontlist-v330.json
 ```
+<details><summary>远程命令错误：无法删除：没有那个文件或目录</summary>
+
+你已经删除了字体缓存，尝试再次删除当然就会提示你没有这个文件（毕竟你已经删除了）。
+
+这个报错不会影响，可以继续往下执行。
+
+———————————分割线———————————
+
+</details>
+
+
+ **删除插件缓存：** 
 ```
 rcp rm ../home/.cache/nonebot2/nonebot_plugin_memes/*
 ```
+
+<details><summary>远程命令错误：无法删除：没有那个文件或目录</summary>
+
+可能性1：你已经删除了插件缓存，尝试再次删除当然就会提示你没有这个文件（毕竟你已经删除了）。
+
+可能性2：你下载的nonebot_plugin_memes并非最新版本。
+
+如果是以上俩种情况，则不会影响你的安装，可以忽略。如果不是请反馈。
+
+———————————分割线———————————
+
+</details>
+
+![输入图片说明](download/README_pictures/w984dq89f4e222.png)
+
+如图所示，如果QQ没有任何回应说明执行无误，有回应请自行展开查看。
+
 最后重启机器人即可正常使用。比如你可以向机器人发消息“#重启”。
 
 ![输入图片说明](download/README_pictures/imagewwww12213123esadsa.png)
@@ -1129,7 +1183,8 @@ https://gitee.com/TimeRainStarSky/TRSS-Plugin/
 
 </details>
 
-<details><summary>Nonebot插件：表情包制作口口口</summary>
+
+<details><summary>表情包制作插件口口口</summary>
 
 具体报错情况如下图，发送“#头像表情包”会出现大量的 口口口，即缺字体。
 
@@ -1145,15 +1200,35 @@ rcp ls plugins/py-plugin/data/fonts/
 
 ![输入图片说明](download/README_pictures/imageqwd1498e41892.png)
 
-如图所示确认到有NotoSansSC-Regular.otf，说明字体资源下载好了。接下来为所有用户安装。如果没有请启动你的机器人，稍等一会他会自动下载表情包制作需要的所有资源（当然包括字体）。等待下载完毕再开始向后执行。
+如上图所示确认到有NotoSansSC-Regular.otf，说明字体资源下载好了。接下来为所有用户安装。
 
-![输入图片说明](download/README_pictures/imagewqfg398e222.png)
+如果没有请启动你的机器人，稍等一会他会自动下载表情包制作需要的所有资源（当然包括字体）。等待下载完毕再开始向后执行。
 
-如图所示，向机器人依次发送下面三条消息。
+接下来向机器人依次发送下面四条消息。
+
+ **新建字体文件夹：** 
 
 ```
 rcp mkdir /usr/local/share/fonts/
 ```
+<details><summary>远程命令错误：无法创建目录：文件已存在</summary>
+
+也许你曾创建过该文件夹。这个报错不会影响，可以继续往下执行。
+
+———————————分割线———————————
+
+</details>
+
+ **复制要安装的字体：** 
+```
+rcp cp plugins/py-plugin/data/fonts/NotoSansSC-Regular.otf /usr/local/share/fonts/NotoSansSC-Regular.otf
+```
+
+<details><summary>复制失败</summary>
+
+理论上不会出现这种情况了，但是如果你遇到了可以尝试通过下载来解决。向机器人发送下面这条消息：
+
+
 ```
 rcp cd /usr/local/share/fonts && curl -O https://ghproxy.com/https://raw.githubusercontent.com/CUZNIL/Yunzai-install/master/download/TRSS_AllBot/Yunzai/plugins/py-plugin/data/fonts/NotoSansSC-Regular.otf
 ```
@@ -1163,13 +1238,46 @@ rcp cd /usr/local/share/fonts && curl -O https://ghproxy.com/https://raw.githubu
 
 但是如果标准错误输出的结尾包含类似上图的红框内容，请重新下载，再次输入刚才的命令直到“标准错误输出”中没有出现上图的红框内容。
 
-↓确认没有问题继续。↓
+———————————分割线———————————
+
+</details>
+
+ **删除字体缓存：** 
 ```
 rcp rm ../home/.cache/matplotlib/fontlist-v330.json
 ```
+<details><summary>远程命令错误：无法删除：没有那个文件或目录</summary>
+
+你已经删除了字体缓存，尝试再次删除当然就会提示你没有这个文件（毕竟你已经删除了）。
+
+这个报错不会影响，可以继续往下执行。
+
+———————————分割线———————————
+
+</details>
+
+
+ **删除插件缓存：** 
 ```
 rcp rm ../home/.cache/nonebot2/nonebot_plugin_memes/*
 ```
+
+<details><summary>远程命令错误：无法删除：没有那个文件或目录</summary>
+
+可能性1：你已经删除了插件缓存，尝试再次删除当然就会提示你没有这个文件（毕竟你已经删除了）。
+
+可能性2：你下载的nonebot_plugin_memes并非最新版本。
+
+如果是以上俩种情况，则不会影响你的安装，可以忽略。如果不是请反馈。
+
+———————————分割线———————————
+
+</details>
+
+![输入图片说明](download/README_pictures/w984dq89f4e222.png)
+
+如图所示，如果QQ没有任何回应说明执行无误，有回应请自行展开查看。
+
 最后重启机器人即可正常使用。比如你可以向机器人发消息“#重启”。
 
 ![输入图片说明](download/README_pictures/imagewwww12213123esadsa.png)
