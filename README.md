@@ -1,5 +1,6 @@
 # [V3云崽BOT手机搭建教程](https://gitee.com/CUZNIL/Yunzai-install)
-上次编辑时间2023年4月26日13:36:35
+上次编辑时间
+2023年5月12日17:21:35
 ## 0.介绍
 针对安卓手机搭建[V3云崽BOT](https://gitee.com/Le-niao/Yunzai-Bot)的一篇详细教程，也包含手机搭建前后会遇到的各种问题和解决方案。
 
@@ -1359,6 +1360,8 @@ pacman -Sy --noconfirm pkg-config node-gyp gcc make
 ## 8.使用习惯建议
 
 <details><summary>1.息屏挂机运行云崽</summary>
+
+ **你好，脚本目前默认进容器所以termux-wake-lock会不生效，请用通知栏下拉替代，暂时没空写完整。** 
 
 ![输入图片说明](download/README_pictures/dw4q89d.png)
 
