@@ -1,6 +1,6 @@
 # [V3云崽BOT手机搭建教程](https://gitee.com/CUZNIL/Yunzai-install)
 上次编辑时间
-2023年5月12日17:21:35
+2023年6月4日09:58:10
 ## 0.介绍
 针对安卓手机搭建[V3云崽BOT](https://gitee.com/Le-niao/Yunzai-Bot)的一篇详细教程，也包含手机搭建前后会遇到的各种问题和解决方案。
 
@@ -81,8 +81,9 @@
 
 如果你不知道openssh是什么的话，可以试着搜索。还是不明白的话这部分你应该用不上， **可以收起该部分，跳到下一步：2.容器。** 
 
-进入Termux终端，输入`termux-change-repo`。如果手机打指令太慢或者怕打错的话多用截图左下角用红框框柱的那个的按钮，他能帮你补全大部分代码。
+**如需ssh，请在安装云崽脚本之前执行该步骤**
 
+进入Termux终端，输入`termux-change-repo`。如果手机打指令太慢或者怕打错的话多用截图左下角用红框框柱的那个的按钮，他能帮你补全大部分代码。
 
 ![输入图片说明](download/README_pictures/qwd.png)
 
@@ -1359,59 +1360,7 @@ pacman -Sy --noconfirm pkg-config node-gyp gcc make
 
 ## 8.使用习惯建议
 
-<details><summary>1.息屏挂机运行云崽</summary>
-
- **你好，脚本目前默认进容器所以termux-wake-lock会不生效，请用通知栏下拉替代，暂时没空写完整。** 
-
-![输入图片说明](download/README_pictures/dw4q89d.png)
-
-如图所示是我的BOT运行环境。出于省电的考虑建议开启你手机的超级省电模式，并在息屏状态下运行云崽。以下是具体步骤，以红米K40的MIUI13为例：
-
-进入手机的控制中心（一般在通知栏附近），寻找超级省电按钮。如果没有，可能需要再编辑里找一找手动添加后再选择。
-
-![输入图片说明](download/README_pictures/imawgeqw984.png)
-
-如图进入超级省电模式后，手动添加你运行机器人需要的APP，比如这里我加了Termux本体、vbn和滑动验证助手。如果没啥问题其实加个Termux就行。
-
-进入Termux终端，输入下面这行指令以在息屏情况下持续地运行云崽。
-
-```
-termux-wake-lock && tsab y f
-```
-
-当然如果你有在使用openssh，也可以用这行指令。保证只用一行命令能方便下次启动时直接按"↑"回忆一行命令即可所以推荐全挤在一行。
-
-```
-sshd && termux-wake-lock && tsab y f
-```
-
-如果你是首次使用`termux-wake-lock`，可能会有需要你操作的地方，比如小米会跳转到这个页面，根据我们的需要那当然是从默认的智能限制改为无限制。
-
-![输入图片说明](download/README_pictures/image98721398131dd.png)
-
-如此操作以后便可以放心息屏使用了，不出意外是云崽是不会突然停止的了。
-
-<details><summary>下次如何便捷启动云崽？</summary>
-
-首先需要让termux记住你输入过上面的指令，需要一次正常的退出进程。具体步骤如下：
-
-首先正常输入一遍启动指令，比如我需要openssh我就用`sshd && termux-wake-lock && tsab y f`。
-
-![输入图片说明](download/README_pictures/imag222e.png)
-
-然后我们按下ctrl+c再根据提示退出脚本，最后按下ctrl+d即可进行一次正常的退出进程了。
-
-这样termux就会记住我们上一次输入了这条指令，我们下次因各种原因重新打开termux时就可以按"↑"回忆这条命令，再按enter确认输入即可。
-
-———————————分割线———————————
-
-</details>
-
-———————————分割线———————————
-
-</details>
-
-<details><summary>2.使用NMM便捷管理云崽文件</summary>
+<details><summary>1.使用NMM便捷管理termux/云崽文件</summary>
 
 apk下载地址(任一)：[QQ群文件](http://jq.qq.com/?_wv=1027&k=tqiOtCVc) [天翼网盘(访问码：pui5)](https://cloud.189.cn/t/n2i6ZfJnUNRb) [gitee下载](https://gitee.com/CUZNIL/Yunzai-install/raw/master/download/apks/NMM(in.mfile.beta)_1.14.2-beta(200267).apk) [github下载](https://github.com/CUZNIL/Yunzai-install/raw/master/download/apks/NMM(in.mfile.beta)_1.14.2-beta(200267).apk) [GHProxy下载](https://ghproxy.com/https://raw.githubusercontent.com/CUZNIL/Yunzai-install/master/download/apks/NMM(in.mfile.beta)_1.14.2-beta(200267).apk) 
 
@@ -1423,7 +1372,7 @@ apk下载地址(任一)：[QQ群文件](http://jq.qq.com/?_wv=1027&k=tqiOtCVc) [
 
 再进入`/Arch/rootfs/root`，这里就是Arch容器的目录。
 
-最后再进入`/TRSS_Yunzai/Yunzai`，这里就是云崽本体的根目录。
+最后再进入`/TRSS_AllBot/Yunzai`，这里就是云崽本体的根目录。
 
 ———————————分割线———————————
 
@@ -1435,11 +1384,60 @@ apk下载地址(任一)：[QQ群文件](http://jq.qq.com/?_wv=1027&k=tqiOtCVc) [
 
 如图所示，选择左上角展开，点击加号，点击外部存储，点击左上角展开，点击Termux，点击底部使用此文件夹，点击允许。这样你就可以通过NMM直接进入Termux目录并管理所有文件了。
 
-正常情况下云崽会在其中的`/TRSS_Yunzai/Yunzai`这个路径。
+正常情况下云崽会在其中的`Arch/rootfs/root/TRSS_AllBot/Yunzai`这个路径。
 
 如果你在点击Termux后显示暂时无法加载内容(如下图)，则说明你的Termux被杀后台了。请保证Termux在后台时执行以上步骤。
 
 ![输入图片说明](download/README_pictures/qw9f874.jpg)
+
+———————————分割线———————————
+
+</details>
+
+<details><summary>2.息屏挂机运行云崽</summary>
+
+![输入图片说明](download/README_pictures/dw4q89d.png)
+
+如图所示是我的BOT运行环境。出于省电的考虑建议开启你手机的超级省电模式，并在息屏状态下运行云崽。以下是具体步骤，以红米K40的MIUI13为例：
+
+进入手机的控制中心（一般在通知栏附近），寻找超级省电按钮。如果没有，可能需要再编辑里找一找手动添加后再选择。
+
+![输入图片说明](download/README_pictures/imawgeqw984.png)
+
+如图进入超级省电模式后，手动添加你运行机器人需要的APP，比如这里我加了Termux本体、vbn和滑动验证助手。如果没啥问题其实加个Termux就行。
+
+接下来的步骤需要你能访问termux文件，如果不会请翻看**1.使用NMM便捷管理termux/云崽文件**，下面以NMM为例：
+
+打开NMM访问Termux文件，如图所示的.bashrc是自启动文件。你的每个termux进程都会在执行其中命令后再进入进程。
+
+![输入图片说明](download/README_pictures/adfqwf9er84g8924438144.png)
+
+正常情况的话这个文件内是如下内容：
+
+```
+exec '/data/data/com.termux/files/home/Arch/start' -c 'tsab;bash'
+```
+
+那么，我们需要保持wake只需要加入`termux-wake-lock`，如下所示：
+
+```
+termux-wake-lock
+exec '/data/data/com.termux/files/home/Arch/start' -c 'tsab;bash'
+```
+
+当然如果你有在使用openssh，再加上`sshd`即可。
+
+```
+sshd
+termux-wake-lock
+exec '/data/data/com.termux/files/home/Arch/start' -c 'tsab;bash'
+```
+
+如果你是首次使用`termux-wake-lock`，可能会有需要你操作的地方，比如小米会跳转到这个页面，根据我们的需要那当然是从默认的智能限制改为无限制。
+
+![输入图片说明](download/README_pictures/image98721398131dd.png)
+
+如此操作以后便可以放心息屏使用了，不出意外是云崽是不会突然停止的了。
 
 ———————————分割线———————————
 
