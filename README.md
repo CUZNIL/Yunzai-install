@@ -1,6 +1,6 @@
 # [V3云崽BOT手机搭建教程](https://gitee.com/CUZNIL/Yunzai-install)
 上次编辑时间
-2023年6月4日09:58:10
+2023年6月16日19:33:33
 ## 0.介绍
 针对安卓手机搭建[V3云崽BOT](https://gitee.com/Le-niao/Yunzai-Bot)的一篇详细教程，也包含手机搭建前后会遇到的各种问题和解决方案。
 
@@ -460,20 +460,21 @@ git remote -v
 
 除了上面推荐的三个插件，以下是我安装的其他Git插件。
 
-| 序号 | Git项目名                                                       | 中文名   | 简述                             |
-|----|--------------------------------------------------------------|-------|--------------------------------|
-| 单独 | [TRSS-Plugin](../../../../TimeRainStarSky/TRSS-Plugin)       | 时雨插件  | 本地语音合成，远程命令，文件操作等              |
-| 6  | [ap-plugin](../../../../yhArcadia/ap-plugin)                 | 绘图插件  | AI绘图、抠图、二次元的我等                 |
-| 11 | [auto-plugin](../../../../Nwflower/auto-plugin)              | 自动化插件 | 提供各式各样的定时任务功能和自动监听功能           |
-| 31 | [earth-k-plugin](../../../../SmallK111407/earth-k-plugin)    | 土块插件  | 大量娱乐功能如emoji合成、全角色语音、chatgpt等  |
-| 24 | [flower-plugin](../../../../Nwflower/flower-plugin)          | 抽卡插件  | 提供百连、三十连等操作以免用户抽卡刷屏            |
-| 单独 | [py-plugin](../../../../realhuhu/py-plugin)                  | Py插件  | 内置NoneBot，可装队伍伤害计算、表情包制作、幻影坦克等 |
-| 2  | [suiyue](http://gitee.com/Acceleratorsky/suiyue)             | 碎月插件  | 查各地疫情，今日关键词，加减乘除计算器            |
-| 35 | [windoge-plugin](http://github.com/gxy12345/windoge-plugin)  | 风歌插件  | xx参考面板，未复刻角色/武器，素材汇总图          |
-| 37 | [xiaofei-plugin](../../../../xfdown/xiaofei-plugin)          | 小飞插件  | 消息风控处理，高清语音点歌，查各地天气，原神注册时间     |
-| 29 | [xitian-plugin](../../../../XiTianGame/xitian-plugin)        | 戏天插件  | 便捷管理js插件                       |
-| 21 | [yenai-plugin](../../../../yeyang52/yenai-plugin)            | 椰奶插件  | 角色收益曲线，群管理，消息监听等。提供对马甲的一些便捷操作  |
-| 28 | [xiaoye-plugin](https://gitee.com/xiaoye12123/xiaoye-plugin) | 小叶插件  | 模拟刷圣遗物和强化,可自定义概率               |
+| 序号  | Git项目名                                                       | 中文名   | 简述                                                                                                                        |
+|-----|--------------------------------------------------------------|-------|---------------------------------------------------------------------------------------------------------------------------|
+| 未收录 | [panel-plugin](https://gitee.com/yunzai-panel/panel-plugin)  | 面板插件  | 将[喵喵插件](../../../../yoimiya-kokomi/miao-plugin)产生的面板数据适配到[Gspanel](https://github.com/monsterxcn/nonebot-plugin-gspanel)。 |
+| 单独  | [TRSS-Plugin](../../../../TimeRainStarSky/TRSS-Plugin)       | 时雨插件  | 本地语音合成，远程命令，文件操作等                                                                                                         |
+| 6   | [ap-plugin](../../../../yhArcadia/ap-plugin)                 | 绘图插件  | AI绘图、抠图、二次元的我等                                                                                                            |
+| 11  | [auto-plugin](../../../../Nwflower/auto-plugin)              | 自动化插件 | 提供各式各样的定时任务功能和自动监听功能                                                                                                      |
+| 31  | [earth-k-plugin](../../../../SmallK111407/earth-k-plugin)    | 土块插件  | 大量娱乐功能如emoji合成、全角色语音、chatgpt等                                                                                             |
+| 24  | [flower-plugin](../../../../Nwflower/flower-plugin)          | 抽卡插件  | 提供百连、三十连等操作以免用户抽卡刷屏                                                                                                       |
+| 单独  | [py-plugin](../../../../realhuhu/py-plugin)                  | Py插件  | 内置NoneBot，可装队伍伤害计算、表情包制作、幻影坦克等                                                                                            |
+| 2   | [suiyue](http://gitee.com/Acceleratorsky/suiyue)             | 碎月插件  | 查各地疫情，今日关键词，加减乘除计算器                                                                                                       |
+| 35  | [windoge-plugin](http://github.com/gxy12345/windoge-plugin)  | 风歌插件  | xx参考面板，未复刻角色/武器，素材汇总图                                                                                                     |
+| 37  | [xiaofei-plugin](../../../../xfdown/xiaofei-plugin)          | 小飞插件  | 消息风控处理，高清语音点歌，查各地天气，原神注册时间                                                                                                |
+| 29  | [xitian-plugin](../../../../XiTianGame/xitian-plugin)        | 戏天插件  | 便捷管理js插件                                                                                                                  |
+| 21  | [yenai-plugin](../../../../yeyang52/yenai-plugin)            | 椰奶插件  | 角色收益曲线，群管理，消息监听等。提供对马甲的一些便捷操作                                                                                             |
+| 28  | [xiaoye-plugin](https://gitee.com/xiaoye12123/xiaoye-plugin) | 小叶插件  | 模拟刷圣遗物和强化,可自定义概率                                                                                                          |
 
 上面表格中带数字序号的插件你们按需安装即可，步骤参考“使用脚本安装或卸载插件”，部分插件会出现一些脚本暂时没有解决的问题我一会再单独介绍。
 
@@ -903,21 +904,21 @@ pacman -Sy --noconfirm pkg-config node-gyp gcc make
 但是如果插件安装使用过程中还有问题，请先点击项目名进入对应项目地址，查看有无处理方案。有就用，没有就百度必应啥的搜一下。有的话就用，确认没有的话再礼貌地找人问该怎么解决。
 
 ## 6.我安装的js插件
-| js插件名称                                                                                                          | 大概功能                                                                                                                      |
-|-----------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
-| [账号管理](../../../Yunzai-QQmanager)                                                                               | 当前马甲被封禁时自动切换其他马甲                                                                                                          |
-| [给头衔](../../../Yunzai-giveTitle)                                                                                | 让群友可以自己领想要的专属头衔。                                                                                                          |
-| [面板通用化](../../../Yunzai-MiaoToGspanel)                                                                          | 将[喵喵插件](../../../../yoimiya-kokomi/miao-plugin)产生的面板数据适配到[Gspanel](https://github.com/monsterxcn/nonebot-plugin-gspanel)。 |
-| [redis数据库备份](download/TRSS_AllBot/Yunzai/plugins/example/redis%E6%95%B0%E6%8D%AE%E5%BA%93%E5%A4%87%E4%BB%BD.js) | 备份redis中的QQ-uid                                                                                                           |
-| [定时重启](download/TRSS_AllBot/Yunzai/plugins/example/%E5%AE%9A%E6%97%B6%E9%87%8D%E5%90%AF.js)                     | 指定一个时间重启bot                                                                                                               |
-| [查委托](https://gitee.com/mofengdada/chaweituo)                                                                   | 查询指定委托有无成就，如果有会概述如何获取                                                                                                     |
-| [谁艾特我](https://gitee.com/Saury-loser/Saury)                                                                     | 快速定位谁在几百年前@了你，降血压必备                                                                                                       |
-| [更换节点](https://gitee.com/ThreeYi/sy_js_plugin#1%E6%9B%B4%E6%8D%A2%E8%8A%82%E7%82%B9)                            | 更换喵喵插件使用的enka节点                                                                                                           |
-| 域名是否被拦截                                                                                                         | 判断给定网站能否访问                                                                                                                |
-| 优质睡眠                                                                                                            | 将想要睡觉的群友禁言到明早八点                                                                                                           |
-| [真实评分](https://github.com/ldcivan/true_ranking_plugin)                                                          | 通过获取b站番剧长短评计算实际的评分数据                                                                                                      |
-| 恶臭计算器                                                                                                           | 论证任何数字都是臭的(生成114514计算式)                                                                                                   |
-| 查询qq权重                                                                                                          | 查询QQ好的权重，越低越容易被封                                                                                                          |
+| js插件名称                                                                                                          | 大概功能                    |
+|-----------------------------------------------------------------------------------------------------------------|-------------------------|
+| [账号管理](../../../Yunzai-QQmanager)                                                                               | 当前马甲被封禁时自动切换其他马甲        |
+| [给头衔](../../../Yunzai-giveTitle)                                                                                | 让群友可以自己领想要的专属头衔。        |
+| [redis数据库备份](download/TRSS_AllBot/Yunzai/plugins/example/redis%E6%95%B0%E6%8D%AE%E5%BA%93%E5%A4%87%E4%BB%BD.js) | 备份redis中的QQ-uid         |
+| [定时重启](download/TRSS_AllBot/Yunzai/plugins/example/%E5%AE%9A%E6%97%B6%E9%87%8D%E5%90%AF.js)                     | 指定一个时间重启bot             |
+| [查委托](https://gitee.com/mofengdada/chaweituo)                                                                   | 查询指定委托有无成就，如果有会概述如何获取   |
+| [谁艾特我](https://gitee.com/Saury-loser/Saury)                                                                     | 快速定位谁在几百年前@了你，降血压必备     |
+| [更换节点](https://gitee.com/ThreeYi/sy_js_plugin#1%E6%9B%B4%E6%8D%A2%E8%8A%82%E7%82%B9)                            | 更换喵喵插件使用的enka节点         |
+| 域名是否被拦截                                                                                                         | 判断给定网站能否访问              |
+| 优质睡眠                                                                                                            | 将想要睡觉的群友禁言到明早八点         |
+| [真实评分](https://github.com/ldcivan/true_ranking_plugin)                                                          | 通过获取b站番剧长短评计算实际的评分数据    |
+| 恶臭计算器                                                                                                           | 论证任何数字都是臭的(生成114514计算式) |
+| 查询qq权重                                                                                                          | 查询QQ好的权重，越低越容易被封        |
+
 
 作者已经发布到github/gitee的插件均有超链接，点击即可获取。
 
