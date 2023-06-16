@@ -1,6 +1,6 @@
 # [V3云崽BOT手机搭建教程](https://gitee.com/CUZNIL/Yunzai-install)
 上次编辑时间
-2023年6月16日19:46:29
+2023年6月16日20:07:53
 ## 0.介绍
 针对安卓手机搭建[V3云崽BOT](https://gitee.com/Le-niao/Yunzai-Bot)的一篇详细教程，也包含手机搭建前后会遇到的各种问题和解决方案。
 
@@ -472,9 +472,10 @@ git remote -v
 | 2   | [suiyue](http://gitee.com/Acceleratorsky/suiyue)             | 碎月插件  | 查各地疫情，今日关键词，加减乘除计算器                                                                                                       |
 | 36  | [windoge-plugin](http://github.com/gxy12345/windoge-plugin)  | 风歌插件  | xx参考面板，未复刻角色/武器，素材汇总图                                                                                                     |
 | 38  | [xiaofei-plugin](../../../../xfdown/xiaofei-plugin)          | 小飞插件  | 消息风控处理，高清语音点歌，查各地天气，原神注册时间                                                                                                |
+| 28  | [xiaoye-plugin](https://gitee.com/xiaoye12123/xiaoye-plugin) | 小叶插件  | 模拟刷圣遗物和强化,可自定义概率                                                                                                          |
 | 29  | [xitian-plugin](../../../../XiTianGame/xitian-plugin)        | 戏天插件  | 便捷管理js插件                                                                                                                  |
 | 21  | [yenai-plugin](../../../../yeyang52/yenai-plugin)            | 椰奶插件  | 角色收益曲线，群管理，消息监听等。提供对马甲的一些便捷操作                                                                                             |
-| 28  | [xiaoye-plugin](https://gitee.com/xiaoye12123/xiaoye-plugin) | 小叶插件  | 模拟刷圣遗物和强化,可自定义概率                                                                                                          |
+
 
 上面表格中带数字序号的插件你们按需安装即可，步骤参考“使用脚本安装或卸载插件”，部分插件会出现一些脚本暂时没有解决的问题我一会再单独介绍。
 
