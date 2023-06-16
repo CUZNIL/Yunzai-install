@@ -1,6 +1,6 @@
 # [V3云崽BOT手机搭建教程](https://gitee.com/CUZNIL/Yunzai-install)
 上次编辑时间
-2023年6月16日19:33:33
+2023年6月16日19:37:32
 ## 0.介绍
 针对安卓手机搭建[V3云崽BOT](https://gitee.com/Le-niao/Yunzai-Bot)的一篇详细教程，也包含手机搭建前后会遇到的各种问题和解决方案。
 
@@ -444,7 +444,7 @@ git remote -v
 |----|--------------------------------------------------------------|-------------|----------------------------------------------|
 | 13 | [miao-plugin](../../../../yoimiya-kokomi/miao-plugin)        | 喵喵插件        | 角色面板查询(enka、米游社)、国内数据库查询(胡桃数据库)              |
 | 18 | [Guoba-Plugin](../../../../guoba-yunzai/guoba-plugin)        | 锅巴插件        | 提供后台管理界面、配置机器人的基础设置以及原神相关设置、可视化自定义编辑喵喵帮助     |
-| 44 | [xiaoyao-cvs-plugin](../../../../Ctrlcvs/xiaoyao-cvs-plugin) | 图鉴插件(注意有重名) | 扫码登录绑定ck/sk、大量图鉴信息查询、stoken绑定、更新抽卡记录、米游社全部签到 |
+| 46 | [xiaoyao-cvs-plugin](../../../../Ctrlcvs/xiaoyao-cvs-plugin) | 图鉴插件(注意有重名) | 扫码登录绑定ck/sk、大量图鉴信息查询、stoken绑定、更新抽卡记录、米游社全部签到 |
 
 <details><summary>点击查看脚本中这些插件的对应位置</summary>
 
@@ -466,12 +466,12 @@ git remote -v
 | 单独  | [TRSS-Plugin](../../../../TimeRainStarSky/TRSS-Plugin)       | 时雨插件  | 本地语音合成，远程命令，文件操作等                                                                                                         |
 | 6   | [ap-plugin](../../../../yhArcadia/ap-plugin)                 | 绘图插件  | AI绘图、抠图、二次元的我等                                                                                                            |
 | 11  | [auto-plugin](../../../../Nwflower/auto-plugin)              | 自动化插件 | 提供各式各样的定时任务功能和自动监听功能                                                                                                      |
-| 31  | [earth-k-plugin](../../../../SmallK111407/earth-k-plugin)    | 土块插件  | 大量娱乐功能如emoji合成、全角色语音、chatgpt等                                                                                             |
-| 24  | [flower-plugin](../../../../Nwflower/flower-plugin)          | 抽卡插件  | 提供百连、三十连等操作以免用户抽卡刷屏                                                                                                       |
+| 32  | [earth-k-plugin](../../../../SmallK111407/earth-k-plugin)    | 土块插件  | 大量娱乐功能如emoji合成、全角色语音、chatgpt等                                                                                             |
+| 23  | [flower-plugin](../../../../Nwflower/flower-plugin)          | 抽卡插件  | 提供百连、三十连等操作以免用户抽卡刷屏                                                                                                       |
 | 单独  | [py-plugin](../../../../realhuhu/py-plugin)                  | Py插件  | 内置NoneBot，可装队伍伤害计算、表情包制作、幻影坦克等                                                                                            |
 | 2   | [suiyue](http://gitee.com/Acceleratorsky/suiyue)             | 碎月插件  | 查各地疫情，今日关键词，加减乘除计算器                                                                                                       |
-| 35  | [windoge-plugin](http://github.com/gxy12345/windoge-plugin)  | 风歌插件  | xx参考面板，未复刻角色/武器，素材汇总图                                                                                                     |
-| 37  | [xiaofei-plugin](../../../../xfdown/xiaofei-plugin)          | 小飞插件  | 消息风控处理，高清语音点歌，查各地天气，原神注册时间                                                                                                |
+| 36  | [windoge-plugin](http://github.com/gxy12345/windoge-plugin)  | 风歌插件  | xx参考面板，未复刻角色/武器，素材汇总图                                                                                                     |
+| 38  | [xiaofei-plugin](../../../../xfdown/xiaofei-plugin)          | 小飞插件  | 消息风控处理，高清语音点歌，查各地天气，原神注册时间                                                                                                |
 | 29  | [xitian-plugin](../../../../XiTianGame/xitian-plugin)        | 戏天插件  | 便捷管理js插件                                                                                                                  |
 | 21  | [yenai-plugin](../../../../yeyang52/yenai-plugin)            | 椰奶插件  | 角色收益曲线，群管理，消息监听等。提供对马甲的一些便捷操作                                                                                             |
 | 28  | [xiaoye-plugin](https://gitee.com/xiaoye12123/xiaoye-plugin) | 小叶插件  | 模拟刷圣遗物和强化,可自定义概率                                                                                                          |
