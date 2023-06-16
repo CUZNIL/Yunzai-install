@@ -1,6 +1,6 @@
 # [V3云崽BOT手机搭建教程](https://gitee.com/CUZNIL/Yunzai-install)
 上次编辑时间
-2023年6月16日19:37:32
+2023年6月16日19:46:29
 ## 0.介绍
 针对安卓手机搭建[V3云崽BOT](https://gitee.com/Le-niao/Yunzai-Bot)的一篇详细教程，也包含手机搭建前后会遇到的各种问题和解决方案。
 
@@ -133,17 +133,17 @@ curl -LO gitee.com/TimeRainStarSky/TRSS-MTArch/raw/main/Install.sh && bash Insta
 
 **如果你下面显示的内容跟我不完全一致，选择最接近的按钮即可。**
 
-依次点击7 Le-Yunzai、确认、确认、回车。
+依次点击6 Yunzai、确认、确认、回车。
 
 ![输入图片说明](download/README_pictures/image98qw4dfdqf.png)
 
 <details><summary>我想知道三个云崽都是干嘛的？</summary>
 
-**[7.Le-Yunzai](../../../../TimeRainStarSky/Yunzai-Bot)** ：使用icqq协议，是原版云崽V3由各路大佬维护的版本，最推荐。脚本会安装时雨fork的版本。
+**[6.Yunzai](../../../../TimeRainStarSky/Yunzai-Bot)** ：使用icqq协议，是原版云崽V3由各路大佬维护的版本，最推荐。脚本会安装时雨fork的版本。
 
-**[8.Miao-Yunzai](../../../../yoimiya-kokomi/Miao-Yunzai)** ：使用icqq协议，由喵喵在原版云崽V3上进行了大改。
+**[7.Miao-Yunzai](../../../../yoimiya-kokomi/Miao-Yunzai)** ：使用icqq协议，由喵喵在原版云崽V3上进行了大改。
 
-**[9.TRSS-Yunzai](../../../../TimeRainStarSky/Yunzai)** ：使用go-cqhttp协议，由时雨在原版云崽V3上进行了大改。
+**[8.TRSS-Yunzai](../../../../TimeRainStarSky/Yunzai)** ：使用go-cqhttp协议，由时雨在原版云崽V3上进行了大改。
 
 如果不想折腾，建议选第一个Le-Yunzai就行，我这篇教程也是这么做的。其他版本可能会导致部分插件出现问题。
 
