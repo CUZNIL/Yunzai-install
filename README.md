@@ -909,6 +909,7 @@ pacman -Sy --noconfirm pkg-config node-gyp gcc make
 |-----------------------------------------------------------------------------------------------------------------|-------------------------|
 | [账号管理](../../../Yunzai-QQmanager)                                                                               | 当前马甲被封禁时自动切换其他马甲        |
 | [给头衔](../../../Yunzai-giveTitle)                                                                                | 让群友可以自己领想要的专属头衔。        |
+| [设备重置](download/TRSS_AllBot/Yunzai/plugins/example/设备重置.js)                                                     | 删除所有设备信息并重启             |
 | [redis数据库备份](download/TRSS_AllBot/Yunzai/plugins/example/redis%E6%95%B0%E6%8D%AE%E5%BA%93%E5%A4%87%E4%BB%BD.js) | 备份redis中的QQ-uid         |
 | [定时重启](download/TRSS_AllBot/Yunzai/plugins/example/%E5%AE%9A%E6%97%B6%E9%87%8D%E5%90%AF.js)                     | 指定一个时间重启bot             |
 | [查委托](https://gitee.com/mofengdada/chaweituo)                                                                   | 查询指定委托有无成就，如果有会概述如何获取   |
