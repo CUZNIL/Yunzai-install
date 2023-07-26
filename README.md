@@ -1,11 +1,5 @@
 # [V3云崽BOT手机搭建教程](https://gitee.com/CUZNIL/Yunzai-install)
-上次编辑时间2023年7月2日23:02:21
-
-# 您好！由于本人bot账号已经三个90天了，太**了，懒得折腾了。
-
-# 所以目前本人有关云崽的内容已暂停维护。倒是不会删库跑路，只是后续问题可能不会解决了。
-
-# 脚本不是本人制作，所以脚本时雨佬依旧是在更新的，可以放心用。
+上次编辑时间2023年7月26日11:42:50
 
 ## 0.介绍
 针对安卓手机搭建[V3云崽BOT](https://gitee.com/Le-niao/Yunzai-Bot)的一篇详细教程，也包含手机搭建前后会遇到的各种问题和解决方案。
@@ -613,6 +607,8 @@ https://gitee.com/TimeRainStarSky/TRSS-Plugin/
 ———————————分割线———————————
 
 </details>
+
+常用链接：[nonebot插件库](https://v2.nonebot.dev/store) [nonebot插件库备用](https://nb2.baka.icu/store)
 
 下面是我个人安装的一些nonebot插件。
 
