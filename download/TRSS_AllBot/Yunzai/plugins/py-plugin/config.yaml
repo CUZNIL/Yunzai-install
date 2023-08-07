@@ -1,31 +1,49 @@
-log_level: INFO
+# 欢迎使用 TRSS Yunzai ! 作者：时雨🌌星空
+# 按 Ctrl+Q Y 保存退出
+# 参考：https://gitee.com/realhuhu/py-plugin
+
+log_level: INFO #日志等级
 command_start:
   - ""
   - "#"
   - "/"
 command_sep:
-  - .
+  - "."
 nickname:
   - 云崽
   - yunzai
 superusers:
   - 123456
   - 654321
-need_at: no
-plugins:
-  - nonebot-plugin-memes
+need_at: no #是否需要@机器人或加上机器人名字，默认no
+plugins: #加载哪些插件就往下加
+  - nonebot_plugin_maimai
   - nonebot-plugin-gspanel
   - nonebot-plugin-bawiki
   - nonebot_plugin_oddtext
   - nonebot_plugin_abbrreply
   - nonebot_plugin_miragetank
-  - nonebot_plugin_PicMenu
   - nonebot_plugin_emojimix
+  - nonebot_plugin_PicMenu
 host: 127.0.0.1
-port: 43215
-independent: false
-encoding: utf-8
-setup_check: false
+port: 42135
+
+#输出编码，默认windows使用gbk，其它平台使用utf-8
+#开启后强制使用你指定的编码
+#encoding:
+
+#是否分开启动py服务器与云崽本体，默认不分开
+#开启后需要你手动启动py服务器，再启动云崽
+#independent: true
+
+#开机时检查，执行on_startup注册的函数，如petpet开机时会检查更新素材，默认会检查
+#开启下面选项跳过检查
+#setup_check: false
+
+#关机时检查，执行on_shutdown注册的函数，默认会检查
+#开启下面选项跳过检查
+#shutdown_check: false
+
 # nonebot-plugin-gspanel 配置项
 gspanel_alias:
   - nb面板
